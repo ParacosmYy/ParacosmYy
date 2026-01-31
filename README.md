@@ -30,9 +30,9 @@
       <b>Core Proficiency <br>(MCU & RTOS)</b>
     </td>
     <td>
-      <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white}/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"/> <br>
-      <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white}/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"/> <br>
-      <code><b>Lang</b></code>: <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white}/> <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=flat-square&logo=assembly&logoColor=white"/>
+      <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"/> <br>
+      <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white"/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"/> <br>
+      <code><b>Lang</b></code>: <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=flat-square&logo=assembly&logoColor=white"/>
     </td>
   </tr>
   <tr>
@@ -41,8 +41,19 @@
       <b>Industrial Comms</b>
     </td>
     <td>
-      <code><b>Protocols</b></code>: <img src="https://img.shields.io/badge/EtherCAT-EF4123?style=flat-square&logo=ethernet&logoColor=white}/> <img src="https://img.shields.io/badge/CAN_FD-FF8C00?style=flat-square&logo=canbus&logoColor=white"/> <br>
-      <code><b>Skills</b></code>: <img src="https://img.shields.io/badge/Protocol_Gateway-000000?style=flat-square&logo=convertio&logoColor=white}/> <img src="https://img.shields.io/badge/Diagnosis_Framework-4285F4?style=flat-square"/>
+      <code><b>Interfaces</b></code>: 
+      <img src="https://img.shields.io/badge/UART%2F232%2F485-555555?style=flat-square"/> 
+      <img src="https://img.shields.io/badge/I2C-555555?style=flat-square"/> 
+      <img src="https://img.shields.io/badge/SPI-555555?style=flat-square"/> 
+      <img src="https://img.shields.io/badge/QSPI%2FOctoSPI-555555?style=flat-square"/> 
+      <br>
+      <code><b>Protocols</b></code>: 
+      <img src="https://img.shields.io/badge/CAN-F05032?style=flat-square&logo=canbus&logoColor=white"/>
+      <img src="https://img.shields.io/badge/CAN_FD-FF8C00?style=flat-square&logo=canbus&logoColor=white"/> 
+      <img src="https://img.shields.io/badge/CANopen-E6007E?style=flat-square"/> 
+      <img src="https://img.shields.io/badge/EtherCAT-EF4123?style=flat-square&logo=ethernet&logoColor=white"/> 
+      <br>
+      <code><b>Expertise</b></code>: <img src="https://img.shields.io/badge/Protocol_Gateway-000000?style=flat-square&logo=convertio&logoColor=white"/> <img src="https://img.shields.io/badge/Diagnosis_Framework-4285F4?style=flat-square"/>
     </td>
   </tr>
   <tr>
