@@ -1,9 +1,9 @@
 <div align="center">
   <h1>Hi there, I'm <a href="https://github.com/ParacosmYy">ParacosmYy</a>! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
-  <h3>🚀 Embedded Systems Developer | Smart Car Enthusiast | DIYer</h3>
+  <h3>🚀 Embedded Systems Developer | Smart Car Enthusiast | Industrial Control</h3>
   
   <p>
-    I focus on <b>Embedded Development</b>, specializing in <b>RTOS</b>, <b>GUI design</b>, and <b>Smart Vehicles</b>. <br>
+    I focus on <b>Embedded Development</b>, specializing in <b>RTOS</b>, <b>Industrial Communication</b>, and <b>Smart Vehicles</b>. <br>
     Passionate about turning code into reality with hardware.
   </p>
 
@@ -19,7 +19,7 @@
 
 ---
 
-### 🛠️ Tech Stack
+### 🛠️ Tech Stack & Skills
 
 <table>
   <tr>
@@ -31,11 +31,19 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="120"><b>Embedded</b></td>
+    <td align="center" width="120"><b>Embedded & RTOS</b></td>
     <td>
       <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
       <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=for-the-badge&logo=freertos&logoColor=white" />
       <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=for-the-badge" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120"><b>Industrial Comms</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/EtherCAT-EF4123?style=for-the-badge&logo=ethernet&logoColor=white" />
+      <img src="https://img.shields.io/badge/CAN_FD-FF8C00?style=for-the-badge&logo=canbus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Protocol_Conversion-000000?style=for-the-badge&logo=convertio&logoColor=white" />
     </td>
   </tr>
   <tr>
@@ -48,6 +56,20 @@
   </tr>
 </table>
 
+### 🎯 Key Competencies
+
+*   **EtherCAT Diagnostics**: Experienced in setting up diagnostic frameworks for EtherCAT networks.
+*   **Protocol Gateways**: Implementation of bidirectional protocol conversion between **CAN FD** and **EtherCAT**.
+*   **Embedded Systems**: Deep understanding of RTOS (FreeRTOS, RT-Thread) and MCU peripherals.
+
+### 🗺️ Learning Roadmap
+
+| Status | Topic | Description |
+| :---: | :--- | :--- |
+| <img src="https://img.shields.io/badge/-In%20Progress-yellow" /> | **OTA (Over-the-Air)** | Learning firmware update mechanisms for remote devices. |
+| <img src="https://img.shields.io/badge/-Planned-blue" /> | **IGH EtherCAT Master** | Implementing and controlling EtherCAT master stacks. |
+| <img src="https://img.shields.io/badge/-Planned-blue" /> | **ROS (Robot OS)** | Integration of embedded control with high-level robotics middleware. |
+
 ### 🔭 Featured Projects
 
 | Project | Description | Tech |
@@ -55,7 +77,6 @@
 | **⌚ [GS_watch](https://github.com/ParacosmYy/GS_watch)** | A DIY Smart Watch project driven by STM32. Features a rich UI powered by **LVGL** running on **FreeRTOS**. | `C`, `FreeRTOS`, `LVGL` |
 | **🏎️ [Smart_car](https://github.com/ParacosmYy/Smart_car)** | A collection of code and algorithms for intelligent autonomous vehicles. Includes motor control and sensor integration. | `C`, `Embedded`, `Control` |
 | **⚡ [rt_thread_demo](https://github.com/ParacosmYy/rt_thread_demo)** | Exploration of real-time operating system capabilities using **RT-Thread**. | `RT-Thread`, `C` |
-| **📝 [Note_obsidian](https://github.com/ParacosmYy/Note_obsidian)** | My personal knowledge base and study notes. | `Markdown` |
 
 <br>
 
