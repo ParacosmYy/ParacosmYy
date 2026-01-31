@@ -1,93 +1,85 @@
 <div align="center">
-  <h1>Hi there, I'm <a href="https://github.com/ParacosmYy">ParacosmYy</a>! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></h1>
-  <h3>🚀 Embedded Systems Developer | Smart Car Enthusiast | Industrial Control</h3>
-  
-  <p>
-    I focus on <b>Embedded Development</b>, specializing in <b>RTOS</b>, <b>Industrial Communication</b>, and <b>Smart Vehicles</b>. <br>
-    Passionate about turning code into reality with hardware.
-  </p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=ParacosmYy&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Building%20the%20Physical%20World%20with%20Code&descAlignY=55&descAlign=62"/>
+</div>
 
+<div align="center">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=3399FF&center=true&vCenter=true&width=435&lines=Embedded+Systems+Developer;RTOS+%26+MCU+Specialist;Smart+Car+Enthusiast;Industrial+Control+Explorer" alt="Typing SVG" /></a>
+</div>
+
+<div align="center">
+  <h3>🚀 Focusing on MCU High-Performance Control & Industrial Communication</h3>
   <p>
-    <a href="https://github.com/ParacosmYy/GS_watch">
-      <img src="https://img.shields.io/badge/Project-Smart%20Watch-blue?style=for-the-badge&logo=c" />
-    </a>
-    <a href="https://github.com/ParacosmYy/Smart_car">
-      <img src="https://img.shields.io/badge/Project-Smart%20Car-red?style=for-the-badge&logo=arduino" />
-    </a>
+     I bridge the gap between hardware and software. Specializing in <b>STM32</b>, <b>RT-Thread/FreeRTOS</b>, and <b>EtherCAT/CAN-FD</b>.
   </p>
+  
+  <!-- Collaboration Badge -->
+  <a href="https://github.com/ParacosmYy/ParacosmYy/issues">
+    <img src="https://img.shields.io/badge/🤝%20Open%20to%20Collaborate-Linux%20BSP%20%2F%20Kernel%20Devs-7289da?style=for-the-badge&logo=linux&logoColor=white&labelColor=1f2328"/>
+  </a>
+  <br><br>
 </div>
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### ⚡ Technical Arsenal
 
 <table>
   <tr>
-    <td align="center" width="120"><b>Languages</b></td>
+    <td align="center" width="160">
+      <img src="https://media.giphy.com/media/QssGEmpjCQSffeaLOq/giphy.gif" width="30"> <br>
+      <b>Core Proficiency <br>(MCU & RTOS)</b>
+    </td>
     <td>
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-      <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=for-the-badge&logo=assembly&logoColor=white" />
-      <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />
+      <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white}/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"/> <br>
+      <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white}/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"/> <br>
+      <code><b>Lang</b></code>: <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white}/> <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=flat-square&logo=assembly&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td align="center" width="120"><b>Embedded & RTOS</b></td>
+    <td align="center" width="160">
+      <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCjS/giphy.gif" width="30"> <br>
+      <b>Industrial Comms</b>
+    </td>
     <td>
-      <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" />
-      <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=for-the-badge&logo=freertos&logoColor=white" />
-      <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=for-the-badge" />
+      <code><b>Protocols</b></code>: <img src="https://img.shields.io/badge/EtherCAT-EF4123?style=flat-square&logo=ethernet&logoColor=white}/> <img src="https://img.shields.io/badge/CAN_FD-FF8C00?style=flat-square&logo=canbus&logoColor=white"/> <br>
+      <code><b>Skills</b></code>: <img src="https://img.shields.io/badge/Protocol_Gateway-000000?style=flat-square&logo=convertio&logoColor=white}/> <img src="https://img.shields.io/badge/Diagnosis_Framework-4285F4?style=flat-square"/>
     </td>
   </tr>
   <tr>
-    <td align="center" width="120"><b>Industrial Comms</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/EtherCAT-EF4123?style=for-the-badge&logo=ethernet&logoColor=white" />
-      <img src="https://img.shields.io/badge/CAN_FD-FF8C00?style=for-the-badge&logo=canbus&logoColor=white" />
-      <img src="https://img.shields.io/badge/Protocol_Conversion-000000?style=for-the-badge&logo=convertio&logoColor=white" />
+    <td align="center" width="160">
+      <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"> <br>
+      <b>Tools & UI</b>
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="120"><b>GUI & Tools</b></td>
     <td>
-      <img src="https://img.shields.io/badge/LVGL-FF0000?style=for-the-badge" />
-      <img src="https://img.shields.io/badge/Keil_MDK-005A38?style=for-the-badge" />
-      <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" />
+      <img src="https://img.shields.io/badge/LVGL-FF0000?style=flat-square"/> <img src="https://img.shields.io/badge/Keil_MDK-005A38?style=flat-square"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
     </td>
   </tr>
 </table>
 
-### 🎯 Key Competencies
+### 🌱 Growing & Connecting
 
-*   **EtherCAT Diagnostics**: Experienced in setting up diagnostic frameworks for EtherCAT networks.
-*   **Protocol Gateways**: Implementation of bidirectional protocol conversion between **CAN FD** and **EtherCAT**.
-*   **Embedded Systems**: Deep understanding of RTOS (FreeRTOS, RT-Thread) and MCU peripherals.
+> **Calling all Linux BSP & Kernel Wizards!** 🧙‍♂️
+> I am deeply rooted in the MCU world but actively expanding towards Embedded Linux. If you are a Linux driver/kernel developer interested in low-level control or heterogeneous systems (MCU + MPU), **let's connect!**
 
-### 🗺️ Learning Roadmap
-
-| Status | Topic | Description |
-| :---: | :--- | :--- |
-| <img src="https://img.shields.io/badge/-In%20Progress-yellow" /> | **OTA (Over-the-Air)** | Learning firmware update mechanisms for remote devices. |
-| <img src="https://img.shields.io/badge/-Planned-blue" /> | **IGH EtherCAT Master** | Implementing and controlling EtherCAT master stacks. |
-| <img src="https://img.shields.io/badge/-Planned-blue" /> | **ROS (Robot OS)** | Integration of embedded control with high-level robotics middleware. |
-
-### 🔭 Featured Projects
-
-| Project | Description | Tech |
+| Learning Path | Current Status | Goal |
 | :--- | :--- | :--- |
-| **⌚ [GS_watch](https://github.com/ParacosmYy/GS_watch)** | A DIY Smart Watch project driven by STM32. Features a rich UI powered by **LVGL** running on **FreeRTOS**. | `C`, `FreeRTOS`, `LVGL` |
-| **🏎️ [Smart_car](https://github.com/ParacosmYy/Smart_car)** | A collection of code and algorithms for intelligent autonomous vehicles. Includes motor control and sensor integration. | `C`, `Embedded`, `Control` |
-| **⚡ [rt_thread_demo](https://github.com/ParacosmYy/rt_thread_demo)** | Exploration of real-time operating system capabilities using **RT-Thread**. | `RT-Thread`, `C` |
+| **OTA Technology** | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | Master reliable firmware updates for remote fleets. |
+| **IGH EtherCAT Master** | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | Implement open-source EtherCAT masters on Linux. |
+| **ROS (Robot OS)** | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | Bridge low-level control with high-level robotics planning. |
+
+### 🛠️ Featured Lab
+
+| **⌚ GS_watch** | **🏎️ Smart_car** | **⚡ rt_thread_demo** |
+| :---: | :---: | :---: |
+| <a href="https://github.com/ParacosmYy/GS_watch"><img src="https://img.shields.io/badge/STM32-LVGL-blue?style=for-the-badge"/></a> | <a href="https://github.com/ParacosmYy/Smart_car"><img src="https://img.shields.io/badge/Control-Algorithms-red?style=for-the-badge"/></a> | <a href="https://github.com/ParacosmYy/rt_thread_demo"><img src="https://img.shields.io/badge/RTOS-Kernel-green?style=for-the-badge"/></a> |
+| **DIY Smart Watch**<br>FreeRTOS + LVGL based UI experience. | **Autonomous Vehicle**<br>Motor control & sensor fusion algorithms. | **RT-Thread Study**<br>Real-time system experiments. |
 
 <br>
-
-### 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="180" alt="stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff" height="180" />
 </div>
-
-<br>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
