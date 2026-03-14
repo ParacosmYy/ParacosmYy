@@ -25,7 +25,7 @@
 
 ---
 
-### ⚡ Technical Arsenal (技术栈)
+<h2 align="center">⚡ Technical Arsenal (技术栈)</h2>
 
 <table>
   <tr>
@@ -94,35 +94,38 @@
   </tr>
 </table>
 
-### 🌱 Growing & Connecting (探索与连接)
+<br>
+
+<h2 align="center">🌱 Growing & Connecting (探索与连接)</h2>
 
 > **召唤 Linux BSP & Kernel 开发者！** 🧙‍♂️
 > 我目前深耕 MCU 领域，但也正在向嵌入式 Linux 扩展。如果你是对底层控制或异构系统（MCU + MPU）感兴趣的 Linux 驱动/内核开发者，**欢迎交流！**
 
-| Learning Path (学习路径) | Current Status (进度) | Goal (目标) |
+| Learning Path (学习路径) | Current Status (状态) | Goal (目标) |
 | :--- | :--- | :--- |
-| **PMSM FOC Control** (FOC矢量控制) | `[██████░░░░] 60%` 攻坚中 | 深入学习磁场定向控制（SVPWM、Park/Clarke变换）。 |
-| **BLDC 6-Step Commutation** (无刷六步换向) | `[████████░░] 80%` 收尾中 | 掌握有感/无感无刷直流电机的六步换向控制算法。 |
-| **OTA Technology** (OTA升级) | `[████░░░░░░] 40%` 推进中 | 掌握针对远程设备集群的可靠固件升级技术。 |
-| **IGH EtherCAT Master** (IGH主站) | `[██░░░░░░░░] 20%` 预研中 | 在 Linux 环境下实现开源 EtherCAT 主站。 |
-| **ROS (Robot OS)** (机器人操作系统) | `[█░░░░░░░░░] 10%` 规划中 | 桥接底层运动控制与上层机器人路径规划。 |
+| **PMSM FOC Control** (FOC矢量控制) | <img src="https://img.shields.io/badge/🏃_In_Progress-FF9800?style=flat-square" alt="进行中" /> | 深入学习磁场定向控制（SVPWM、Park/Clarke变换）。 |
+| **BLDC 6-Step Commutation** (无刷六步换向) | <img src="https://img.shields.io/badge/🎯_Almost_Done-8BC34A?style=flat-square" alt="收尾中" /> | 掌握有感/无感无刷直流电机的六步换向控制算法。 |
+| **OTA Technology** (OTA升级) | <img src="https://img.shields.io/badge/🏃_In_Progress-FF9800?style=flat-square" alt="进行中" /> | 掌握针对远程设备集群的可靠固件升级技术。 |
+| **IGH EtherCAT Master** (IGH主站) | <img src="https://img.shields.io/badge/📅_Planning-03A9F4?style=flat-square" alt="计划中" /> | 在 Linux 环境下实现开源 EtherCAT 主站。 |
+| **ROS (Robot OS)** (机器人操作系统) | <img src="https://img.shields.io/badge/📅_Planning-03A9F4?style=flat-square" alt="计划中" /> | 桥接底层运动控制与上层机器人路径规划。 |
 
-### 🛠️ Featured Lab (项目实验室)
+<br>
+
+<h2 align="center">🛠️ Featured Lab (项目实验室)</h2>
 
 <div align="center">
   <a href="https://github.com/ParacosmYy/GS_watch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_watch&theme=tokyonight&show_owner=true" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_watch&theme=tokyonight&show_owner=true" width="32%" />
   </a>
   <a href="https://github.com/ParacosmYy/Smart_car">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=Smart_car&theme=tokyonight&show_owner=true" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=Smart_car&theme=tokyonight&show_owner=true" width="32%" />
   </a>
-  <br>
   <a href="https://github.com/ParacosmYy/rt_thread_demo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=rt_thread_demo&theme=tokyonight&show_owner=true" width="48%" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=rt_thread_demo&theme=tokyonight&show_owner=true" width="32%" />
   </a>
 </div>
 
-<br>
+<br><br>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" height="180" />
