@@ -7,9 +7,10 @@
 </div>
 
 <div align="center">
-  <h3>🚀 Focusing on MCU High-Performance Control & Industrial Communication</h3>
+  <h3>🚀 专注于 MCU 高性能控制、工业通信与电机驱动</h3>
   <p>
-     I bridge the gap between hardware and software. Specializing in <b>STM32</b>, <b>RT-Thread/FreeRTOS</b>, and <b>EtherCAT/CAN-FD</b>.
+     I bridge the gap between hardware and software. Specializing in <b>STM32</b>, <b>RTOS</b>, <b>EtherCAT/CAN-FD</b>, and diving into <b>Motor Control</b>.<br>
+     (穿梭于软硬件之间，专注于底层外设开发、RTOS 实时系统、工业总线通信及无刷电机/PMSM控制)
   </p>
   
   <!-- Collaboration Badge -->
@@ -21,24 +22,24 @@
 
 ---
 
-### ⚡ Technical Arsenal
+### ⚡ Technical Arsenal (技术栈)
 
 <table>
   <tr>
     <td align="center" width="160">
       <img src="https://media.giphy.com/media/QssGEmpjCQSffeaLOq/giphy.gif" width="30"> <br>
-      <b>Core Proficiency <br>(MCU & RTOS)</b>
+      <b>Core Proficiency <br>(核心能力)</b>
     </td>
     <td>
-      <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"/> <br>
-      <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white"/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"/> <br>
+      <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"> <br>
+      <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white"/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"> <br>
       <code><b>Lang</b></code>: <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=flat-square&logo=assembly&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td align="center" width="160">
       <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCjS/giphy.gif" width="30"> <br>
-      <b>Industrial Comms</b>
+      <b>Industrial Comms <br>(工业通信)</b>
     </td>
     <td>
       <code><b>Interfaces</b></code>: 
@@ -58,8 +59,23 @@
   </tr>
   <tr>
     <td align="center" width="160">
+      <img src="https://media.giphy.com/media/xT0xezbV2t1UqWpZRe/giphy.gif" width="30"> <br>
+      <b>Motor & Peripherals <br>(电机与底层外设)</b>
+    </td>
+    <td>
+      <code><b>Peripherals</b></code>: 
+      <img src="https://img.shields.io/badge/BiSS--C_Interface-0055A4?style=flat-square"/>
+      <img src="https://img.shields.io/badge/DMA_Double_Buffer%2FHT%2FTC_Interrupts-8A2BE2?style=flat-square"/>
+      <br>
+      <code><b>Algorithms</b></code>: 
+      <img src="https://img.shields.io/badge/CRC6_Verification-4CAF50?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Encoder_Parsing-FF9800?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="160">
       <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"> <br>
-      <b>Tools & UI</b>
+      <b>Tools & UI <br>(工具与界面)</b>
     </td>
     <td>
       <img src="https://img.shields.io/badge/LVGL-FF0000?style=flat-square"/> <img src="https://img.shields.io/badge/Keil_MDK-005A38?style=flat-square"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
@@ -67,18 +83,20 @@
   </tr>
 </table>
 
-### 🌱 Growing & Connecting
+### 🌱 Growing & Connecting (探索与连接)
 
-> **Calling all Linux BSP & Kernel Wizards!** 🧙‍♂️
-> I am deeply rooted in the MCU world but actively expanding towards Embedded Linux. If you are a Linux driver/kernel developer interested in low-level control or heterogeneous systems (MCU + MPU), **let's connect!**
+> **召唤 Linux BSP & Kernel 开发者！** 🧙‍♂️
+> 我目前深耕 MCU 领域，但也正在向嵌入式 Linux 扩展。如果你是对底层控制或异构系统（MCU + MPU）感兴趣的 Linux 驱动/内核开发者，**欢迎交流！**
 
-| Learning Path | Current Status | Goal |
+| Learning Path (学习路径) | Current Status (状态) | Goal (目标) |
 | :--- | :--- | :--- |
-| **OTA Technology** | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | Master reliable firmware updates for remote fleets. |
-| **IGH EtherCAT Master** | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | Implement open-source EtherCAT masters on Linux. |
-| **ROS (Robot OS)** | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | Bridge low-level control with high-level robotics planning. |
+| **PMSM FOC Control** (FOC矢量控制) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 深入学习磁场定向控制（SVPWM、Park/Clarke变换）。 |
+| **BLDC 6-Step Commutation** (无刷六步换向) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 掌握有感/无感无刷直流电机的六步换向控制算法。 |
+| **OTA Technology** (OTA升级) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 掌握针对远程设备集群的可靠固件升级技术。 |
+| **IGH EtherCAT Master** (IGH主站) | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | 在 Linux 环境下实现开源 EtherCAT 主站。 |
+| **ROS (Robot OS)** (机器人操作系统) | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | 桥接底层运动控制与上层机器人路径规划。 |
 
-### 🛠️ Featured Lab
+### 🛠️ Featured Lab (项目实验室)
 
 | **⌚ GS_watch** | **🏎️ Smart_car** | **⚡ rt_thread_demo** |
 | :---: | :---: | :---: |
