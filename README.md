@@ -18,6 +18,9 @@
     <img src="https://img.shields.io/badge/🤝%20Open%20to%20Collaborate-Linux%20BSP%20%2F%20Kernel%20Devs-7289da?style=for-the-badge&logo=linux&logoColor=white&labelColor=1f2328"/>
   </a>
   <br><br>
+  <!-- Visitor Badge -->
+  <img src="https://komarev.com/ghpvc/?username=ParacosmYy&color=blue&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
+  <br><br>
 </div>
 
 ---
@@ -26,22 +29,26 @@
 
 <table>
   <tr>
-    <td align="center" width="160">
-      <img src="https://media.giphy.com/media/QssGEmpjCQSffeaLOq/giphy.gif" width="30"> <br>
+    <td align="center" valign="middle" width="160">
+      <br>
+      <img src="https://media.giphy.com/media/QssGEmpjCQSffeaLOq/giphy.gif" width="30"> <br><br>
       <b>Core Proficiency <br>(核心能力)</b>
+      <br><br>
     </td>
-    <td>
+    <td valign="middle">
       <code><b>Hardware</b></code>: <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white"/> <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white"> <br>
       <code><b>OS</b></code>: <img src="https://img.shields.io/badge/FreeRTOS-00C93F?style=flat-square&logo=freertos&logoColor=white"/> <img src="https://img.shields.io/badge/RT--Thread-3D7191?style=flat-square&logo=rt-thread&logoColor=white"> <br>
       <code><b>Lang</b></code>: <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white"/> <img src="https://img.shields.io/badge/Assembly-A9A9A9?style=flat-square&logo=assembly&logoColor=white"/>
     </td>
   </tr>
   <tr>
-    <td align="center" width="160">
-      <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCjS/giphy.gif" width="30"> <br>
+    <td align="center" valign="middle" width="160">
+      <br>
+      <img src="https://media.giphy.com/media/26n7b7PjSOZJwVCjS/giphy.gif" width="30"> <br><br>
       <b>Industrial Comms <br>(工业通信)</b>
+      <br><br>
     </td>
-    <td>
+    <td valign="middle">
       <code><b>Interfaces</b></code>: 
       <img src="https://img.shields.io/badge/UART%2F232%2F485-555555?style=flat-square"/> 
       <img src="https://img.shields.io/badge/I2C-555555?style=flat-square"/> 
@@ -58,11 +65,13 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="160">
-      <img src="https://media.giphy.com/media/xT0xezbV2t1UqWpZRe/giphy.gif" width="30"> <br>
+    <td align="center" valign="middle" width="160">
+      <br>
+      <img src="https://media.giphy.com/media/xT0xezbV2t1UqWpZRe/giphy.gif" width="30"> <br><br>
       <b>Motor & Peripherals <br>(电机与底层外设)</b>
+      <br><br>
     </td>
-    <td>
+    <td valign="middle">
       <code><b>Peripherals</b></code>: 
       <img src="https://img.shields.io/badge/BiSS--C_Interface-0055A4?style=flat-square"/>
       <img src="https://img.shields.io/badge/DMA_Double_Buffer%2FHT%2FTC_Interrupts-8A2BE2?style=flat-square"/>
@@ -73,11 +82,13 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="160">
-      <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"> <br>
+    <td align="center" valign="middle" width="160">
+      <br>
+      <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"> <br><br>
       <b>Tools & UI <br>(工具与界面)</b>
+      <br><br>
     </td>
-    <td>
+    <td valign="middle">
       <img src="https://img.shields.io/badge/LVGL-FF0000?style=flat-square"/> <img src="https://img.shields.io/badge/Keil_MDK-005A38?style=flat-square"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
     </td>
   </tr>
@@ -88,26 +99,42 @@
 > **召唤 Linux BSP & Kernel 开发者！** 🧙‍♂️
 > 我目前深耕 MCU 领域，但也正在向嵌入式 Linux 扩展。如果你是对底层控制或异构系统（MCU + MPU）感兴趣的 Linux 驱动/内核开发者，**欢迎交流！**
 
-| Learning Path (学习路径) | Current Status (状态) | Goal (目标) |
+| Learning Path (学习路径) | Current Status (进度) | Goal (目标) |
 | :--- | :--- | :--- |
-| **PMSM FOC Control** (FOC矢量控制) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 深入学习磁场定向控制（SVPWM、Park/Clarke变换）。 |
-| **BLDC 6-Step Commutation** (无刷六步换向) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 掌握有感/无感无刷直流电机的六步换向控制算法。 |
-| **OTA Technology** (OTA升级) | <img src="https://img.shields.io/badge/Processing...-yellow?style=flat-square"/> | 掌握针对远程设备集群的可靠固件升级技术。 |
-| **IGH EtherCAT Master** (IGH主站) | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | 在 Linux 环境下实现开源 EtherCAT 主站。 |
-| **ROS (Robot OS)** (机器人操作系统) | <img src="https://img.shields.io/badge/Queue-blue?style=flat-square"/> | 桥接底层运动控制与上层机器人路径规划。 |
+| **PMSM FOC Control** (FOC矢量控制) | `[██████░░░░] 60%` 攻坚中 | 深入学习磁场定向控制（SVPWM、Park/Clarke变换）。 |
+| **BLDC 6-Step Commutation** (无刷六步换向) | `[████████░░] 80%` 收尾中 | 掌握有感/无感无刷直流电机的六步换向控制算法。 |
+| **OTA Technology** (OTA升级) | `[████░░░░░░] 40%` 推进中 | 掌握针对远程设备集群的可靠固件升级技术。 |
+| **IGH EtherCAT Master** (IGH主站) | `[██░░░░░░░░] 20%` 预研中 | 在 Linux 环境下实现开源 EtherCAT 主站。 |
+| **ROS (Robot OS)** (机器人操作系统) | `[█░░░░░░░░░] 10%` 规划中 | 桥接底层运动控制与上层机器人路径规划。 |
 
 ### 🛠️ Featured Lab (项目实验室)
 
-| **⌚ GS_watch** | **🏎️ Smart_car** | **⚡ rt_thread_demo** |
-| :---: | :---: | :---: |
-| <a href="https://github.com/ParacosmYy/GS_watch"><img src="https://img.shields.io/badge/STM32-LVGL-blue?style=for-the-badge"/></a> | <a href="https://github.com/ParacosmYy/Smart_car"><img src="https://img.shields.io/badge/Control-Algorithms-red?style=for-the-badge"/></a> | <a href="https://github.com/ParacosmYy/rt_thread_demo"><img src="https://img.shields.io/badge/RTOS-Kernel-green?style=for-the-badge"/></a> |
-| **DIY Smart Watch**<br>FreeRTOS + LVGL based UI experience. | **Autonomous Vehicle**<br>Motor control & sensor fusion algorithms. | **RT-Thread Study**<br>Real-time system experiments. |
+<div align="center">
+  <a href="https://github.com/ParacosmYy/GS_watch">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_watch&theme=tokyonight&show_owner=true" width="48%" />
+  </a>
+  <a href="https://github.com/ParacosmYy/Smart_car">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=Smart_car&theme=tokyonight&show_owner=true" width="48%" />
+  </a>
+  <br>
+  <a href="https://github.com/ParacosmYy/rt_thread_demo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=rt_thread_demo&theme=tokyonight&show_owner=true" width="48%" />
+  </a>
+</div>
 
 <br>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff" height="180" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <div align="center">
