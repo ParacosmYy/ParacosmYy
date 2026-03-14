@@ -14,8 +14,8 @@
   </p>
   
   <!-- Social Badges -->
-  <a href="mailto:1264206065@qq.com"><img src="https://img.shields.io/badge/Email-Contact_Me-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a>
-  <a href="https://space.bilibili.com/"><img src="https://img.shields.io/badge/Bilibili-B站动态-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" /></a>
+  <a href="mailto:1264206065@qq.com"><img src="https://img.shields.io/badge/Email-1264206065%40qq.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" /></a>
+  <a href="https://space.bilibili.com/"><img src="https://img.shields.io/badge/Bilibili-奶龙军团中的奶牛王-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" /></a>
   <a href="https://github.com/ParacosmYy"><img src="https://img.shields.io/badge/GitHub-ParacosmYy-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <br><br>
 
