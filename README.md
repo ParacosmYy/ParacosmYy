@@ -1,50 +1,46 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,100:0f2740&height=240&section=header&text=ParacosmYy&fontSize=88&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Embodied%20Intelligence%20%7C%20Humanoid%20Robot%20%7C%20Dexterous%20Hand&descAlignY=58&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,100:0f2740&height=250&section=header&text=ParacosmYy&fontSize=88&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Embodied%20Intelligence%20Control%20Surface&descAlignY=58&descSize=18" />
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=980&lines=Embodied+Intelligence+Engineer;Firmware+%2F+RTOS+%2F+Industrial+Communication;Humanoid+Robot+%2F+Dexterous+Hand+%2F+IMU;MCU+%2F+SoC+%2F+OTA+%2F+EtherCAT" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7DD3FC&center=true&vCenter=true&width=980&lines=Embodied+Intelligence+Engineer;Humanoid+Robot+%2F+Dexterous+Hand;Firmware+%2F+RTOS+%2F+EtherCAT;MCU+%2F+SoC+%2F+OTA+%2F+IMU" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <p>
-    <code>Firmware</code>
-    <code>MCU / SoC</code>
-    <code>RTOS</code>
-    <code>EtherCAT</code>
-    <code>CAN-FD</code>
-    <code>OTA</code>
-    <code>IMU</code>
-    <code>Humanoid Robot</code>
-    <code>Dexterous Hand</code>
-  </p>
+  <img src="https://img.shields.io/badge/Embodied_Intelligence-050816?style=for-the-badge&logoColor=7DD3FC" />
+  <img src="https://img.shields.io/badge/Humanoid_Robot-050816?style=for-the-badge&logoColor=7DD3FC" />
+  <img src="https://img.shields.io/badge/Dexterous_Hand-050816?style=for-the-badge&logoColor=7DD3FC" />
+  <img src="https://img.shields.io/badge/Realtime_Control-050816?style=for-the-badge&logoColor=7DD3FC" />
 </div>
 
-## ABOUT
+```text
+> SYSTEM BOOTING...
+> EMBODIED CONTROL SURFACE ONLINE
+> HUMANOID JOINT LINK READY
+> DEXTEROUS HAND LINK READY
+> RTOS SCHEDULER ACTIVE
+> INDUSTRIAL BUS READY
+```
 
-我主要做嵌入式固件、工业通信和机器人系统集成，当前方向更偏向 `具身智能`、`双足人形` 和 `灵巧手`。
-
-我更关注系统能不能稳定跑起来、能不能交付、能不能继续往上扩，而不是单点概念堆叠。
-
-## WHAT I AM DOING
-
-- 双足人形机器人关节模组通信与联调
-- 灵巧手与末端执行器相关驱动和控制
-- 机器人小脑、PMS 散热、总线透传与系统整合
-- PC -> SoC -> MCU OTA 升级链路
-- IMU 采集、接入、标定和应用开发
-- EtherCAT 与 CiA402 协议深入
-
-## STATUS
+## CONTROL STATUS
 
 ```text
 ROLE   : Firmware / System Integration
 DOMAIN : Embodied Intelligence / Humanoid Robot / Dexterous Hand
-STACK  : MCU / SoC / RTOS / EtherCAT / CAN-FD / OTA / IMU
+STACK  : MCU / SoC / RTOS / EtherCAT / CAN-FD / IMU / OTA
 MODE   : Product-oriented embedded development
 ```
 
-## TECH STACK
+## FOCUS
+
+- 双足人形机器人关节模组通信与联调
+- 灵巧手与末端执行器控制链路
+- 机器人小脑、PMS 散热、总线透传与系统整合
+- PC -> SoC -> MCU OTA 升级链路
+- IMU 采集、接入、标定与应用开发
+- EtherCAT 与 CiA402 协议深入
+
+## TECH STACK MATRIX
 
 ### Core Languages
 
@@ -79,23 +75,6 @@ MODE   : Product-oriented embedded development
   <img src="https://img.shields.io/badge/HPM-111827?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ESP32-232F3E?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ARM_Cortex--M-0091BD?style=for-the-badge&logo=arm&logoColor=white" />
-</p>
-
-### Low-Level / Peripheral
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GPIO-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ADC-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DAC-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/PWM-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/TIM-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RTC-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/EXTI-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/NVIC-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/IWDG-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/WWDG-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/FLASH-1F2937?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DMA-1F2937?style=for-the-badge" />
 </p>
 
 ### Industrial Communication
@@ -162,14 +141,44 @@ MODE   : Product-oriented embedded development
   <img src="https://img.shields.io/badge/ROS-111827?style=for-the-badge" />
 </p>
 
-## PROJECTS
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1f3b5a&height=52&section=header&text=PROJECT%20MODULES&fontSize=24&fontColor=7DD3FC" />
+</div>
 
-- `CAN-FD -> EtherCAT` 协议桥接与透传模块
-- 机器人小脑、PMS 散热、关节模组通信
-- `PC -> SoC -> MCU` OTA 升级链路
-- IMU 采集、接入、标定与应用
-- 双足人形相关关节通信与联调
-- 灵巧手与末端执行器控制链路
+## PROJECT MODULES
+
+```text
+MODULE_01 :: CAN-FD_TO_ETHERCAT_BRIDGE
+INPUT BUS      : CAN-FD
+OUTPUT BUS     : EtherCAT
+ROLE           : Protocol Gateway
+FOCUS          : Realtime Forwarding
+STATUS         : EXPERIENCE LOADED
+```
+
+```text
+MODULE_02 :: HUMANOID_JOINT_NETWORK
+SCOPE          : Humanoid Joint Comms / Debug / Bring-up
+ROLE           : System Integration
+FOCUS          : Coordination & Delivery
+STATUS         : ACTIVE
+```
+
+```text
+MODULE_03 :: DEXTEROUS_HAND_CHAIN
+SCOPE          : End-effector Control / Communication / Feedback
+ROLE           : Control Pipeline
+FOCUS          : Stability & Precision
+STATUS         : ACTIVE
+```
+
+```text
+MODULE_04 :: PC_SOC_MCU_OTA_CHAIN
+PATH           : PC -> SoC -> MCU
+ROLE           : Upgrade Pipeline
+FOCUS          : Reliability / Split Upgrade
+STATUS         : DEPLOYMENT READY
+```
 
 ## EXPERIENCE
 
@@ -180,19 +189,6 @@ MODE   : Product-oriented embedded development
 - 强项在软件，硬件懂一点，够用来做开发和联调。
 - 更偏系统落地，关注稳定性、可维护性和可交付性。
 - 喜欢把问题拆成协议、任务、状态机和数据链路来处理。
-
-## WORKBENCH
-
-<details>
-<summary><b>展开看看我常用的调试与开发装备</b></summary>
-<br/>
-
-- 仪器：示波器、逻辑分析仪、万用表
-- 调试：J-Link、ST-Link、DAP-Link、USB-TTL
-- 焊接：T12 焊台、热风枪
-- 常用平台：STM32F4 / H7、PY32、MK8000、IP2730、ESP32、各类电机与通信模块
-
-</details>
 
 ## ROADMAP
 
@@ -214,6 +210,19 @@ MODE   : Product-oriented embedded development
   <a href="https://github.com/ParacosmYy">
     <img src="https://img.shields.io/badge/GitHub-ParacosmYy-111827?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=050816&title_color=7dd3fc&icon_color=7dd3fc" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true&bg_color=050816&title_color=7dd3fc" height="180" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=tokyonight&hide_border=true&background=050816" height="180" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=react-dark&bg_color=050816&color=7dd3fc&line=7dd3fc&point=ffffff&area=true&hide_border=true" alt="activity graph" />
 </div>
 
 <div align="center">
