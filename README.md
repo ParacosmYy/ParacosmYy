@@ -136,28 +136,27 @@ philosophy: 嵌入式开发不能只看代码跑没跑，更要用示波器和 T
 
 ## <img src="https://img.shields.io/badge/◉-00b4d8?style=flat-square&label=&labelColor=0d1117" /> 学习路线 · Learning Roadmap
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#001219', 'primaryTextColor': '#00b4d8', 'primaryBorderColor': '#7b2cbf', 'lineColor': '#003049', 'secondaryColor': '#0d1117', 'tertiaryColor': '#001219'}}}%%
-graph LR
-    A[MCU 固件与外设驱动<br/>✅ 已完成] --> B[RTOS 内核与驱动框架<br/>✅ 已完成]
-    B --> C[工业通信协议<br/>✅ 已完成]
-    C --> D[Bootloader / OTA / 可靠性<br/>✅ 已完成]
-    D --> E[电机控制 FOC/BLDC<br/>🔄 当前阶段]
-    E --> F[Embedded Linux BSP<br/>📅 计划中]
-    F --> G[ROS / 机器人控制系统<br/>📅 计划中]
-```
+| 阶段 | 方向 | 状态 |
+|:---:|:---|:---:|
+| **01** | MCU 固件与外设驱动 | ![done](https://img.shields.io/badge/✅-00b4d8?style=flat-square&label=已完成&labelColor=21262d) |
+| **02** | RTOS 内核与驱动框架 | ![done](https://img.shields.io/badge/✅-00b4d8?style=flat-square&label=已完成&labelColor=21262d) |
+| **03** | 工业通信协议 | ![done](https://img.shields.io/badge/✅-00b4d8?style=flat-square&label=已完成&labelColor=21262d) |
+| **04** | Bootloader / OTA / 可靠性 | ![done](https://img.shields.io/badge/✅-00b4d8?style=flat-square&label=已完成&labelColor=21262d) |
+| **05** | 电机控制 FOC/BLDC | ![curr](https://img.shields.io/badge/🔄-7b2cbf?style=flat-square&label=当前阶段&labelColor=21262d) |
+| **06** | Embedded Linux BSP | ![plan](https://img.shields.io/badge/📅-8b949e?style=flat-square&label=计划中&labelColor=21262d) |
+| **07** | ROS / 机器人控制系统 | ![plan](https://img.shields.io/badge/📅-8b949e?style=flat-square&label=计划中&labelColor=21262d) |
 
 ---
 
 ## <img src="https://img.shields.io/badge/◉-7b2cbf?style=flat-square&label=&labelColor=0d1117" /> 遥测数据 · Telemetry
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=c9d1d9&bg_color=21262d&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=c9d1d9&bg_color=21262d&langs_count=8" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=57606a&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=57606a&langs_count=8" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=github-dark-blue&hide_border=true&stroke=21262d&ring=7b2cbf&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&dates=c9d1d9&background=21262d" alt="Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=transparent&hide_border=true&ring=7b2cbf&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=57606a&dates=57606a" alt="Streak" />
 </p>
 
 ---
