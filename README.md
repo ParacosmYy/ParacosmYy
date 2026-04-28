@@ -1,275 +1,416 @@
-<!-- =========================================================
-     ParacosmYy / GS-Paracosm
-     GitHub Profile README · Cyber Embedded UI Edition
-     ========================================================= -->
+<!--
+  ============================================================
+   ParacosmYy / GS-Paracosm GitHub Profile README
+   Style: Transparent · Clean Cyber · Embedded Systems
+   Usage: Copy this file content to ParacosmYy/README.md
+  ============================================================
+-->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,35:0f172a,70:1e1b4b,100:312e81&text=GS-PARACOSM&fontColor=E0F2FE&fontSize=58&animation=twinkling&stroke=38BDF8&strokeWidth=1&desc=MCU%20%7C%20RTOS%20%7C%20CAN-FD%20%7C%20EtherCAT%20%7C%20Bootloader%20OTA%20%7C%20Robotics&descAlignY=72&descSize=16" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:E0F7FF,35:EDE9FE,70:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=48&fontAlignY=35&animation=fadeIn&desc=MCU%20Firmware%20%C2%B7%20RTOS%20%C2%B7%20Industrial%20Bus%20%C2%B7%20Robotics%20Control&descAlignY=56&descSize=15" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=24&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&multiline=false&width=980&height=42&lines=Trace+First+%C2%B7+Printf+Later;Real-Time+Firmware+Engineer;STM32H7+%2B+FreeRTOS+%2B+CAN-FD+%2B+EtherCAT;From+MCU+to+Embedded+Linux+to+Robotics" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=900&color=2563EB&center=true&vCenter=true&width=980&lines=Embedded+Firmware+Engineer;STM32+%2F+FreeRTOS+%2F+CAN-FD+%2F+EtherCAT;Bootloader+%2B+OTA+%2B+Fault+Diagnosis;Trace+First+%C2%B7+Printf+Later;From+MCU+to+Embedded+Linux+to+Robotics" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ONLINE-22d3ee?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/ROLE-Firmware%20Engineer-a78bfa?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/CORE-Real--Time%20Control-38bdf8?style=for-the-badge&labelColor=020617" />
-  <img src="https://komarev.com/ghpvc/?username=ParacosmYy&label=VIEWS&style=for-the-badge&color=38bdf8&labelColor=020617" />
+  <img src="https://img.shields.io/badge/Focus-MCU%20Real--Time%20Control-3B82F6?style=for-the-badge&labelColor=EFF6FF&color=3B82F6" />
+  <img src="https://img.shields.io/badge/Direction-Embedded%20Linux%20%26%20Robotics-8B5CF6?style=for-the-badge&labelColor=F5F3FF&color=8B5CF6" />
+  <img src="https://img.shields.io/badge/Style-Trace%20First%2C%20Printf%20Later-06B6D4?style=for-the-badge&labelColor=ECFEFF&color=06B6D4" />
 </p>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/216656971-9a208a88-e6ad-4b7a-88eb-c410e4cf0e00.gif" width="420" />
+  <a href="https://github.com/ParacosmYy?tab=followers"><img src="https://img.shields.io/github/followers/ParacosmYy?style=social" /></a>
+  <img src="https://komarev.com/ghpvc/?username=ParacosmYy&label=Profile%20Views&color=60a5fa&style=flat" />
 </p>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:A78BFA,100:22D3EE&height=2&section=header" width="92%" />
+---
+
+<div align="center">
+
+### 🌌 Clean Cyber Embedded System Dashboard
+
+<img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,docker,git,github,vscode&theme=light" />
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+## 👋 About Me
+
+我是 **GS-Paracosm**，目前长期聚焦 **MCU 固件、RTOS 实时系统、工业通信、Bootloader/OTA、机器人底层控制**。
+
+我更喜欢把嵌入式问题拆到足够底层：
+
+- 不是只看代码能不能跑，而是看 **时序、总线、缓存、中断、DMA、任务调度** 是否真的稳定；
+- 不是只会 `printf`，而是优先用 **Trace、逻辑分析仪、示波器、故障寄存器、栈回溯** 找到真实现场；
+- 不是只做 Demo，而是更关注 **可升级、可回滚、可诊断、可维护** 的工程系统。
+
+</td>
+<td width="42%" valign="top">
+
+## 🧭 Current Coordinate
+
+```yaml
+name      : GS-Paracosm
+identity  : Embedded Firmware Engineer
+base      : Xi'an, China
+mainline  : MCU -> Embedded Linux -> Robotics
+
+focus:
+  - STM32 / Cortex-M
+  - FreeRTOS / RT-Thread
+  - CAN-FD / EtherCAT
+  - Bootloader / OTA
+  - Fault Diagnosis
+  - Motor Control
+
+motto: Trace first, printf later.
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧩 Tech Stack · 技术栈矩阵
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 MCU / Core
+
+<p>
+  <img src="https://img.shields.io/badge/STM32H7-EEF6FF?style=flat-square&logo=stmicroelectronics&logoColor=2563EB&labelColor=EFF6FF&color=60A5FA" />
+  <img src="https://img.shields.io/badge/STM32F4-EEF6FF?style=flat-square&logo=stmicroelectronics&logoColor=2563EB&labelColor=EFF6FF&color=60A5FA" />
+  <img src="https://img.shields.io/badge/STM32G4-EEF6FF?style=flat-square&logo=stmicroelectronics&logoColor=2563EB&labelColor=EFF6FF&color=60A5FA" />
+  <img src="https://img.shields.io/badge/Cortex--M4%2FM7-F5F3FF?style=flat-square&logo=arm&logoColor=7C3AED&labelColor=F5F3FF&color=A78BFA" />
+  <img src="https://img.shields.io/badge/CMSIS-ECFEFF?style=flat-square&logo=arm&logoColor=0891B2&labelColor=ECFEFF&color=22D3EE" />
 </p>
 
-<br/>
+- NVIC / SysTick / PendSV / SVC
+- ADC / DMA / TIM / PWM / FDCAN
+- Flash / Option Bytes / VTOR / MPU
+- D-Cache / I-Cache / AXI SRAM / SRAM4
+
+</td>
+<td width="50%" valign="top">
+
+### ⚙️ RTOS / Scheduler
+
+<p>
+  <img src="https://img.shields.io/badge/FreeRTOS-EFF6FF?style=flat-square&logoColor=2563EB&labelColor=EFF6FF&color=3B82F6" />
+  <img src="https://img.shields.io/badge/RT--Thread-F0FDFA?style=flat-square&logoColor=0D9488&labelColor=F0FDFA&color=14B8A6" />
+  <img src="https://img.shields.io/badge/CMSIS--RTOS2-F5F3FF?style=flat-square&logo=arm&logoColor=7C3AED&labelColor=F5F3FF&color=8B5CF6" />
+  <img src="https://img.shields.io/badge/Zephyr-F8FAFC?style=flat-square&logo=zephyrproject&logoColor=334155&labelColor=F8FAFC&color=94A3B8" />
+  <img src="https://img.shields.io/badge/ThreadX-F8FAFC?style=flat-square&labelColor=F8FAFC&color=94A3B8" />
+</p>
+
+- Task / Queue / Semaphore / EventGroup
+- Task Notification / StreamBuffer / MessageBuffer
+- ISR FromISR API / PendSV 上下文切换
+- Stack High Water Mark / Watchdog 策略
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📡 Industrial Communication
+
+<p>
+  <img src="https://img.shields.io/badge/CAN--FD-EEF2FF?style=flat-square&labelColor=EEF2FF&color=6366F1" />
+  <img src="https://img.shields.io/badge/EtherCAT-EEF2FF?style=flat-square&labelColor=EEF2FF&color=6366F1" />
+  <img src="https://img.shields.io/badge/CANopen-F5F3FF?style=flat-square&labelColor=F5F3FF&color=8B5CF6" />
+  <img src="https://img.shields.io/badge/Modbus--RTU-ECFEFF?style=flat-square&labelColor=ECFEFF&color=06B6D4" />
+  <img src="https://img.shields.io/badge/RS485-F0FDFA?style=flat-square&labelColor=F0FDFA&color=14B8A6" />
+  <img src="https://img.shields.io/badge/UART-F8FAFC?style=flat-square&labelColor=F8FAFC&color=64748B" />
+</p>
+
+- CAN-FD 29-bit 扩展 ID 规划
+- DLC 8 / 32 / 64 协议帧设计
+- Little-endian 线格式与 DMA 友好解析
+- EtherCAT 从站 PDO / SDO / SyncManager
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠 Build / Debug / CI
+
+<p>
+  <img src="https://img.shields.io/badge/GCC-F8FAFC?style=flat-square&logo=gnu&logoColor=334155&labelColor=F8FAFC&color=64748B" />
+  <img src="https://img.shields.io/badge/CMake-EFF6FF?style=flat-square&logo=cmake&logoColor=2563EB&labelColor=EFF6FF&color=3B82F6" />
+  <img src="https://img.shields.io/badge/Ninja-F8FAFC?style=flat-square&logoColor=334155&labelColor=F8FAFC&color=64748B" />
+  <img src="https://img.shields.io/badge/Makefile-F8FAFC?style=flat-square&labelColor=F8FAFC&color=64748B" />
+  <img src="https://img.shields.io/badge/Docker-ECFEFF?style=flat-square&logo=docker&logoColor=0891B2&labelColor=ECFEFF&color=22D3EE" />
+  <img src="https://img.shields.io/badge/WSL2-F8FAFC?style=flat-square&logo=linux&logoColor=334155&labelColor=F8FAFC&color=64748B" />
+</p>
+
+- arm-none-eabi-gcc / clangd / clang-format
+- J-Link / ST-Link / OpenOCD / GDB
+- VSCode / Cursor / Cortex-Debug
+- Shell / Just / CMake Presets / Local CI
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🚀 Core Engineering Blocks
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🧬 Bootloader / OTA
 
 <p align="center">
-  <a href="https://github.com/ParacosmYy?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositories-Open%20Lab-38bdf8?style=for-the-badge&logo=github&logoColor=white&labelColor=020617" />
-  </a>
+  <img src="https://img.shields.io/badge/A%2FB%20Partition-DBEAFE?style=for-the-badge&labelColor=EFF6FF&color=60A5FA" />
+</p>
+
+- Bootloader + Dual APP
+- 非活跃分区升级
+- CRC16 分包校验
+- CRC32 整包校验
+- Trial Boot 确认机制
+- 失败回滚与状态机
+
+</td>
+<td width="33%" valign="top">
+
+### 🧯 Fault Diagnosis
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Post--mortem-FAE8FF?style=for-the-badge&labelColor=FAF5FF&color=C084FC" />
+</p>
+
+- HardFault / BusFault
+- CFSR / HFSR / BFAR / MMFAR
+- PC / LR / xPSR / MSP / PSP
+- cmBacktrace
+- addr2line 符号定位
+- 故障现场保留
+
+</td>
+<td width="33%" valign="top">
+
+### 🤖 Robotics Control
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Low--Level%20Control-CCFBF1?style=for-the-badge&labelColor=F0FDFA&color=2DD4BF" />
+</p>
+
+- 实时控制链路
+- 传感器采样与滤波
+- CAN-FD 设备通信
+- EtherCAT 周期同步
+- 电机控制基础
+- MCU + MPU 协同
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧪 Embedded Lab · 实验室能力
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔬 Debug Instruments
+
+```txt
+Oscilloscope        -> 时序 / 电源纹波 / PWM / 波形验证
+Logic Analyzer     -> UART / SPI / I2C / CAN 时序分析
+J-Link / ST-Link   -> SWD 下载 / GDB 调试 / RTT 日志
+Multimeter         -> 电源 / 电阻 / 连通性 / 基础排查
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 🧰 Engineering Habits
+
+```txt
+Bring-up           -> 先电源、再时钟、再外设、最后业务
+Driver             -> 先阻塞、再中断、再 DMA、再 RTOS 化
+Debug              -> 先现场、再假设、再验证、最后闭环
+Protocol           -> 先帧格式、再状态机、再异常恢复
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛰 Project Orbit · 项目轨道
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ PMS Power Management System
+
+> `STM32H7` · `FreeRTOS` · `CAN-FD` · `Bootloader` · `OTA` · `ADC DMA`
+
+- 双 CAN-FD 通信链路
+- 电压 / 电流 ADC + DMA 采样
+- Bootloader + A/B APP 分区升级
+- Watchdog + 多级故障保护
+- EasyLogger 日志与状态上报
+
+</td>
+<td width="50%" valign="top">
+
+### 🔗 EtherCAT to CAN-FD Gateway
+
+> `STM32H743` · `LAN9253` · `EtherCAT Slave` · `CAN-FD` · `DWT Trace`
+
+- EtherCAT 从站协议栈迁移
+- LAN9253 PDI 通信优化
+- 1ms 控制周期时序诊断
+- PDO / SDO 数据通道拆分
+- 逻辑分析仪 + DWT 定位抖动
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🖐 Dexterous Hand CAN-FD Protocol
+
+> `CAN-FD` · `29-bit ID` · `DLC32` · `Protocol Design` · `Device Identity`
+
+- 六自由度灵巧手控制协议
+- 控制 / 反馈 / 配置 / 诊断 ID 分层
+- Little-endian 线格式
+- 设备身份、版本、UID、NodeID 设计
+- TLV 扩展预留
+
+</td>
+<td width="50%" valign="top">
+
+### 🧱 Embedded Local CI Template
+
+> `CMake` · `Ninja` · `GCC` · `clangd` · `Docker` · `VSCode`
+
+- 统一 GCC + CMake 构建入口
+- clangd 代码索引与跳转
+- Cortex-Debug + J-Link GDB Server
+- just / shell 一键构建烧录
+- 团队工程模板化沉淀
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🌱 Learning Roadmap
+
+<p align="center">
+  <img src="https://img.shields.io/badge/MCU%20Firmware-Done-3B82F6?style=for-the-badge&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/RTOS%20Kernel-Deepening-8B5CF6?style=for-the-badge&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/Industrial%20Bus-Deepening-06B6D4?style=for-the-badge&labelColor=ECFEFF" />
+  <img src="https://img.shields.io/badge/Motor%20Control-Learning-14B8A6?style=for-the-badge&labelColor=F0FDFA" />
+  <img src="https://img.shields.io/badge/Embedded%20Linux-Next-64748B?style=for-the-badge&labelColor=F8FAFC" />
+  <img src="https://img.shields.io/badge/ROS%20Robotics-Next-64748B?style=for-the-badge&labelColor=F8FAFC" />
+</p>
+
+```mermaid
+graph LR
+    A[MCU Firmware] --> B[RTOS Kernel]
+    B --> C[Industrial Bus]
+    C --> D[Bootloader / OTA]
+    D --> E[Motor Control]
+    E --> F[Embedded Linux BSP]
+    F --> G[ROS / Robotics]
+```
+
+---
+
+## 📦 Featured Repositories
+
+<p align="center">
   <a href="https://github.com/ParacosmYy/GS_Thread">
-    <img src="https://img.shields.io/badge/GS__Thread-RTOS%20Lab-a78bfa?style=for-the-badge&logo=c&logoColor=white&labelColor=020617" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_Thread&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=8B5CF6" />
   </a>
   <a href="https://github.com/ParacosmYy/GS_ETERNALCHIP">
-    <img src="https://img.shields.io/badge/GS__ETERNALCHIP-BareMetal%20%2B%20Driver-22d3ee?style=for-the-badge&logo=stmicroelectronics&logoColor=white&labelColor=020617" />
-  </a>
-</p>
-
----
-
-<h2 align="center">🧬 Embedded Identity Card</h2>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=1000&color=A78BFA&center=true&vCenter=true&width=920&lines=I+bridge+hardware+and+software.;I+care+about+timing%2C+reliability%2C+fault+diagnosis+and+field+debugging.;I+build+firmware+that+can+be+measured%2C+upgraded%2C+rolled+back+and+trusted." />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCU-STM32H7%20%7C%20STM32F4%20%7C%20STM32G4-020617?style=for-the-badge&logo=stmicroelectronics&logoColor=38BDF8&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/RTOS-FreeRTOS%20%7C%20RT--Thread%20%7C%20Zephyr-020617?style=for-the-badge&logo=freertos&logoColor=22D3EE&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/BUS-CAN--FD%20%7C%20EtherCAT%20%7C%20RS485-020617?style=for-the-badge&logo=protocols.io&logoColor=A78BFA&labelColor=0F172A" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/BOOT-Bootloader%20%2B%20A%2FB%20OTA-020617?style=for-the-badge&logo=cloudflare&logoColor=38BDF8&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/DEBUG-CoreSight%20%2F%20DWT%20%2F%20RTT-020617?style=for-the-badge&logo=segger&logoColor=22D3EE&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/DIRECTION-MCU%20%E2%86%92%20Linux%20%E2%86%92%20Robotics-020617?style=for-the-badge&logo=linux&logoColor=A78BFA&labelColor=0F172A" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:0f172a,100:1e1b4b&height=88&section=header&text=REAL-TIME%20CONTROL%20%7C%20INDUSTRIAL%20BUS%20%7C%20FAULT%20TRACE&fontSize=20&fontColor=E0F2FE&animation=fadeIn" width="92%" />
-</p>
-
----
-
-<h2 align="center">⚡ Cyber Tech Stack</h2>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,linux,docker,bash,git,github,githubactions,vscode,py,md&theme=dark&perline=12" />
-</p>
-
-<h3 align="center">MCU / RTOS / Communication</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/STM32H7-High%20Performance%20M7-38bdf8?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/STM32F4-Classic%20Control-22d3ee?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/STM32G4-Motor%20Control-a78bfa?style=for-the-badge&labelColor=020617" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/FreeRTOS-Task%20%7C%20Queue%20%7C%20Notify%20%7C%20ISR-020617?style=flat-square&logo=freertos&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/RT--Thread-Device%20Model%20%7C%20FinSH-020617?style=flat-square&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/Zephyr-Kconfig%20%7C%20DeviceTree%20%7C%20West-020617?style=flat-square&logo=zephyrproject&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/CMSIS--RTOS2-Abstraction%20Layer-020617?style=flat-square&logo=arm&logoColor=38BDF8" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/CAN--FD-29bit%20ID%20%7C%20DLC64%20%7C%20CRC-020617?style=flat-square&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/EtherCAT-LAN9253%20%7C%20PDO%20%7C%20SDO%20%7C%201ms-020617?style=flat-square&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/RS485-Modbus%20RTU%20%7C%20Half--Duplex-020617?style=flat-square&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/UART-DMA%20%7C%20RingBuffer%20%7C%20OTA-020617?style=flat-square&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/SPI-QSPI%20%7C%20OctoSPI%20%7C%20PDI-020617?style=flat-square&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/I2C-Sensor%20%7C%20EEPROM%20%7C%20Debug-020617?style=flat-square&logoColor=22D3EE" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:38BDF8,50:A78BFA,100:22D3EE&height=2" width="78%" />
-</p>
-
----
-
-<h2 align="center">🛰 System Capability Constellation</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Real--Time%20Scheduling-0F172A?style=for-the-badge&logo=clockify&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/DMA%20Data%20Path-0F172A?style=for-the-badge&logo=databricks&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/Cache%20Coherency-0F172A?style=for-the-badge&logo=buffer&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/Bootloader%20OTA-0F172A?style=for-the-badge&logo=rocket&logoColor=38BDF8" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/HardFault%20Analysis-020617?style=for-the-badge&logo=bugatti&logoColor=F43F5E" />
-  <img src="https://img.shields.io/badge/CoreSight%20Trace-020617?style=for-the-badge&logo=radar&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Watchdog%20Recovery-020617?style=for-the-badge&logo=shield&logoColor=22C55E" />
-  <img src="https://img.shields.io/badge/Protocol%20Design-020617?style=for-the-badge&logo=graphql&logoColor=A78BFA" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Motor%20Control-FOC%20%7C%20BLDC%20%7C%20PWM-020617?style=for-the-badge&logo=flux&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Embedded%20Linux-BSP%20%7C%20Driver%20%7C%20Buildroot-020617?style=for-the-badge&logo=linux&logoColor=EAB308" />
-  <img src="https://img.shields.io/badge/Robotics-Low--Level%20Control%20%7C%20Bus%20Gateway-020617?style=for-the-badge&logo=ros&logoColor=22D3EE" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ParacosmYy&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&margin-h=10&column=6" />
-</p>
-
----
-
-<h2 align="center">🧪 Embedded Lab Dashboard</h2>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=blur&height=120&color=0:020617,45:1e1b4b,100:0f172a&text=HARDWARE%20WORKBENCH&fontSize=26&fontColor=E0F2FE&animation=twinkling" width="92%" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/J--Link-Debug%20Probe-020617?style=for-the-badge&logo=segger&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/ST--Link-Flash%20%2F%20Debug-020617?style=for-the-badge&logo=stmicroelectronics&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/Logic%20Analyzer-Timing%20Truth-020617?style=for-the-badge&logo=pulse&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/Oscilloscope-Signal%20Reality-020617?style=for-the-badge&logo=waveform&logoColor=38BDF8" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GDB-Symbol%20Debug-0F172A?style=flat-square&logo=gnu&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/OpenOCD-Flash%20Automation-0F172A?style=flat-square&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/SEGGER%20RTT-Realtime%20Log-0F172A?style=flat-square&logoColor=A78BFA" />
-  <img src="https://img.shields.io/badge/SystemView-RTOS%20Trace-0F172A?style=flat-square&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/cmBacktrace-Fault%20Stack-0F172A?style=flat-square&logoColor=F43F5E" />
-</p>
-
----
-
-<h2 align="center">🧠 Project Galaxy</h2>
-
-<p align="center">
-  <a href="https://github.com/ParacosmYy/GS_Thread">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_Thread&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=A78BFA" />
-  </a>
-  <a href="https://github.com/ParacosmYy/GS_ETERNALCHIP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_ETERNALCHIP&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=A78BFA" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_ETERNALCHIP&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=8B5CF6" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/ParacosmYy/GS_Smart_car">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_Smart_car&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=A78BFA" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_Smart_car&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=06B6D4" />
   </a>
   <a href="https://github.com/ParacosmYy/GS_watch">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_watch&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=A78BFA" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ParacosmYy&repo=GS_watch&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=06B6D4" />
+  </a>
+</p>
+
+---
+
+## 📊 GitHub Telemetry
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=8B5CF6&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ParacosmYy&theme=transparent&hide_border=true&ring=60A5FA&fire=8B5CF6&currStreakLabel=2563EB&sideLabels=475569&dates=64748B" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=react&hide_border=true&bg_color=00000000&color=2563EB&line=8B5CF6&point=06B6D4&area=true&area_color=DBEAFE" width="95%" />
+</p>
+
+---
+
+## 🧠 Engineering Keywords
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HardFault%20Analysis-EFF6FF?style=flat-square&labelColor=EFF6FF&color=3B82F6" />
+  <img src="https://img.shields.io/badge/DMA%20%2B%20Cache-F5F3FF?style=flat-square&labelColor=F5F3FF&color=8B5CF6" />
+  <img src="https://img.shields.io/badge/MPU%20Region-ECFEFF?style=flat-square&labelColor=ECFEFF&color=06B6D4" />
+  <img src="https://img.shields.io/badge/ADC%20Sampling-F0FDFA?style=flat-square&labelColor=F0FDFA&color=14B8A6" />
+  <img src="https://img.shields.io/badge/CAN--FD%20Protocol-EEF2FF?style=flat-square&labelColor=EEF2FF&color=6366F1" />
+  <img src="https://img.shields.io/badge/EtherCAT%20PDO%2FSDO-FAE8FF?style=flat-square&labelColor=FAE8FF&color=C084FC" />
+  <img src="https://img.shields.io/badge/Bootloader%20State%20Machine-DBEAFE?style=flat-square&labelColor=DBEAFE&color=60A5FA" />
+  <img src="https://img.shields.io/badge/OTA%20Rollback-CCFBF1?style=flat-square&labelColor=CCFBF1&color=2DD4BF" />
+  <img src="https://img.shields.io/badge/J--Link%20RTT-F8FAFC?style=flat-square&labelColor=F8FAFC&color=64748B" />
+  <img src="https://img.shields.io/badge/SystemView-F8FAFC?style=flat-square&labelColor=F8FAFC&color=64748B" />
+</p>
+
+---
+
+## 🤝 Connect
+
+<p align="center">
+  <samp>
+    我目前主要深耕 MCU 固件与实时控制，同时正在向 Embedded Linux、机器人底层控制与工业通信系统继续扩展。<br>
+    如果你也关注底层系统、工业总线、机器人控制、嵌入式工程化，欢迎交流。
+  </samp>
+</p>
+
+<p align="center">
+  <a href="https://github.com/ParacosmYy">
+    <img src="https://img.shields.io/badge/GitHub-ParacosmYy-2563EB?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:020617,50:172554,100:1e1b4b&height=70&text=Firmware%20is%20not%20only%20code.%20It%20is%20timing%2C%20signals%2C%20faults%2C%20and%20recovery.&fontSize=16&fontColor=E0F2FE" width="88%" />
-</p>
-
----
-
-<h2 align="center">📡 Signal Flow</h2>
-
-<p align="center">
-  <img src="https://mermaid.ink/img/pako:eNqNksFOwzAMhl8l8rmLFEobJm2QGGMiTUKTJEQkfqQGJRVSVLadEo133LS0qQMKDjC_fP_7sXmSbcQBCeZG9YGB6nXCDm6A2mzspYJymqbiVvK4QwTTVY22EUZNjiGvYY1ktphBwEkyV41CMzE7EGjhpcAQWk9m_RwY6KNiaAmVlJ9lmyB0gJWg5lmiYpQo0GpaI0Tx4o3TBKq3dZkFLr0xQQtYpUvNJslqGMjXLUuc5RyFS71Y2D5INIxnnZgaM4RN3_4YF6LmTS0BRuxdmT2zGCLJkXoVkx1bsSpswc9L0qQg--t_DYdzdyWZuBfa87A1OP9f-hG1r7_2bJklLU3BT_0j9_t9lH9pzcm17AduW8tU?type=png" width="92%" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/PC%20Tool-Protocol%20Packet-020617?style=for-the-badge&logo=windows&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/SoC-Transparent%20Bridge-020617?style=for-the-badge&logo=linux&logoColor=EAB308" />
-  <img src="https://img.shields.io/badge/MCU-Bootloader%20%2B%20App-020617?style=for-the-badge&logo=stmicroelectronics&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/Flash-A%2FB%20Partition-020617?style=for-the-badge&logo=databricks&logoColor=A78BFA" />
-</p>
-
----
-
-<h2 align="center">🛡 Reliability Layer</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/A%2FB%20Partition-Inactive%20Bank%20Programming-020617?style=for-the-badge&logo=files&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/CRC16-Per%20Packet%20Check-020617?style=for-the-badge&logo=checkmarx&logoColor=22D3EE" />
-  <img src="https://img.shields.io/badge/CRC32-Whole%20Image%20Verify-020617?style=for-the-badge&logo=verizon&logoColor=A78BFA" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Trial%20Boot-Confirm%20or%20Rollback-020617?style=for-the-badge&logo=target&logoColor=38BDF8" />
-  <img src="https://img.shields.io/badge/Watchdog-IWDG%20%2F%20WWDG-020617?style=for-the-badge&logo=guardrails&logoColor=22C55E" />
-  <img src="https://img.shields.io/badge/Fault%20Record-PC%20%2F%20LR%20%2F%20CFSR%20%2F%20Stack-020617?style=for-the-badge&logo=bugsnag&logoColor=F43F5E" />
-</p>
-
----
-
-<h2 align="center">🧭 Roadmap</h2>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/01-MCU%20Peripheral%20Driver-22c55e?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/02-RTOS%20Kernel%20Practice-22c55e?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/03-CAN--FD%20%2F%20EtherCAT-22c55e?style=for-the-badge&labelColor=020617" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/04-Bootloader%20%2F%20OTA-38bdf8?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/05-FOC%20%2F%20BLDC-a78bfa?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/06-Embedded%20Linux-facc15?style=for-the-badge&labelColor=020617" />
-  <img src="https://img.shields.io/badge/07-ROS%20%2F%20Robotics-f472b6?style=for-the-badge&labelColor=020617" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:020617,50:312e81,100:0f172a&height=88&section=header&text=MCU%20%E2%86%92%20RTOS%20%E2%86%92%20INDUSTRIAL%20BUS%20%E2%86%92%20LINUX%20%E2%86%92%20ROBOTICS&fontSize=18&fontColor=E0F2FE&animation=fadeIn" width="90%" />
-</p>
-
----
-
-<h2 align="center">📊 Telemetry</h2>
-
-<p align="center">
-  <img height="178" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&icon_color=A78BFA&count_private=true&include_all_commits=true" />
-  <img height="178" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true&bg_color=020617&title_color=38BDF8&text_color=CBD5E1&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=tokyonight&hide_border=true&background=020617&ring=38BDF8&fire=A78BFA&currStreakLabel=22D3EE&sideLabels=CBD5E1&dates=94A3B8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=tokyo-night&hide_border=true&bg_color=020617&color=38BDF8&line=A78BFA&point=22D3EE&area=true" width="96%" />
-</p>
-
----
-
-<h2 align="center">🐍 Contribution Signal</h2>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake.svg" />
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</p>
-
----
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:312e81,45:0f172a,100:020617&height=160&section=footer&text=BUILD%20THE%20SYSTEM%20BEHIND%20THE%20SIGNAL&fontSize=26&fontColor=E0F2FE&animation=twinkling&fontAlignY=70" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=16&pause=1000&color=38BDF8&center=true&vCenter=true&width=820&lines=Firmware+is+where+software+touches+the+real+world.;Signals+do+not+lie.+Trace+it%2C+measure+it%2C+fix+it." />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:DCFCE7,35:F8FAFC,70:EDE9FE,100:E0F7FF" width="100%" />
 </p>
