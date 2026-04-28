@@ -25,13 +25,28 @@
   <img src="https://komarev.com/ghpvc/?username=ParacosmYy&label=Profile%20Views&color=60a5fa&style=flat" />
 </p>
 
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="90" alt="Coding Cat" />
+</p>
+
+<p align="center">
+  <sub>
+    <b>正在和示波器、逻辑分析仪、RTOS 调度器一起修 Bug 的嵌入式小猫ฅ^•ﻌ•^ฅ</b>
+  </sub>
+</p>
+
+
 ---
 
 <div align="center">
 
-### 🌌 Clean Cyber Embedded System Dashboard
+### 🌿 Transparent Cyber Embedded Dashboard
 
 <img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,docker,git,github,vscode&theme=light" />
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:DBEAFE,50:C4B5FD,100:CCFBF1" width="80%" />
 
 </div>
 
@@ -254,6 +269,37 @@ Protocol           -> 先帧格式、再状态机、再异常恢复
 
 ---
 
+## 🐾 Cute Runtime Status
+
+<table>
+<tr>
+<td width="45%" align="center" valign="middle">
+
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExODJmY2I5ZDRmYzJlMzMzODhhZDA5ZGY2ZTVkMTQ4YWEyMmM4ZGYwMiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/13HgwGsXF0aiGY/giphy.gif" width="210" alt="Cute Coding" />
+
+</td>
+<td width="55%" valign="top">
+
+### `paracosm-runtime`
+
+```yaml
+status      : compiling ideas...
+mood        : calm / clean / cyber
+debug_mode  : trace_first
+coffee      : enabled
+cat_helper  : online
+next_target : Embedded Linux & Robotics
+```
+
+> 保持清爽，不堆文字；保持专业，不丢技术含金量。  
+> 主页可以可爱一点，但底层工程必须严谨一点。
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🛰 Project Orbit · 项目轨道
 
 <table>
@@ -409,6 +455,10 @@ graph LR
   <a href="https://github.com/ParacosmYy">
     <img src="https://img.shields.io/badge/GitHub-ParacosmYy-2563EB?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <sub><b>See you in the next interrupt ฅ^•ﻌ•^ฅ</b></sub>
 </p>
 
 <p align="center">
