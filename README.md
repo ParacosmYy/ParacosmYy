@@ -119,66 +119,6 @@ philosophy: 嵌入式开发不能只看代码跑没跑，更要用示波器和 T
 
 ---
 
-## <img src="https://img.shields.io/badge/◉-00b4d8?style=flat-square&label=&labelColor=0d1117" /> 项目实验室 · Project Lab
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=1&section=header" width="80%" />
-</p>
-
-> <p>
->   <img src="https://img.shields.io/badge/⚡_高可靠电源管理固件-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
-> </p>
-> <p>
->   <img src="https://img.shields.io/badge/STM32H7-161b22?style=flat-square&logo=stmicroelectronics&logoColor=00b4d8&labelColor=0d1117" />
->   <img src="https://img.shields.io/badge/OTA-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/A/B分区-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
-> </p>
-> <p><samp>工业级电源控制固件，基于 STM32H7 的 A/B 双分区 OTA 架构，支持非活跃分区烧录、CRC 校验与自动回滚。</samp></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
-</p>
-
-> <p>
->   <img src="https://img.shields.io/badge/🌐_工业协议网关-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
-> </p>
-> <p>
->   <img src="https://img.shields.io/badge/EtherCAT-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/CAN--FD-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/1ms周期-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
-> </p>
-> <p><samp>EtherCAT 从站协议栈移植与 PDO/SDO 数据映射，CAN-FD 协议转换，1ms 周期实时控制。</samp></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
-</p>
-
-> <p>
->   <img src="https://img.shields.io/badge/🤖_机器人总线协议-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
-> </p>
-> <p>
->   <img src="https://img.shields.io/badge/CAN--FD-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/29--bit_ID-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
-> </p>
-> <p><samp>面向机器人末端执行器的 CAN-FD 通信协议栈，29-bit 扩展 ID 设备寻址与控制帧设计。</samp></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
-</p>
-
-> <p>
->   <img src="https://img.shields.io/badge/🛠️_嵌入式_CI_模板-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
-> </p>
-> <p>
->   <img src="https://img.shields.io/badge/Makefile-161b22?style=flat-square&labelColor=0d1117&color=8b949e" />
->   <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=c9d1d9&labelColor=0d1117" />
-> </p>
-> <p><samp>Makefile / CMake 统一构建流，Docker + WSL2 跨平台工具链，开发环境模板与 CI 流水线。</samp></p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=1&section=header" width="80%" />
-</p>
-
 ---
 
 ## <img src="https://img.shields.io/badge/◉-7b2cbf?style=flat-square&label=&labelColor=0d1117" /> 硬件工作台 · Hardware Workbench
@@ -212,16 +152,12 @@ graph LR
 ## <img src="https://img.shields.io/badge/◉-7b2cbf?style=flat-square&label=&labelColor=0d1117" /> 遥测数据 · Telemetry
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ParacosmYy&theme=algolia&no-frame=true&row=1&column=7&margin-w=15" alt="Trophy" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=c9d1d9&bg_color=21262d&count_private=true&include_all_commits=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=c9d1d9&bg_color=21262d&langs_count=8" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=8b949e&bg_color=0d1117&count_private=true&include_all_commits=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=github_dark&hide_border=true&title_color=00b4d8&icon_color=7b2cbf&text_color=8b949e&bg_color=0d1117&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=github-dark-blue&hide_border=true&stroke=003049&ring=7b2cbf&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=8b949e&dates=8b949e" alt="Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ParacosmYy&theme=github-dark-blue&hide_border=true&stroke=21262d&ring=7b2cbf&fire=00b4d8&currStreakLabel=00b4d8&sideLabels=c9d1d9&dates=c9d1d9&background=21262d" alt="Streak" />
 </p>
 
 ---
