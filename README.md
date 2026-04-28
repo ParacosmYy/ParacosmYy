@@ -126,70 +126,54 @@ philosophy: 嵌入式开发不能只看代码跑没跑，更要用示波器和 T
 </p>
 
 > <p>
->   <a href="https://github.com/ParacosmYy/PMS-PowerManagementSystem">
->     <img src="https://img.shields.io/badge/⚡_PMS_电源管理系统-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
->   </a>
+>   <img src="https://img.shields.io/badge/⚡_高可靠电源管理固件-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
 > </p>
 > <p>
 >   <img src="https://img.shields.io/badge/STM32H7-161b22?style=flat-square&logo=stmicroelectronics&logoColor=00b4d8&labelColor=0d1117" />
 >   <img src="https://img.shields.io/badge/OTA-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 >   <img src="https://img.shields.io/badge/A/B分区-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/ADC+DMA-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/CRC-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 > </p>
-> <p><samp>A/B 双分区 OTA 架构，非活跃分区烧录，CRC16/32 双重校验与回滚确认。独立看门狗与多级故障保护框架。ADC + DMA 多通道采样。</samp></p>
+> <p><samp>工业级电源控制固件，基于 STM32H7 的 A/B 双分区 OTA 架构，支持非活跃分区烧录、CRC 校验与自动回滚。</samp></p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
 </p>
 
 > <p>
->   <a href="https://github.com/ParacosmYy/EtherCAT-CANFD-Gateway">
->     <img src="https://img.shields.io/badge/🌐_EtherCAT_→_CAN--FD_网关-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
->   </a>
+>   <img src="https://img.shields.io/badge/🌐_工业协议网关-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
 > </p>
 > <p>
->   <img src="https://img.shields.io/badge/STM32H7-161b22?style=flat-square&logo=stmicroelectronics&logoColor=00b4d8&labelColor=0d1117" />
->   <img src="https://img.shields.io/badge/LAN9253-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/EtherCAT_Slave-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
+>   <img src="https://img.shields.io/badge/EtherCAT-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 >   <img src="https://img.shields.io/badge/CAN--FD-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 >   <img src="https://img.shields.io/badge/1ms周期-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 > </p>
-> <p><samp>EtherCAT 从站协议栈移植，SDO 邮箱与 PDO 周期数据映射。LAN9253 PDI 中断优化，DWT 精确时序测量与抖动诊断。</samp></p>
+> <p><samp>EtherCAT 从站协议栈移植与 PDO/SDO 数据映射，CAN-FD 协议转换，1ms 周期实时控制。</samp></p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
 </p>
 
 > <p>
->   <a href="https://github.com/ParacosmYy/DexterousHand-CANFD-Protocol">
->     <img src="https://img.shields.io/badge/🤖_灵巧手_CAN--FD_协议栈-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
->   </a>
+>   <img src="https://img.shields.io/badge/🤖_机器人总线协议-0d1117?style=for-the-badge&labelColor=00b4d8&logoColor=00b4d8" />
 > </p>
 > <p>
 >   <img src="https://img.shields.io/badge/CAN--FD-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 >   <img src="https://img.shields.io/badge/29--bit_ID-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/DLC32-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
->   <img src="https://img.shields.io/badge/Little--endian-161b22?style=flat-square&labelColor=0d1117&color=7b2cbf" />
 > </p>
-> <p><samp>面向灵巧手的 29-bit 扩展 CAN ID 设备寻址方案，DLC 32 综合控制帧设计，设备身份与配置协议规范，Little-endian 线格式优化。</samp></p>
+> <p><samp>面向机器人末端执行器的 CAN-FD 通信协议栈，29-bit 扩展 ID 设备寻址与控制帧设计。</samp></p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=21262d&height=1&section=header" width="60%" />
 </p>
 
 > <p>
->   <a href="https://github.com/ParacosmYy/Embedded-CI-Template">
->     <img src="https://img.shields.io/badge/🛠️_嵌入式_CI_模板-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
->   </a>
+>   <img src="https://img.shields.io/badge/🛠️_嵌入式_CI_模板-0d1117?style=for-the-badge&labelColor=7b2cbf&logoColor=7b2cbf" />
 > </p>
 > <p>
 >   <img src="https://img.shields.io/badge/Makefile-161b22?style=flat-square&labelColor=0d1117&color=8b949e" />
->   <img src="https://img.shields.io/badge/CMake-161b22?style=flat-square&logo=cmake&logoColor=c9d1d9&labelColor=0d1117" />
 >   <img src="https://img.shields.io/badge/Docker-161b22?style=flat-square&logo=docker&logoColor=c9d1d9&labelColor=0d1117" />
->   <img src="https://img.shields.io/badge/clangd-161b22?style=flat-square&labelColor=0d1117&color=8b949e" />
 > </p>
-> <p><samp>Makefile / CMake 统一构建流，Docker + WSL2 跨平台工具链，VSCode / Cursor 开发环境模板，Git hooks 格式化与 CI 流水线。</samp></p>
+> <p><samp>Makefile / CMake 统一构建流，Docker + WSL2 跨平台工具链，开发环境模板与 CI 流水线。</samp></p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=1&section=header" width="80%" />
