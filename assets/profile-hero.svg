@@ -1,0 +1,75 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GS-PARACOSM profile hero</title>
+  <desc id="desc">Light cyber anime style embedded firmware profile banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E0F7FF"/>
+      <stop offset="0.32" stop-color="#EDE9FE"/>
+      <stop offset="0.68" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-120 0;120 0;-120 0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <style>
+      .title { font: 800 58px 'Segoe UI', Arial, sans-serif; fill: #1E293B; letter-spacing: 1px; }
+      .sub { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #334155; }
+      .tag { font: 700 14px 'Segoe UI', Arial, sans-serif; fill: #2563EB; }
+      .muted { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #64748B; }
+      .scan { animation: scan 4.5s ease-in-out infinite; }
+      .float-a { animation: floatA 5s ease-in-out infinite; }
+      .float-b { animation: floatB 6s ease-in-out infinite; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      @keyframes scan { 0%,100% { transform: translateX(-80px); opacity: .2; } 50% { transform: translateX(80px); opacity: .75; } }
+      @keyframes floatA { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+      @keyframes floatB { 0%,100% { transform: translateY(0); } 50% { transform: translateY(8px); } }
+      @keyframes pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="260" rx="28" fill="url(#bg)"/>
+  <circle class="float-a" cx="1030" cy="65" r="56" fill="#BAE6FD" opacity="0.55" filter="url(#soft)"/>
+  <circle class="float-b" cx="120" cy="190" r="70" fill="#C4B5FD" opacity="0.35" filter="url(#soft)"/>
+  <circle class="float-a" cx="920" cy="205" r="44" fill="#99F6E4" opacity="0.48" filter="url(#soft)"/>
+
+  <path d="M0 209 C160 176 260 235 420 202 C592 166 716 213 865 184 C1017 154 1090 186 1200 154 V260 H0 V209Z" fill="#FFFFFF" opacity="0.48"/>
+  <path d="M0 222 C165 190 285 244 438 213 C612 177 742 224 900 195 C1030 171 1115 199 1200 176" stroke="url(#line)" stroke-width="3" opacity="0.62"/>
+
+  <g opacity="0.42">
+    <path d="M110 54H338M110 84H292M110 114H364" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+    <path d="M862 54H1086M906 84H1086M830 114H1086" stroke="#2DD4BF" stroke-width="2" stroke-linecap="round"/>
+    <path class="scan" d="M520 42V218" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
+  </g>
+
+  <g transform="translate(94 48)">
+    <rect width="156" height="78" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="34" class="tag">MCU RADAR</text>
+    <text x="24" y="58" class="muted">STM32 / GD32 / CH32</text>
+  </g>
+
+  <g transform="translate(946 132)">
+    <rect width="170" height="72" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="31" class="tag">RUNTIME</text>
+    <circle class="pulse" cx="116" cy="27" r="7" fill="#2DD4BF"/>
+    <text x="24" y="54" class="muted">EtherCAT / FOC / BLE</text>
+  </g>
+
+  <text x="600" y="108" text-anchor="middle" class="title">GS-PARACOSM</text>
+  <text x="600" y="143" text-anchor="middle" class="sub">Multi-MCU Firmware | Platform Abstraction | Motion Control | Boot &amp; OTA</text>
+  <text x="600" y="174" text-anchor="middle" class="muted">TECH STACK - ROBOTICS LINK - ETHERCAT - CIA402 - ROS - BLE LOW POWER</text>
+
+  <g transform="translate(422 196)">
+    <rect width="96" height="26" rx="13" fill="#EFF6FF" stroke="#60A5FA"/>
+    <text x="48" y="18" text-anchor="middle" class="muted">BOOT</text>
+    <rect x="112" width="112" height="26" rx="13" fill="#F5F3FF" stroke="#A78BFA"/>
+    <text x="168" y="18" text-anchor="middle" class="muted">CONTROL</text>
+    <rect x="240" width="116" height="26" rx="13" fill="#F0FDFA" stroke="#2DD4BF"/>
+    <text x="298" y="18" text-anchor="middle" class="muted">ROBOTICS</text>
+  </g>
+</svg>
