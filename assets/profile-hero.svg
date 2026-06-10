@@ -69,15 +69,17 @@
   </g>
 
   <text x="600" y="108" text-anchor="middle" class="title">GS-PARACOSM</text>
-  <text x="600" y="143" text-anchor="middle" class="sub">Multi-MCU Firmware | Platform Abstraction | Motion Control | Boot &amp; OTA</text>
-  <text x="600" y="174" text-anchor="middle" class="muted">TECH STACK - ROBOTICS LINK - ETHERCAT - CIA402 - ROS - BLE LOW POWER</text>
+  <text x="600" y="143" text-anchor="middle" class="sub">FOC / BLDC / SVPWM / PID | CiA402 / CoE / Multi-Axis Sync</text>
+  <text x="600" y="174" text-anchor="middle" class="muted">TECH STACK - PLATFORM ABSTRACTION - ETHERCAT - HOMING - ROS - BLE LOW POWER</text>
 
-  <g transform="translate(422 196)">
-    <rect width="96" height="26" rx="13" fill="#EFF6FF" stroke="#60A5FA"/>
-    <text x="48" y="18" text-anchor="middle" class="muted">BOOT</text>
-    <rect x="112" width="112" height="26" rx="13" fill="#F5F3FF" stroke="#A78BFA"/>
-    <text x="168" y="18" text-anchor="middle" class="muted">CONTROL</text>
-    <rect x="240" width="116" height="26" rx="13" fill="#F0FDFA" stroke="#2DD4BF"/>
-    <text x="298" y="18" text-anchor="middle" class="muted">ROBOTICS</text>
+  <g transform="translate(362 196)">
+    <rect width="92" height="26" rx="13" fill="#EFF6FF" stroke="#60A5FA"/>
+    <text x="46" y="18" text-anchor="middle" class="muted">BOOT</text>
+    <rect x="106" width="112" height="26" rx="13" fill="#F5F3FF" stroke="#A78BFA"/>
+    <text x="162" y="18" text-anchor="middle" class="muted">MOTION</text>
+    <rect x="232" width="104" height="26" rx="13" fill="#ECFEFF" stroke="#22D3EE"/>
+    <text x="284" y="18" text-anchor="middle" class="muted">SERVO</text>
+    <rect x="350" width="116" height="26" rx="13" fill="#F0FDFA" stroke="#2DD4BF"/>
+    <text x="408" y="18" text-anchor="middle" class="muted">ROBOTICS</text>
   </g>
 </svg>
