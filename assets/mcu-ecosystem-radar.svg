@@ -1,0 +1,117 @@
+<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 25px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #1E293B; }
+    .sub { font: 500 13px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
+    .core { font: 800 20px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0F172A; }
+    .core-sub { font: 600 12px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #475569; }
+    .chip { font: 800 15px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0F172A; }
+    .chip-sub { font: 500 11px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
+    .ring { stroke: #DBEAFE; stroke-width: 1.3; stroke-dasharray: 7 9; animation: rotate 18s linear infinite; transform-origin: 490px 194px; }
+    .ring.slow { stroke: #EDE9FE; animation-duration: 26s; animation-direction: reverse; }
+    .beam { stroke: #A78BFA; stroke-width: 1.4; stroke-dasharray: 8 16; opacity: .65; animation: scan 3.8s ease-in-out infinite; }
+    .beam:nth-of-type(odd) { animation-delay: .35s; }
+    .card { fill: rgba(255,255,255,.82); stroke: #DBEAFE; stroke-width: 1.1; filter: drop-shadow(0 10px 18px rgba(96,165,250,.10)); }
+    .node { animation: float 3.4s ease-in-out infinite; transform-origin: center; }
+    .node:nth-of-type(2) { animation-delay: .2s; }
+    .node:nth-of-type(3) { animation-delay: .4s; }
+    .node:nth-of-type(4) { animation-delay: .6s; }
+    .node:nth-of-type(5) { animation-delay: .8s; }
+    .node:nth-of-type(6) { animation-delay: 1s; }
+    .node:nth-of-type(7) { animation-delay: 1.2s; }
+    .node:nth-of-type(8) { animation-delay: 1.4s; }
+    .core-card { fill: rgba(248,250,252,.94); stroke: #A78BFA; stroke-width: 1.6; filter: drop-shadow(0 0 18px rgba(167,139,250,.25)); animation: breathe 2.8s ease-in-out infinite; transform-origin: center; }
+    @keyframes rotate { to { transform: rotate(360deg); } }
+    @keyframes scan { 0%,100% { opacity: .25; } 50% { opacity: .9; } }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+    @keyframes breathe { 0%,100% { transform: scale(1); } 50% { transform: scale(1.018); } }
+  </style>
+
+  <rect x="1" y="1" width="978" height="358" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
+  <text x="40" y="46" class="title">MCU Ecosystem Radar</text>
+  <text x="40" y="70" class="sub">跨厂商 Cortex-M 工程迁移：BSP / HAL / LL / CMSIS / RTOS / Bootloader。</text>
+
+  <circle class="ring" cx="490" cy="194" r="128" fill="none"/>
+  <circle class="ring slow" cx="490" cy="194" r="88" fill="none"/>
+  <circle cx="490" cy="194" r="168" fill="none" stroke="#ECFDF5" stroke-width="1.2" stroke-dasharray="5 12"/>
+
+  <path class="beam" d="M490 194 L250 112"/>
+  <path class="beam" d="M490 194 L398 82"/>
+  <path class="beam" d="M490 194 L592 82"/>
+  <path class="beam" d="M490 194 L730 112"/>
+  <path class="beam" d="M490 194 L762 232"/>
+  <path class="beam" d="M490 194 L588 292"/>
+  <path class="beam" d="M490 194 L392 292"/>
+  <path class="beam" d="M490 194 L218 232"/>
+
+  <g>
+    <rect class="core-card" x="394" y="150" width="192" height="88" rx="22"/>
+    <text x="490" y="184" text-anchor="middle" class="core">Cortex-M Port</text>
+    <text x="490" y="207" text-anchor="middle" class="core-sub">BSP / Driver / OSAL</text>
+    <text x="490" y="226" text-anchor="middle" class="core-sub">从能跑到可维护</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="188" y="82" width="124" height="62" rx="16"/>
+    <circle cx="210" cy="104" r="6" fill="#60A5FA"/>
+    <text x="232" y="109" class="chip">STM32</text>
+    <text x="210" y="130" class="chip-sub">HAL / LL baseline</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="338" y="52" width="120" height="62" rx="16"/>
+    <circle cx="360" cy="74" r="6" fill="#A78BFA"/>
+    <text x="382" y="79" class="chip">GD32</text>
+    <text x="360" y="100" class="chip-sub">STM32-like port</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="532" y="52" width="120" height="62" rx="16"/>
+    <circle cx="554" cy="74" r="6" fill="#2DD4BF"/>
+    <text x="576" y="79" class="chip">CH32</text>
+    <text x="554" y="100" class="chip-sub">domestic 32-bit</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="668" y="82" width="124" height="62" rx="16"/>
+    <circle cx="690" cy="104" r="6" fill="#38BDF8"/>
+    <text x="712" y="109" class="chip">AT32</text>
+    <text x="690" y="130" class="chip-sub">Artery platform</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="700" y="202" width="124" height="62" rx="16"/>
+    <circle cx="722" cy="224" r="6" fill="#818CF8"/>
+    <text x="744" y="229" class="chip">PY32</text>
+    <text x="722" y="250" class="chip-sub">M0+ small RAM</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="520" y="262" width="136" height="62" rx="16"/>
+    <circle cx="542" cy="284" r="6" fill="#14B8A6"/>
+    <text x="564" y="289" class="chip">Renesas RA</text>
+    <text x="542" y="310" class="chip-sub">FSP / Cortex-M</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="324" y="262" width="136" height="62" rx="16"/>
+    <circle cx="346" cy="284" r="6" fill="#2563EB"/>
+    <text x="368" y="289" class="chip">APM32 / AMS</text>
+    <text x="346" y="310" class="chip-sub">国产生态扩展</text>
+  </g>
+
+  <g class="node">
+    <rect class="card" x="156" y="202" width="124" height="62" rx="16"/>
+    <circle cx="178" cy="224" r="6" fill="#7C3AED"/>
+    <text x="200" y="229" class="chip">Boot / OTA</text>
+    <text x="178" y="250" class="chip-sub">Flash layout</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F7FF"/>
+      <stop offset="0.34" stop-color="#F5F3FF"/>
+      <stop offset="0.66" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+    </linearGradient>
+  </defs>
+</svg>
