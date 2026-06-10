@@ -1,22 +1,22 @@
 <!--
   ============================================================
    ParacosmYy / GS-Paracosm GitHub Profile README
-   Cyber Dynamic · Anime Runtime · Embedded Firmware
+   Light Dynamic · Anime Runtime · Embedded Firmware
   ============================================================
 -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=230&color=0:050816,35:16213E,70:3B82F6,100:8B5CF6&text=GS-PARACOSM&fontColor=E0F2FE&fontSize=52&fontAlignY=42&desc=Embedded%20Firmware%20%7C%20RTOS%20%7C%20Bootloader%20%7C%20Debug&descAlignY=64&animation=twinkling" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:E0F7FF,35:EDE9FE,70:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=48&fontAlignY=36&desc=Embedded%20Firmware%20%7C%20RTOS%20%7C%20Bootloader%20%7C%20Debug&descAlignY=58&descSize=15&animation=twinkling" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=24&duration=2400&pause=700&color=22D3EE&center=true&vCenter=true&width=820&lines=今天也在和+Bug+对线;中断来了先别慌;先看现场，再写结论;固件可以硬核，主页可以酷一点" />
+  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=23&duration=2400&pause=700&color=2563EB&center=true&vCenter=true&width=820&lines=今天也在和+Bug+对线;中断来了先别慌;先看现场，再写结论;固件可以硬核，主页可以可爱又动态" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCU-STM32%20%2F%20Cortex--M-22D3EE?style=for-the-badge&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/RTOS-FreeRTOS%20%2F%20RT--Thread-A78BFA?style=for-the-badge&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/OTA-Bootloader%20%2F%20Flash-34D399?style=for-the-badge&labelColor=0F172A" />
+  <img src="https://img.shields.io/badge/MCU-STM32%20%2F%20Cortex--M-60A5FA?style=for-the-badge&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/RTOS-FreeRTOS%20%2F%20RT--Thread-A78BFA?style=for-the-badge&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/OTA-Bootloader%20%2F%20Flash-2DD4BF?style=for-the-badge&labelColor=F0FDFA" />
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@
 
 <p align="center">
   <a href="https://github.com/ParacosmYy?tab=followers"><img src="https://img.shields.io/github/followers/ParacosmYy?style=social" /></a>
-  <img src="https://komarev.com/ghpvc/?username=ParacosmYy&label=Profile%20Views&color=22d3ee&style=flat" />
+  <img src="https://komarev.com/ghpvc/?username=ParacosmYy&label=Profile%20Views&color=60a5fa&style=flat" />
 </p>
 
 ---
@@ -52,9 +52,9 @@ ID: GS-Paracosm
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BUILD-running-22D3EE?style=flat-square&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/MOOD-cyber%20standby-A78BFA?style=flat-square&labelColor=0F172A" />
-  <img src="https://img.shields.io/badge/BUG-queued-34D399?style=flat-square&labelColor=0F172A" />
+  <img src="https://img.shields.io/badge/BUILD-running-60A5FA?style=flat-square&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/MOOD-soft%20standby-A78BFA?style=flat-square&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/BUG-queued-2DD4BF?style=flat-square&labelColor=F0FDFA" />
 </p>
 
 ---
@@ -62,7 +62,7 @@ ID: GS-Paracosm
 ## 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,git,github,vscode,docker&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,git,github,vscode,docker&theme=light" />
 </p>
 
 | 方向 | 内容 |
@@ -88,16 +88,16 @@ ID: GS-Paracosm
 ## 动态面板
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=ParacosmYy&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" />
+  <img src="https://github-profile-trophy.vercel.app/?username=ParacosmYy&theme=flat&no-frame=true&no-bg=true&row=1&column=6" />
 </p>
 
 <p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=react-dark&hide_border=true&area=true&custom_title=Runtime%20Activity" />
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=github-light&hide_border=true&area=true&color=60A5FA&line=A78BFA&point=2DD4BF&area_color=DBEAFE&custom_title=Runtime%20Activity" />
 </p>
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=tokyonight&hide_border=true&locale=cn" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=tokyonight&hide_border=true&locale=cn" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&locale=cn&title_color=2563EB&text_color=334155&icon_color=8B5CF6" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&locale=cn&title_color=2563EB&text_color=334155" />
 </p>
 
 ---
@@ -113,5 +113,5 @@ ID: GS-Paracosm
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:050816,35:16213E,70:3B82F6,100:8B5CF6" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=115&section=footer&color=0:DCFCE7,35:F8FAFC,70:EDE9FE,100:E0F7FF" />
 </p>
