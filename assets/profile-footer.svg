@@ -1,0 +1,20 @@
+<svg width="1200" height="120" viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GS-PARACOSM footer wave</title>
+  <desc id="desc">Light animated footer wave for GitHub profile.</desc>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#DCFCE7"/>
+      <stop offset="0.35" stop-color="#F8FAFC"/>
+      <stop offset="0.7" stop-color="#EDE9FE"/>
+      <stop offset="1" stop-color="#E0F7FF"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-100 0;100 0;-100 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <style>
+      .dash { animation: dash 4s linear infinite; }
+      @keyframes dash { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -120; } }
+    </style>
+  </defs>
+  <rect width="1200" height="120" fill="#FFFFFF" opacity="0"/>
+  <path d="M0 38 C146 78 246 15 398 44 C560 75 654 97 815 58 C960 23 1065 28 1200 64 V120 H0 V38Z" fill="url(#wave)"/>
+  <path class="dash" d="M0 48 C148 86 260 24 406 52 C548 79 662 98 812 66 C966 32 1060 38 1200 72" stroke="#60A5FA" stroke-width="3" stroke-dasharray="18 16" opacity="0.55"/>
+</svg>
