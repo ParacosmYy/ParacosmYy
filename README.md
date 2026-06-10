@@ -59,6 +59,14 @@
 
 ---
 
+## 工程主线
+
+<p align="center">
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/embedded-roadmap.svg" alt="embedded roadmap" />
+</p>
+
+---
+
 ## 技术栈
 
 <p align="center">
@@ -75,6 +83,16 @@
     <td align="center"><b>工程</b><br><sub>CMake / GCC-ARM / OpenOCD / GDB / CI</sub></td>
   </tr>
 </table>
+
+---
+
+## GS_ETERNALCHIP
+
+<p align="center">
+  <a href="https://github.com/ParacosmYy/GS_ETERNALCHIP">
+    <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/eternalchip-branches.svg" alt="GS_ETERNALCHIP branch map" />
+  </a>
+</p>
 
 ---
 
@@ -108,6 +126,10 @@
 ## 动态轨迹
 
 <p align="center">
+  <img width="88%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/github-metrics.svg" alt="github metrics" />
+</p>
+
+<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
@@ -122,10 +144,6 @@
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&locale=cn&title_color=2563EB&text_color=334155&icon_color=A78BFA&ring_color=2DD4BF" />
   <img height="165" src="https://streak-stats.demolab.com?user=ParacosmYy&theme=transparent&hide_border=true&locale=zh_Hans&ring=60A5FA&fire=A78BFA&currStreakLabel=2DD4BF&sideLabels=2563EB&dates=64748B" />
-</p>
-
-<p align="center">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&locale=cn&title_color=2563EB&text_color=334155" />
 </p>
 
 ---
