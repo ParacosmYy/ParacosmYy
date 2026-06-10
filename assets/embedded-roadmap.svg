@@ -1,0 +1,73 @@
+<svg width="980" height="220" viewBox="0 0 980 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 24px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #1E293B; }
+    .sub { font: 500 13px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
+    .node { font: 700 16px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0F172A; }
+    .label { font: 500 12px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #475569; }
+    .track { stroke: #C7D2FE; stroke-width: 5; stroke-linecap: round; }
+    .pulse { stroke: #60A5FA; stroke-width: 5; stroke-linecap: round; stroke-dasharray: 36 660; animation: flow 4.2s linear infinite; }
+    .glow { filter: drop-shadow(0 0 10px rgba(96,165,250,.45)); }
+    .card { fill: rgba(248,250,252,.92); stroke: #DBEAFE; stroke-width: 1.2; }
+    .dot { animation: breathe 2.4s ease-in-out infinite; transform-origin: center; }
+    .dot:nth-of-type(2) { animation-delay: .25s; }
+    .dot:nth-of-type(3) { animation-delay: .5s; }
+    .dot:nth-of-type(4) { animation-delay: .75s; }
+    .dot:nth-of-type(5) { animation-delay: 1s; }
+    .dot:nth-of-type(6) { animation-delay: 1.25s; }
+    @keyframes flow { to { stroke-dashoffset: -696; } }
+    @keyframes breathe { 0%,100% { opacity: .75; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+  </style>
+
+  <rect x="1" y="1" width="978" height="218" rx="24" fill="url(#bg)" stroke="#E0F2FE"/>
+  <text x="40" y="45" class="title">Embedded Runtime Roadmap</text>
+  <text x="40" y="68" class="sub">C -> MCU -> RTOS -> Bootloader -> OTA -> Embedded Linux</text>
+
+  <path class="track" d="M95 132 C180 92 255 92 340 132 S500 172 585 132 S745 92 830 132"/>
+  <path class="pulse glow" d="M95 132 C180 92 255 92 340 132 S500 172 585 132 S745 92 830 132"/>
+
+  <g class="dot">
+    <rect class="card" x="48" y="104" width="94" height="64" rx="16"/>
+    <circle cx="95" cy="104" r="8" fill="#60A5FA"/>
+    <text x="95" y="134" text-anchor="middle" class="node">C</text>
+    <text x="95" y="153" text-anchor="middle" class="label">base</text>
+  </g>
+  <g class="dot">
+    <rect class="card" x="198" y="78" width="112" height="64" rx="16"/>
+    <circle cx="254" cy="78" r="8" fill="#A78BFA"/>
+    <text x="254" y="108" text-anchor="middle" class="node">MCU</text>
+    <text x="254" y="127" text-anchor="middle" class="label">driver</text>
+  </g>
+  <g class="dot">
+    <rect class="card" x="360" y="104" width="118" height="64" rx="16"/>
+    <circle cx="419" cy="104" r="8" fill="#2DD4BF"/>
+    <text x="419" y="134" text-anchor="middle" class="node">RTOS</text>
+    <text x="419" y="153" text-anchor="middle" class="label">schedule</text>
+  </g>
+  <g class="dot">
+    <rect class="card" x="526" y="132" width="126" height="64" rx="16"/>
+    <circle cx="589" cy="132" r="8" fill="#38BDF8"/>
+    <text x="589" y="162" text-anchor="middle" class="node">Bootloader</text>
+    <text x="589" y="181" text-anchor="middle" class="label">startup</text>
+  </g>
+  <g class="dot">
+    <rect class="card" x="700" y="78" width="104" height="64" rx="16"/>
+    <circle cx="752" cy="78" r="8" fill="#818CF8"/>
+    <text x="752" y="108" text-anchor="middle" class="node">OTA</text>
+    <text x="752" y="127" text-anchor="middle" class="label">upgrade</text>
+  </g>
+  <g class="dot">
+    <rect class="card" x="842" y="104" width="104" height="64" rx="16"/>
+    <circle cx="894" cy="104" r="8" fill="#14B8A6"/>
+    <text x="894" y="134" text-anchor="middle" class="node">Linux</text>
+    <text x="894" y="153" text-anchor="middle" class="label">next</text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E0F7FF"/>
+      <stop offset="0.38" stop-color="#F5F3FF"/>
+      <stop offset="0.7" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#DCFCE7"/>
+    </linearGradient>
+  </defs>
+</svg>
