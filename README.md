@@ -1,7 +1,7 @@
 <!--
   ============================================================
    ParacosmYy / GS-Paracosm GitHub Profile README
-   方向：中文优先 · 嵌入式工程 · 清爽专业
+   方向：中文优先 · 嵌入式工程 · 二次元能量补给
   ============================================================
 -->
 
@@ -19,6 +19,16 @@
   <img src="https://img.shields.io/badge/方向-MCU%20固件与实时控制-3B82F6?style=for-the-badge&labelColor=EFF6FF&color=3B82F6" />
   <img src="https://img.shields.io/badge/关注-Bootloader%20%2F%20OTA%20%2F%20故障诊断-8B5CF6?style=for-the-badge&labelColor=F5F3FF&color=8B5CF6" />
   <img src="https://img.shields.io/badge/习惯-先看现场再写结论-06B6D4?style=for-the-badge&labelColor=ECFEFF&color=06B6D4" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=23&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=今天也在和+Bug+认真对线;中断来了不要慌，先看现场;固件可以严谨，主页也可以可爱一点" />
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="155" alt="anime coding" />
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="185" alt="coding meme" />
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="155" alt="debug mood" />
 </p>
 
 <p align="center">
@@ -51,7 +61,49 @@
 正在扩展: Embedded Linux、CMake 工程化、自动化构建
 工程偏好: 可诊断、可维护、可升级、可回滚
 常用方法: 示波器 / 逻辑分析仪 / Trace / GDB / addr2line
+当前状态: 二次元能量补给中
 ```
+
+---
+
+## 二次元运行状态
+
+<p align="center">
+  <img src="https://img.shields.io/badge/编译中-请稍等一下-60A5FA?style=for-the-badge&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/调试中-正在捕获现场-A78BFA?style=for-the-badge&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/状态-电量充足-2DD4BF?style=for-the-badge&labelColor=F0FDFA" />
+</p>
+
+<table>
+<tr>
+<td width="25%" align="center">
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="120" alt="写代码中" />
+  <br><sub><b>写代码中</b></sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="120" alt="疯狂调试" />
+  <br><sub><b>疯狂调试</b></sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="灵感上线" />
+  <br><sub><b>灵感上线</b></sub>
+</td>
+<td width="25%" align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="120" alt="摸鱼恢复" />
+  <br><sub><b>摸鱼恢复</b></sub>
+</td>
+</tr>
+</table>
+
+```yaml
+runtime_mood:
+  写代码: 保持冷静
+  修 Bug: 先抓现场
+  看波形: 逐帧分析
+  二次元能量: 已注入
+```
+
+> 技术可以严谨，主页可以可爱。今天也要把问题定位到寄存器级别。
 
 ---
 
@@ -179,7 +231,11 @@
 </p>
 
 <p align="center">
-  <sub><b>少一点玄学，多一点现场；少一点堆砌，多一点工程闭环。</b></sub>
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="130" alt="ending anime meme" />
+</p>
+
+<p align="center">
+  <sub><b>少一点玄学，多一点现场；少一点堆砌，多一点工程闭环；再加一点二次元能量。</b></sub>
 </p>
 
 <p align="center">
