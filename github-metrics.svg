@@ -1,0 +1,40 @@
+<svg width="780" height="260" viewBox="0 0 780 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: 700 24px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #1E293B; }
+    .sub { font: 500 13px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
+    .label { font: 700 14px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0F172A; }
+    .value { font: 500 12px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
+    .bar { animation: load 2.6s ease-in-out infinite; transform-origin: left center; }
+    .bar:nth-of-type(2) { animation-delay: .2s; }
+    .bar:nth-of-type(3) { animation-delay: .4s; }
+    .bar:nth-of-type(4) { animation-delay: .6s; }
+    @keyframes load { 0%,100% { transform: scaleX(.72); opacity: .72; } 50% { transform: scaleX(1); opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="778" height="258" rx="22" fill="url(#bg)" stroke="#DBEAFE"/>
+  <text x="34" y="44" class="title">GitHub Metrics Runtime</text>
+  <text x="34" y="68" class="sub">Metrics workflow is warming up. This panel will be replaced by generated data after Actions runs.</text>
+
+  <g transform="translate(34 104)">
+    <text x="0" y="0" class="label">Repositories</text>
+    <rect x="0" y="14" width="690" height="13" rx="7" fill="#E0F2FE"/>
+    <rect class="bar" x="0" y="14" width="520" height="13" rx="7" fill="#60A5FA"/>
+    <text x="0" y="50" class="value">Embedded firmware / tools / notes / modeling</text>
+  </g>
+  <g transform="translate(34 166)">
+    <text x="0" y="0" class="label">Activity</text>
+    <rect x="0" y="14" width="690" height="13" rx="7" fill="#EDE9FE"/>
+    <rect class="bar" x="0" y="14" width="610" height="13" rx="7" fill="#A78BFA"/>
+    <text x="0" y="50" class="value">Auto-generated profile signal will appear here.</text>
+  </g>
+  <g transform="translate(34 228)">
+    <circle cx="6" cy="0" r="5" fill="#2DD4BF"/>
+    <text x="20" y="4" class="value">If this placeholder is visible, run the Metrics workflow once.</text>
+  </g>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="780" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F0F9FF"/>
+      <stop offset="0.45" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+  </defs>
+</svg>
