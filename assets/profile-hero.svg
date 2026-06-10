@@ -55,11 +55,17 @@
     <text x="24" y="73" class="tiny">PY32 / Renesas RA / APM32</text>
   </g>
 
-  <g transform="translate(946 132)">
-    <rect width="170" height="72" rx="18" fill="#FFFFFF" opacity="0.72"/>
-    <text x="24" y="31" class="tag">RUNTIME</text>
-    <circle class="pulse" cx="116" cy="27" r="7" fill="#2DD4BF"/>
-    <text x="24" y="54" class="muted">EtherCAT / FOC / BLE</text>
+  <g transform="translate(902 44)">
+    <rect width="238" height="74" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="30" class="tag">ABSTRACTION</text>
+    <text x="24" y="54" class="tiny">HAL / LL / CMSIS / BSP / Driver / OSAL</text>
+  </g>
+
+  <g transform="translate(880 132)">
+    <rect width="260" height="74" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="30" class="tag">INDUSTRIAL LINK</text>
+    <circle class="pulse" cx="210" cy="26" r="7" fill="#2DD4BF"/>
+    <text x="24" y="54" class="tiny">EtherCAT / CAN-FD / RS485 / Modbus-RTU</text>
   </g>
 
   <text x="600" y="108" text-anchor="middle" class="title">GS-PARACOSM</text>
