@@ -6,7 +6,7 @@
 -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E0F7FF,30:EDE9FE,65:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=50&fontAlignY=35&desc=Multi--MCU%20Firmware%20%7C%20EtherCAT%20%7C%20Motion%20Control%20%7C%20BLE%20Runtime&descAlignY=58&descSize=15&animation=twinkling" />
+  <img width="100%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-hero.svg" alt="GS-PARACOSM profile hero" />
 </p>
 
 <p align="center">
@@ -183,5 +183,5 @@
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:DCFCE7,35:F8FAFC,70:EDE9FE,100:E0F7FF&animation=twinkling" />
+  <img width="100%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-footer.svg" alt="GS-PARACOSM footer wave" />
 </p>
