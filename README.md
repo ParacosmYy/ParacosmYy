@@ -26,9 +26,11 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="155" alt="anime coding" />
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="185" alt="coding meme" />
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="155" alt="debug mood" />
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="140" alt="anime coding" />
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="160" alt="coding meme" />
+</p>
+<p align="center">
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="140" alt="debug mood" />
 </p>
 
 <p align="center">
@@ -69,31 +71,26 @@
 ## 二次元运行状态
 
 <p align="center">
-  <img src="https://img.shields.io/badge/编译中-请稍等一下-60A5FA?style=for-the-badge&labelColor=EFF6FF" />
-  <img src="https://img.shields.io/badge/调试中-正在捕获现场-A78BFA?style=for-the-badge&labelColor=F5F3FF" />
-  <img src="https://img.shields.io/badge/状态-电量充足-2DD4BF?style=for-the-badge&labelColor=F0FDFA" />
+  <img src="https://img.shields.io/badge/编译中-请稍等-60A5FA?style=flat-square&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/调试中-捕获现场-A78BFA?style=flat-square&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/状态-能量充足-2DD4BF?style=flat-square&labelColor=F0FDFA" />
 </p>
 
-<table>
-<tr>
-<td width="25%" align="center">
+<p align="center">
   <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="120" alt="写代码中" />
-  <br><sub><b>写代码中</b></sub>
-</td>
-<td width="25%" align="center">
   <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="120" alt="疯狂调试" />
-  <br><sub><b>疯狂调试</b></sub>
-</td>
-<td width="25%" align="center">
+</p>
+<p align="center">
+  <sub><b>写代码中</b></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub><b>疯狂调试</b></sub>
+</p>
+
+<p align="center">
   <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="灵感上线" />
-  <br><sub><b>灵感上线</b></sub>
-</td>
-<td width="25%" align="center">
   <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="120" alt="摸鱼恢复" />
-  <br><sub><b>摸鱼恢复</b></sub>
-</td>
-</tr>
-</table>
+</p>
+<p align="center">
+  <sub><b>灵感上线</b></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub><b>摸鱼恢复</b></sub>
+</p>
 
 ```yaml
 runtime_mood:
@@ -231,7 +228,7 @@ runtime_mood:
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="130" alt="ending anime meme" />
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="ending anime meme" />
 </p>
 
 <p align="center">
