@@ -48,11 +48,17 @@
     <path class="scan" d="M520 42V218" stroke="#A78BFA" stroke-width="4" stroke-linecap="round" opacity="0.65"/>
   </g>
 
-  <g transform="translate(84 48)">
-    <rect width="210" height="86" rx="18" fill="#FFFFFF" opacity="0.72"/>
-    <text x="24" y="31" class="tag">MCU ECO</text>
-    <text x="24" y="56" class="tiny">STM32 / GD32 / CH32 / AT32</text>
-    <text x="24" y="73" class="tiny">PY32 / Renesas RA / APM32</text>
+  <g transform="translate(84 42)">
+    <rect width="210" height="82" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="30" class="tag">MCU ECO</text>
+    <text x="24" y="54" class="tiny">STM32 / GD32 / CH32 / AT32</text>
+    <text x="24" y="71" class="tiny">PY32 / Renesas RA / APM32</text>
+  </g>
+
+  <g transform="translate(92 140)">
+    <rect width="244" height="70" rx="18" fill="#FFFFFF" opacity="0.72"/>
+    <text x="24" y="29" class="tag">RTOS</text>
+    <text x="24" y="52" class="tiny">FreeRTOS / RT-Thread / IPC / FromISR</text>
   </g>
 
   <g transform="translate(902 44)">
@@ -63,23 +69,25 @@
 
   <g transform="translate(880 132)">
     <rect width="260" height="74" rx="18" fill="#FFFFFF" opacity="0.72"/>
-    <text x="24" y="30" class="tag">INDUSTRIAL LINK</text>
-    <circle class="pulse" cx="210" cy="26" r="7" fill="#2DD4BF"/>
-    <text x="24" y="54" class="tiny">EtherCAT / CAN-FD / RS485 / Modbus-RTU</text>
+    <text x="24" y="30" class="tag">CONNECT &amp; ROBOT</text>
+    <circle class="pulse" cx="214" cy="26" r="7" fill="#2DD4BF"/>
+    <text x="24" y="54" class="tiny">BLE Low Power / ROS / ROS2 / Robot Bridge</text>
   </g>
 
-  <text x="600" y="108" text-anchor="middle" class="title">GS-PARACOSM</text>
-  <text x="600" y="143" text-anchor="middle" class="sub">FOC / BLDC / SVPWM / PID | CiA402 / CoE / Multi-Axis Sync</text>
-  <text x="600" y="174" text-anchor="middle" class="muted">TECH STACK - PLATFORM ABSTRACTION - ETHERCAT - HOMING - ROS - BLE LOW POWER</text>
+  <text x="600" y="104" text-anchor="middle" class="title">GS-PARACOSM</text>
+  <text x="600" y="139" text-anchor="middle" class="sub">FOC / BLDC / SVPWM / PID | CiA402 / CoE / Multi-Axis Sync</text>
+  <text x="600" y="169" text-anchor="middle" class="muted">EtherCAT / CAN-FD / RS485 / Modbus-RTU | FreeRTOS / RT-Thread / 调度</text>
 
-  <g transform="translate(362 196)">
-    <rect width="92" height="26" rx="13" fill="#EFF6FF" stroke="#60A5FA"/>
-    <text x="46" y="18" text-anchor="middle" class="muted">BOOT</text>
-    <rect x="106" width="112" height="26" rx="13" fill="#F5F3FF" stroke="#A78BFA"/>
-    <text x="162" y="18" text-anchor="middle" class="muted">MOTION</text>
-    <rect x="232" width="104" height="26" rx="13" fill="#ECFEFF" stroke="#22D3EE"/>
-    <text x="284" y="18" text-anchor="middle" class="muted">SERVO</text>
-    <rect x="350" width="116" height="26" rx="13" fill="#F0FDFA" stroke="#2DD4BF"/>
-    <text x="408" y="18" text-anchor="middle" class="muted">ROBOTICS</text>
+  <g transform="translate(319 196)">
+    <rect width="78" height="26" rx="13" fill="#EFF6FF" stroke="#60A5FA"/>
+    <text x="39" y="18" text-anchor="middle" class="muted">BOOT</text>
+    <rect x="90" width="92" height="26" rx="13" fill="#F5F3FF" stroke="#A78BFA"/>
+    <text x="136" y="18" text-anchor="middle" class="muted">MOTION</text>
+    <rect x="194" width="84" height="26" rx="13" fill="#ECFEFF" stroke="#22D3EE"/>
+    <text x="236" y="18" text-anchor="middle" class="muted">SERVO</text>
+    <rect x="290" width="78" height="26" rx="13" fill="#EEF2FF" stroke="#818CF8"/>
+    <text x="329" y="18" text-anchor="middle" class="muted">RTOS</text>
+    <rect x="380" width="112" height="26" rx="13" fill="#F0FDFA" stroke="#2DD4BF"/>
+    <text x="436" y="18" text-anchor="middle" class="muted">ROBOTICS</text>
   </g>
 </svg>
