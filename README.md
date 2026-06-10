@@ -1,16 +1,16 @@
 <!--
   ============================================================
    ParacosmYy / GS-Paracosm GitHub Profile README
-   Light Cyber Anime Runtime · Embedded Firmware
+   Light Cyber Anime Runtime · Multi-MCU Embedded Firmware
   ============================================================
 -->
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E0F7FF,30:EDE9FE,65:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=50&fontAlignY=35&desc=Embedded%20Firmware%20%7C%20RTOS%20%7C%20Bootloader%20%7C%20Debug%20Runtime&descAlignY=58&descSize=15&animation=twinkling" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:E0F7FF,30:EDE9FE,65:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=50&fontAlignY=35&desc=Multi--MCU%20Firmware%20%7C%20RTOS%20%7C%20Bootloader%20%7C%20OTA%20Runtime&descAlignY=58&descSize=15&animation=twinkling" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=24&duration=2200&pause=650&color=2563EB&center=true&vCenter=true&width=860&lines=浅色动态控制台启动中;今天也在和+Bug+对线;中断来了先别慌;先看现场，再写结论;固件硬核一点，主页也要灵动一点" />
+  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=24&duration=2200&pause=650&color=2563EB&center=true&vCenter=true&width=900&lines=浅色动态控制台启动中;今天也在和+Bug+对线;STM32+%2F+GD32+%2F+CH32+%2F+AT32+%2F+PY32+雷达扫描中;中断来了先别慌;先看现场，再写结论;固件硬核一点，主页也要灵动一点" />
 </p>
 
 <p align="center">
@@ -47,14 +47,22 @@
 ## 当前坐标
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=500&color=0F766E&center=true&vCenter=true&width=760&lines=ID%3A+GS-Paracosm;LOCATION%3A+Xi'an;MAINLINE%3A+MCU+-%3E+RTOS+-%3E+Bootloader+-%3E+Embedded+Linux;TOOLS%3A+C+%2F+CMake+%2F+GDB+%2F+J-Link;STATE%3A+compiling%2C+energy+enough" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=500&color=0F766E&center=true&vCenter=true&width=860&lines=ID%3A+GS-Paracosm;LOCATION%3A+Xi'an;MAINLINE%3A+MCU+Ecosystem+-%3E+BSP+Porting+-%3E+RTOS+-%3E+Bootloader+-%3E+OTA;CHIPS%3A+STM32+%2F+GD32+%2F+CH32+%2F+AT32+%2F+PY32+%2F+Renesas+RA;TOOLS%3A+C+%2F+CMake+%2F+GDB+%2F+J-Link+%2F+OpenOCD;STATE%3A+compiling%2C+energy+enough" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MCU-STM32%20%2F%20Cortex--M-60A5FA?style=flat-square&labelColor=EFF6FF" />
-  <img src="https://img.shields.io/badge/RTOS-FreeRTOS%20%2F%20RT--Thread-A78BFA?style=flat-square&labelColor=F5F3FF" />
-  <img src="https://img.shields.io/badge/OTA-Bootloader%20%2F%20Flash-2DD4BF?style=flat-square&labelColor=F0FDFA" />
+  <img src="https://img.shields.io/badge/MCU-STM32%20%2F%20GD32%20%2F%20CH32-60A5FA?style=flat-square&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/PORT-AT32%20%2F%20PY32%20%2F%20Renesas%20RA-A78BFA?style=flat-square&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/ARCH-HAL%20%2F%20LL%20%2F%20CMSIS-2DD4BF?style=flat-square&labelColor=F0FDFA" />
   <img src="https://img.shields.io/badge/DEBUG-GDB%20%2F%20OpenOCD-38BDF8?style=flat-square&labelColor=F0F9FF" />
+</p>
+
+---
+
+## MCU 生态雷达
+
+<p align="center">
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/mcu-ecosystem-radar.svg" alt="MCU ecosystem radar" />
 </p>
 
 ---
@@ -75,12 +83,16 @@
 
 <table align="center">
   <tr>
-    <td align="center"><b>MCU</b><br><sub>STM32 / Cortex-M / HAL / LL / CMSIS</sub></td>
-    <td align="center"><b>RTOS</b><br><sub>FreeRTOS / RT-Thread / 调度 / IPC</sub></td>
+    <td align="center"><b>MCU 生态</b><br><sub>STM32 / GD32 / CH32 / AT32 / PY32 / Renesas RA / APM32</sub></td>
+    <td align="center"><b>平台抽象</b><br><sub>HAL / LL / CMSIS / BSP / Driver / OSAL</sub></td>
   </tr>
   <tr>
-    <td align="center"><b>通信</b><br><sub>UART / SPI / I2C / CAN-FD / Modbus-RTU</sub></td>
-    <td align="center"><b>工程</b><br><sub>CMake / GCC-ARM / OpenOCD / GDB / CI</sub></td>
+    <td align="center"><b>RTOS</b><br><sub>FreeRTOS / RT-Thread / 调度 / IPC / FromISR</sub></td>
+    <td align="center"><b>启动升级</b><br><sub>Bootloader / IAP / OTA / Flash Layout / Watchdog</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><b>通信调试</b><br><sub>UART / SPI / I2C / CAN-FD / RS485 / Modbus-RTU</sub></td>
+    <td align="center"><b>工程工具</b><br><sub>CMake / GCC-ARM / OpenOCD / GDB / J-Link / CI</sub></td>
   </tr>
 </table>
 
@@ -151,7 +163,7 @@
 ## 代码习惯
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=20&duration=2500&pause=700&color=7C3AED&center=true&vCenter=true&width=760&lines=代码能跑，也要能查问题;中断里少做事，状态要能看见;README+写清楚，未来少受罪" />
+  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=20&duration=2500&pause=700&color=7C3AED&center=true&vCenter=true&width=820&lines=代码能跑，也要能查问题;跨芯片先抽象接口，再适配外设;中断里少做事，状态要能看见;README+写清楚，未来少受罪" />
 </p>
 
 <p align="center">
