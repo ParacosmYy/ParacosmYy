@@ -1,36 +1,27 @@
 <!--
   ============================================================
    ParacosmYy / GS-Paracosm GitHub Profile README
-   方向：中文优先 · 嵌入式工程 · 二次元能量补给
+   中文优先 · 嵌入式 · 轻量二次元
   ============================================================
 -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:E0F7FF,35:EDE9FE,70:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=48&fontAlignY=35&animation=fadeIn&fontAlign=50" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:E0F7FF,35:EDE9FE,70:F8FAFC,100:DCFCE7&text=GS-PARACOSM&fontColor=1E293B&fontSize=46&fontAlignY=35&animation=fadeIn&fontAlign=50" />
 </p>
 
 <h2 align="center">你好，我是 GS-Paracosm</h2>
 
 <p align="center">
-  <b>嵌入式固件 / 实时系统 / 工业通信 / 机器人底层控制</b>
+  <b>嵌入式固件 / RTOS / Bootloader / 工业通信</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/方向-MCU%20固件与实时控制-3B82F6?style=for-the-badge&labelColor=EFF6FF&color=3B82F6" />
-  <img src="https://img.shields.io/badge/关注-Bootloader%20%2F%20OTA%20%2F%20故障诊断-8B5CF6?style=for-the-badge&labelColor=F5F3FF&color=8B5CF6" />
-  <img src="https://img.shields.io/badge/习惯-先看现场再写结论-06B6D4?style=for-the-badge&labelColor=ECFEFF&color=06B6D4" />
+  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=22&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=760&lines=今天也在和+Bug+对线;中断来了先别慌;先看现场，再写结论" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=23&duration=2600&pause=900&color=8B5CF6&center=true&vCenter=true&width=900&lines=今天也在和+Bug+认真对线;中断来了不要慌，先看现场;固件可以严谨，主页也可以可爱一点" />
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="140" alt="anime coding" />
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="160" alt="coding meme" />
-</p>
-<p align="center">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="140" alt="debug mood" />
+  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="135" alt="coding" />
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="155" alt="debug" />
 </p>
 
 <p align="center">
@@ -42,199 +33,73 @@
 
 ## 关于我
 
-我主要做 **MCU 固件开发** 和 **嵌入式底层工程**，关注从芯片外设、实时调度、通信链路到系统可维护性的完整闭环。
-
-比起只把功能跑起来，我更在意这些问题：
-
-- 中断、DMA、缓存、总线和任务调度是否真的稳定；
-- 通信协议是否便于调试、扩展和定位问题；
-- Bootloader / OTA 是否具备校验、回滚、状态恢复能力；
-- 现场问题能不能通过日志、Trace、寄存器现场和工具链快速复现；
-- 工程结构是否适合长期维护，而不是越写越乱。
+写一点嵌入式，修一点 Bug，偶尔把工程整理得顺眼一点。
 
 ---
 
 ## 当前坐标
 
 ```yaml
-姓名 / ID: GS-Paracosm
-所在城市: 西安，中国
-主要方向: MCU 固件、RTOS、工业通信、机器人底层控制
-正在扩展: Embedded Linux、CMake 工程化、自动化构建
-工程偏好: 可诊断、可维护、可升级、可回滚
-常用方法: 示波器 / 逻辑分析仪 / Trace / GDB / addr2line
-当前状态: 二次元能量补给中
+ID: GS-Paracosm
+坐标: 西安
+主线: MCU -> RTOS -> Bootloader -> Embedded Linux
+常用装备: C / CMake / GDB / J-Link / 示波器
+今日状态: 编译中，能量还够
 ```
 
----
-
-## 二次元运行状态
-
 <p align="center">
-  <img src="https://img.shields.io/badge/编译中-请稍等-60A5FA?style=flat-square&labelColor=EFF6FF" />
-  <img src="https://img.shields.io/badge/调试中-捕获现场-A78BFA?style=flat-square&labelColor=F5F3FF" />
-  <img src="https://img.shields.io/badge/状态-能量充足-2DD4BF?style=flat-square&labelColor=F0FDFA" />
+  <img src="https://img.shields.io/badge/状态-编译中-60A5FA?style=flat-square&labelColor=EFF6FF" />
+  <img src="https://img.shields.io/badge/心情-低功耗待机-A78BFA?style=flat-square&labelColor=F5F3FF" />
+  <img src="https://img.shields.io/badge/Bug-正在排队-2DD4BF?style=flat-square&labelColor=F0FDFA" />
 </p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="120" alt="写代码中" />
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="120" alt="疯狂调试" />
-</p>
-<p align="center">
-  <sub><b>写代码中</b></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub><b>疯狂调试</b></sub>
-</p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="灵感上线" />
-  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="120" alt="摸鱼恢复" />
-</p>
-<p align="center">
-  <sub><b>灵感上线</b></sub>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sub><b>摸鱼恢复</b></sub>
-</p>
-
-```yaml
-runtime_mood:
-  写代码: 保持冷静
-  修 Bug: 先抓现场
-  看波形: 逐帧分析
-  二次元能量: 已注入
-```
-
-> 技术可以严谨，主页可以可爱。今天也要把问题定位到寄存器级别。
 
 ---
 
 ## 技术栈
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,git,github,vscode&theme=light" />
+</p>
 
-### MCU 与外设
-
-- STM32 / Cortex-M4 / Cortex-M7
-- CMSIS / HAL / LL
-- NVIC / DMA / TIM / PWM / ADC
-- Flash / VTOR / MPU / Cache
-- 看门狗、低功耗、启动流程
-
-</td>
-<td width="50%" valign="top">
-
-### 实时系统
-
-- FreeRTOS / RT-Thread / CMSIS-RTOS2
-- Task / Queue / Semaphore / EventGroup
-- ISR 与任务同步
-- PendSV / SysTick / 调度分析
-- 栈溢出、死锁、优先级反转排查
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 工业通信
-
-- CAN / CAN-FD
-- Modbus-RTU
-- UART / SPI / I2C
-- 协议帧设计与链路诊断
-- 设备状态机与异常恢复
-
-</td>
-<td width="50%" valign="top">
-
-### 构建与调试
-
-- C / C++ / CMake / Make
-- GCC-ARM / clangd / VSCode
-- J-Link / OpenOCD / GDB
-- Docker / 本地 CI
-- HardFault / BusFault / 现场还原
-
-</td>
-</tr>
-</table>
+| 方向 | 内容 |
+|------|------|
+| MCU | STM32 / Cortex-M / HAL / LL / CMSIS |
+| RTOS | FreeRTOS / RT-Thread / 任务调度 / IPC |
+| 通信 | UART / SPI / I2C / CAN-FD / Modbus-RTU |
+| 工程 | CMake / GCC-ARM / OpenOCD / GDB / CI |
 
 ---
 
-## 我更关注的工程块
+## 项目关注
 
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### Bootloader / OTA
-
-- Bootloader + 双 APP 分区
-- 固件 CRC / 签名校验
-- 升级状态机
-- 失败回滚与断电恢复
-
-</td>
-<td width="33%" valign="top">
-
-### 故障诊断
-
-- HardFault / BusFault 分析
-- 栈、寄存器、调用现场保留
-- map / elf / addr2line 定位
-- 现场复现与最小化验证
-
-</td>
-<td width="33%" valign="top">
-
-### 机器人底层控制
-
-- MCU 与上位机协同
-- CAN-FD 设备通信
-- 实时控制链路
-- 电机、传感器与状态反馈
-
-</td>
-</tr>
-</table>
+- `GS_ETERNALCHIP`：嵌入式项目合集，主线是 Bootloader / OTA。
+- `GS_Thread`：类 RT-Thread 内核复刻。
+- `GS_Tool`：嵌入式调试工具站 EmbedDebug。
+- `GS_Skills`：MCU 工程能力库和规范沉淀。
 
 ---
 
-## 代码与项目习惯
+## 代码习惯
 
-- 目录结构尽量清楚：BSP、Driver、Service、App 分层明确；
-- 接口优先考虑长期维护，不把业务逻辑塞进中断；
-- 关键状态必须可观测，关键错误必须可追踪；
-- 能用工具确认的问题，不只靠猜；
-- 能自动化的构建、检查、烧录和验证，尽量自动化。
+- 代码能跑，也要能查问题；
+- 中断里少做事，状态要能看见；
+- README 写清楚，未来的自己少受罪。
 
 ---
 
 ## GitHub 数据
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&locale=cn" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&locale=cn" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=ParacosmYy&show_icons=true&theme=transparent&hide_border=true&locale=cn" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParacosmYy&layout=compact&theme=transparent&hide_border=true&locale=cn" />
 </p>
 
 ---
 
-## 欢迎交流
-
-如果你也关注 **嵌入式固件、工业通信、实时系统、机器人底层控制、嵌入式工程化**，可以通过 GitHub 和我交流。
-
 <p align="center">
-  <a href="https://github.com/ParacosmYy">
-    <img src="https://img.shields.io/badge/GitHub-ParacosmYy-2563EB?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+  <sub><b>少一点玄学，多一点现场；少一点堆砌，多一点能维护的工程。</b></sub>
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="ending anime meme" />
-</p>
-
-<p align="center">
-  <sub><b>少一点玄学，多一点现场；少一点堆砌，多一点工程闭环；再加一点二次元能量。</b></sub>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:DCFCE7,35:F8FAFC,70:EDE9FE,100:E0F7FF" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:DCFCE7,35:F8FAFC,70:EDE9FE,100:E0F7FF" width="100%" />
 </p>
