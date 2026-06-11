@@ -32,14 +32,7 @@
 ## 当前坐标
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2600&pause=500&color=0F766E&center=true&vCenter=true&width=900&lines=ID%3A+GS-Paracosm;LOCATION%3A+Xi'an;CURRENT%3A+MCU+Ecosystem+%2F+EtherCAT+%2F+Bootloader+%2F+OTA;NEXT%3A+FOC+%2F+BLDC+%2F+CiA402+%2F+Multi-Axis+Servo;LATER%3A+ROS+%2F+ROS2+%2F+BLE+Low+Power;TOOLS%3A+C+%2F+CMake+%2F+GDB+%2F+J-Link+%2F+OpenOCD" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/MCU-STM32%20%2F%20GD32%20%2F%20CH32-60A5FA?style=flat-square&labelColor=EFF6FF" />
-  <img src="https://img.shields.io/badge/CURRENT-EtherCAT-2DD4BF?style=flat-square&labelColor=F0FDFA" />
-  <img src="https://img.shields.io/badge/NEXT-FOC%20%2F%20CiA402-A78BFA?style=flat-square&labelColor=F5F3FF" />
-  <img src="https://img.shields.io/badge/LATER-ROS%20%2F%20BLE-38BDF8?style=flat-square&labelColor=F0F9FF" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/current-coordinate.svg" alt="current coordinate" />
 </p>
 
 ---
