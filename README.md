@@ -45,22 +45,6 @@
 
 ---
 
-## MCU 生态雷达
-
-<p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/mcu-ecosystem-radar.svg" alt="MCU ecosystem radar" />
-</p>
-
----
-
-## 工程主线
-
-<p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/embedded-roadmap.svg" alt="embedded roadmap" />
-</p>
-
----
-
 ## 进阶路线
 
 <p align="center">
@@ -127,19 +111,11 @@
 </p>
 
 <p align="center">
-  <img width="88%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/github-metrics.svg" alt="github metrics" />
-</p>
-
-<p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
     <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" alt="contribution snake" />
   </picture>
-</p>
-
-<p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=ParacosmYy&theme=github-light&hide_border=true&area=true&radius=10&color=2563EB&title_color=2563EB&line=A78BFA&point=2DD4BF&area_color=DBEAFE&custom_title=Runtime%20Activity" />
 </p>
 
 <p align="center">
