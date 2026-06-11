@@ -23,23 +23,8 @@
 
 ## 运行窗口
 
-<table align="center">
-  <tr>
-    <td align="center" width="25%"><img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="120" alt="runtime-1" /></td>
-    <td align="center" width="25%"><img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="145" alt="runtime-2" /></td>
-    <td align="center" width="25%"><img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="120" alt="runtime-3" /></td>
-    <td align="center" width="25%"><img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="120" alt="runtime-4" /></td>
-  </tr>
-  <tr>
-    <td align="center"><sub>BOOT</sub></td>
-    <td align="center"><sub>DEBUG</sub></td>
-    <td align="center"><sub>BUILD</sub></td>
-    <td align="center"><sub>STANDBY</sub></td>
-  </tr>
-</table>
-
 <p align="center">
-  写一点嵌入式，修一点 Bug，偶尔把工程整理得顺眼一点。
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/runtime-console.svg" alt="runtime console" />
 </p>
 
 ---
