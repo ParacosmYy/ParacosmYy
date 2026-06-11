@@ -6,11 +6,11 @@
 -->
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-hero.svg" alt="GS-PARACOSM profile hero" />
+  <img width="100%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-hero-v3.svg" alt="GS-PARACOSM profile hero" />
 </p>
 
 <p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-signal.svg" alt="profile signal" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-signal-v3.svg" alt="profile signal" />
 </p>
 
 <p align="center">
@@ -37,6 +37,14 @@
 
 ---
 
+## 技术栈
+
+<p align="center">
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/tech-stack-map-v3.svg" alt="tech stack map" />
+</p>
+
+---
+
 ## MCU 生态雷达
 
 <p align="center">
@@ -56,15 +64,7 @@
 ## 进阶路线
 
 <p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/advanced-tech-roadmap.svg" alt="advanced embedded roadmap" />
-</p>
-
----
-
-## 技术栈
-
-<p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/tech-stack-map.svg" alt="tech stack map" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/advanced-tech-roadmap-v3.svg" alt="advanced embedded roadmap" />
 </p>
 
 ---
@@ -82,7 +82,7 @@
 ## 项目矩阵
 
 <p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/project-matrix.svg" alt="project matrix" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/project-matrix-v3.svg" alt="project matrix" />
 </p>
 
 <table align="center">
@@ -123,6 +123,10 @@
 ## 动态轨迹
 
 <p align="center">
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/activity-panel-v3.svg" alt="activity panel" />
+</p>
+
+<p align="center">
   <img width="88%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/github-metrics.svg" alt="github metrics" />
 </p>
 
@@ -148,7 +152,7 @@
 ## 代码习惯
 
 <p align="center">
-  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/code-principles.svg" alt="code principles" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/code-principles-v3.svg" alt="code principles" />
 </p>
 
 <p align="center">
