@@ -1,0 +1,112 @@
+<svg width="980" height="280" viewBox="0 0 980 280" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Code Principles V3</title>
+  <desc id="desc">Engineering rules pipeline from requirement input to interface contract, driver layer, observability, verification and release archive.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E0F7FF"/>
+      <stop offset="0.36" stop-color="#F8FAFC"/>
+      <stop offset="0.7" stop-color="#F5F3FF"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="64" y1="0" x2="916" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-25%" width="124%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#60A5FA" flood-opacity="0.11"/>
+    </filter>
+    <style>
+      .title{font:800 25px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B;letter-spacing:0}
+      .sub{font:650 12px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B;letter-spacing:0}
+      .stage{font:850 13px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A;letter-spacing:0}
+      .meta{font:650 10.5px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B;letter-spacing:0}
+      .num{font:850 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB;letter-spacing:0}
+      .gate{font:800 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#475569;letter-spacing:0}
+      .card{fill:rgba(255,255,255,.86);stroke:#DBEAFE;stroke-width:1.1;filter:url(#shadow)}
+      .rule{fill:rgba(248,250,252,.76);stroke:#CBD5E1;stroke-width:1;stroke-dasharray:6 8}
+      .pipe{stroke:url(#pipe);stroke-width:3.2;stroke-linecap:round;stroke-dasharray:36 720;animation:flow 5s linear infinite;filter:drop-shadow(0 0 8px rgba(96,165,250,.28))}
+      .thin{stroke:#CBD5E1;stroke-width:1.1;stroke-dasharray:5 9;animation:dash 6s linear infinite;opacity:.8}
+      .node{animation:float 4s ease-in-out infinite;transform-origin:center}.d2{animation-delay:.18s}.d3{animation-delay:.36s}.d4{animation-delay:.54s}.d5{animation-delay:.72s}.d6{animation-delay:.9s}
+      .pulse{animation:pulse 1.8s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-756}}
+      @keyframes dash{to{stroke-dashoffset:-56}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+      @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="978" height="278" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
+  <path class="thin" d="M52 92 H928M52 208 H928"/>
+  <path class="thin" d="M124 76 V224M276 76 V224M428 76 V224M580 76 V224M732 76 V224M884 76 V224"/>
+
+  <text x="40" y="44" class="title">Code Principles V3</text>
+  <text x="40" y="67" class="sub">工程规则流水线：需求进来先约束边界，代码落地后必须能观测、能验证、能追溯。</text>
+
+  <g transform="translate(736 30)">
+    <rect width="164" height="28" rx="14" fill="#F0FDFA" stroke="#2DD4BF"/>
+    <circle class="pulse" cx="18" cy="14" r="5" fill="#2DD4BF"/>
+    <text x="88" y="18" text-anchor="middle" class="num">RULE PIPELINE</text>
+  </g>
+
+  <path class="pipe" d="M72 154 H908"/>
+  <path d="M908 154 L894 146 M908 154 L894 162" stroke="#2DD4BF" stroke-width="3.2" stroke-linecap="round"/>
+
+  <g class="node">
+    <rect class="card" x="56" y="104" width="126" height="100" rx="16"/>
+    <rect x="78" y="123" width="32" height="20" rx="10" fill="#EFF6FF" stroke="#60A5FA"/>
+    <text x="94" y="137" text-anchor="middle" class="num">01</text>
+    <text x="78" y="164" class="stage">需求输入</text>
+    <text x="78" y="185" class="meta">现场问题先定义</text>
+  </g>
+
+  <g class="node d2">
+    <rect class="card" x="208" y="96" width="126" height="116" rx="16"/>
+    <rect x="230" y="116" width="32" height="20" rx="10" fill="#F5F3FF" stroke="#A78BFA"/>
+    <text x="246" y="130" text-anchor="middle" class="num">02</text>
+    <text x="230" y="157" class="stage">接口约束</text>
+    <text x="230" y="178" class="meta">先抽象再适配</text>
+    <text x="230" y="195" class="meta">HAL / BSP / OSAL</text>
+  </g>
+
+  <g class="node d3">
+    <rect class="card" x="360" y="104" width="126" height="100" rx="16"/>
+    <rect x="382" y="123" width="32" height="20" rx="10" fill="#E0F2FE" stroke="#22D3EE"/>
+    <text x="398" y="137" text-anchor="middle" class="num">03</text>
+    <text x="382" y="164" class="stage">状态实现</text>
+    <text x="382" y="185" class="meta">状态机优先</text>
+  </g>
+
+  <g class="node d4">
+    <rect class="card" x="512" y="96" width="126" height="116" rx="16"/>
+    <rect x="534" y="116" width="32" height="20" rx="10" fill="#ECFDF5" stroke="#2DD4BF"/>
+    <text x="550" y="130" text-anchor="middle" class="num">04</text>
+    <text x="534" y="157" class="stage">可观测</text>
+    <text x="534" y="178" class="meta">日志 / Trace / 断言</text>
+    <path d="M534 194 H614" stroke="#2DD4BF" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="12 8">
+      <animate attributeName="stroke-dashoffset" values="0;-40" dur="2.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g class="node d5">
+    <rect class="card" x="664" y="104" width="126" height="100" rx="16"/>
+    <rect x="686" y="123" width="32" height="20" rx="10" fill="#EFF6FF" stroke="#60A5FA"/>
+    <text x="702" y="137" text-anchor="middle" class="num">05</text>
+    <text x="686" y="164" class="stage">回归验证</text>
+    <text x="686" y="185" class="meta">最小闭环再扩展</text>
+  </g>
+
+  <g class="node d6">
+    <rect class="card" x="816" y="96" width="126" height="116" rx="16"/>
+    <rect x="838" y="116" width="32" height="20" rx="10" fill="#F0FDFA" stroke="#14B8A6"/>
+    <text x="854" y="130" text-anchor="middle" class="num">06</text>
+    <text x="838" y="157" class="stage">版本归档</text>
+    <text x="838" y="178" class="meta">标签 / 文档 / 复盘</text>
+    <text x="838" y="195" class="meta">可回滚才可发布</text>
+  </g>
+
+  <g transform="translate(98 234)">
+    <rect class="rule" width="784" height="24" rx="12"/>
+    <text x="392" y="16" text-anchor="middle" class="gate">少一点玄学，多一点证据；少一点堆砌，多一点能维护的工程边界。</text>
+  </g>
+</svg>
