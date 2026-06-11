@@ -1,97 +1,80 @@
-<svg width="980" height="300" viewBox="0 0 980 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .title { font: 700 24px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #1E293B; }
-    .sub { font: 500 13px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
-    .name { font: 700 14px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #0F172A; }
-    .meta { font: 500 11px 'Segoe UI', 'Microsoft YaHei', sans-serif; fill: #64748B; }
-    .wire { stroke: #C7D2FE; stroke-width: 3; stroke-linecap: round; }
-    .live { stroke: #60A5FA; stroke-width: 3; stroke-linecap: round; stroke-dasharray: 22 420; animation: flow 3.8s linear infinite; filter: drop-shadow(0 0 8px rgba(96,165,250,.5)); }
-    .node rect { fill: rgba(255,255,255,.72); stroke: #DBEAFE; stroke-width: 1.1; }
-    .node { animation: float 3.2s ease-in-out infinite; }
-    .node:nth-of-type(2) { animation-delay: .15s; }
-    .node:nth-of-type(3) { animation-delay: .3s; }
-    .node:nth-of-type(4) { animation-delay: .45s; }
-    .node:nth-of-type(5) { animation-delay: .6s; }
-    .node:nth-of-type(6) { animation-delay: .75s; }
-    .node:nth-of-type(7) { animation-delay: .9s; }
-    .node:nth-of-type(8) { animation-delay: 1.05s; }
-    @keyframes flow { to { stroke-dashoffset: -442; } }
-    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
-  </style>
-
-  <rect x="1" y="1" width="978" height="298" rx="24" fill="url(#bg)" stroke="#E0F2FE"/>
-  <text x="40" y="45" class="title">GS_ETERNALCHIP Branch Map</text>
-  <text x="40" y="68" class="sub">每个分支保留明确用途：从 LED 驱动到 FreeRTOS，再到 Bootloader / OTA。</text>
-
-  <path class="wire" d="M132 148 H272"/>
-  <path class="wire" d="M272 148 V92 H410"/>
-  <path class="wire" d="M272 148 H410"/>
-  <path class="wire" d="M272 148 V210 H410"/>
-  <path class="wire" d="M548 148 H685"/>
-  <path class="wire" d="M685 148 V92 H828"/>
-  <path class="wire" d="M685 148 V210 H828"/>
-
-  <path class="live" d="M132 148 H272 V92 H410"/>
-  <path class="live" d="M132 148 H410" style="animation-delay:.7s"/>
-  <path class="live" d="M132 148 H272 V210 H410" style="animation-delay:1.4s"/>
-  <path class="live" d="M548 148 H685 V92 H828" style="animation-delay:2.1s"/>
-  <path class="live" d="M548 148 H685 V210 H828" style="animation-delay:2.8s"/>
-
-  <g class="node">
-    <rect x="40" y="112" width="132" height="72" rx="16"/>
-    <circle cx="62" cy="134" r="6" fill="#60A5FA"/>
-    <text x="82" y="139" class="name">master</text>
-    <text x="62" y="162" class="meta">collection entry</text>
-  </g>
-
-  <g class="node">
-    <rect x="410" y="56" width="138" height="72" rx="16"/>
-    <circle cx="432" cy="78" r="6" fill="#A78BFA"/>
-    <text x="452" y="83" class="name">LED_Initial</text>
-    <text x="432" y="106" class="meta">bring-up baseline</text>
-  </g>
-
-  <g class="node">
-    <rect x="410" y="112" width="138" height="72" rx="16"/>
-    <circle cx="432" cy="134" r="6" fill="#2DD4BF"/>
-    <text x="452" y="139" class="name">LED_Driver</text>
-    <text x="432" y="162" class="meta">driver layer</text>
-  </g>
-
-  <g class="node">
-    <rect x="410" y="190" width="174" height="72" rx="16"/>
-    <circle cx="432" cy="212" r="6" fill="#38BDF8"/>
-    <text x="452" y="217" class="name">LED_Bridge_Pattern</text>
-    <text x="432" y="240" class="meta">pattern experiment</text>
-  </g>
-
-  <g class="node">
-    <rect x="612" y="112" width="146" height="72" rx="16"/>
-    <circle cx="634" cy="134" r="6" fill="#818CF8"/>
-    <text x="654" y="139" class="name">FreeRTOS UART</text>
-    <text x="634" y="162" class="meta">task output path</text>
-  </g>
-
-  <g class="node">
-    <rect x="828" y="56" width="112" height="72" rx="16"/>
-    <circle cx="850" cy="78" r="6" fill="#14B8A6"/>
-    <text x="870" y="83" class="name">Bootloader</text>
-    <text x="850" y="106" class="meta">startup chain</text>
-  </g>
-
-  <g class="node">
-    <rect x="828" y="190" width="112" height="72" rx="16"/>
-    <circle cx="850" cy="212" r="6" fill="#2563EB"/>
-    <text x="870" y="217" class="name">OTA Secure</text>
-    <text x="850" y="240" class="meta">upgrade flow</text>
-  </g>
-
+<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GS_ETERNALCHIP branch system</title>
+  <desc id="desc">A spacious branch overview using horizontal lanes to avoid crowded nodes.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F0F9FF"/>
-      <stop offset="0.35" stop-color="#F5F3FF"/>
-      <stop offset="0.7" stop-color="#FFFFFF"/>
+      <stop offset="0.42" stop-color="#F5F3FF"/>
+      <stop offset="0.72" stop-color="#FFFFFF"/>
       <stop offset="1" stop-color="#ECFDF5"/>
     </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <style>
+      .title{font:800 25px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A}
+      .sub{font:600 13px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}
+      .lane{font:800 14px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB}
+      .name{font:800 15px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A}
+      .meta{font:600 12px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}
+      .chip{font:800 11px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB}
+      .row{fill:rgba(255,255,255,.72);stroke:#DBEAFE;stroke-width:1.2;filter:drop-shadow(0 10px 24px rgba(96,165,250,.12))}
+      .bar{stroke:url(#flow);stroke-width:3;stroke-linecap:round;stroke-dasharray:52 560;animation:flow 4.8s linear infinite;opacity:.72}
+      .pulse{animation:pulse 2.4s ease-in-out infinite}
+      .float{animation:float 4s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-612}}
+      @keyframes pulse{0%,100%{opacity:.42}50%{opacity:1}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+    </style>
   </defs>
+
+  <rect x="1" y="1" width="978" height="358" rx="24" fill="url(#bg)" stroke="#E0F2FE"/>
+  <circle class="pulse" cx="910" cy="43" r="7" fill="#2DD4BF"/>
+  <circle class="pulse" cx="932" cy="43" r="7" fill="#60A5FA" style="animation-delay:.35s"/>
+  <text x="40" y="46" class="title">GS_ETERNALCHIP Branch System</text>
+  <text x="40" y="70" class="sub">嵌入式项目合集仓：每条分支只表达一个明确实验目的，主页只展示大类，不再堆小节点。</text>
+
+  <g class="float">
+    <rect class="row" x="40" y="92" width="900" height="54" rx="16"/>
+    <path class="bar" d="M238 124 H900"/>
+    <circle cx="216" cy="124" r="7" fill="#60A5FA"/>
+    <text x="64" y="121" class="lane">LED Bring-up</text>
+    <text x="244" y="116" class="name">LED_Initial / LED_Driver / LED_Bridge</text>
+    <text x="244" y="136" class="meta">从点灯基线到驱动层，再到显示模式实验。</text>
+    <rect x="776" y="106" width="96" height="28" rx="14" fill="#EFF6FF" stroke="#93C5FD"/>
+    <text x="824" y="125" text-anchor="middle" class="chip">DRIVER</text>
+  </g>
+
+  <g class="float" style="animation-delay:.25s">
+    <rect class="row" x="40" y="158" width="900" height="54" rx="16"/>
+    <path class="bar" d="M238 190 H900" style="animation-delay:.7s"/>
+    <circle cx="216" cy="190" r="7" fill="#A78BFA"/>
+    <text x="64" y="187" class="lane">RTOS &amp; IO</text>
+    <text x="244" y="182" class="name">freertos_uart_output / key_led</text>
+    <text x="244" y="202" class="meta">任务输出、按键输入、基础调度和外设联动。</text>
+    <rect x="776" y="172" width="96" height="28" rx="14" fill="#F5F3FF" stroke="#C4B5FD"/>
+    <text x="824" y="191" text-anchor="middle" class="chip">TASK</text>
+  </g>
+
+  <g class="float" style="animation-delay:.5s">
+    <rect class="row" x="40" y="224" width="900" height="54" rx="16"/>
+    <path class="bar" d="M238 256 H900" style="animation-delay:1.4s"/>
+    <circle cx="216" cy="256" r="7" fill="#2DD4BF"/>
+    <text x="64" y="253" class="lane">Boot Chain</text>
+    <text x="244" y="248" class="name">OTA_Bootloader / OTA_Encrypted_Upgrade</text>
+    <text x="244" y="268" class="meta">启动链路、升级入口、加密升级验证路径。</text>
+    <rect x="776" y="238" width="96" height="28" rx="14" fill="#F0FDFA" stroke="#5EEAD4"/>
+    <text x="824" y="257" text-anchor="middle" class="chip">IAP/OTA</text>
+  </g>
+
+  <g class="float" style="animation-delay:.75s">
+    <rect class="row" x="40" y="290" width="900" height="46" rx="16"/>
+    <path class="bar" d="M238 318 H900" style="animation-delay:2.1s"/>
+    <circle cx="216" cy="318" r="7" fill="#38BDF8"/>
+    <text x="64" y="317" class="lane">Main Index</text>
+    <text x="244" y="313" class="name">master / branch map / README standard</text>
+    <text x="244" y="330" class="meta">主分支负责索引、规范、入口说明，不混放实验代码。</text>
+  </g>
 </svg>
