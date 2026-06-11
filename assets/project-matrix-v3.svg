@@ -1,0 +1,120 @@
+<svg width="980" height="360" viewBox="0 0 980 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project Matrix V3</title>
+  <desc id="desc">Engineering topology for GS_ETERNALCHIP, GS_Thread, GS_Tool, GS_Skills, GCC_Cmake_ARM and GS_watch.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E0F7FF"/>
+      <stop offset="0.34" stop-color="#F5F3FF"/>
+      <stop offset="0.68" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E7FFF5"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-90 0;90 0;-90 0" dur="11s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="90" y1="0" x2="890" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <linearGradient id="coreFill" x1="355" y1="105" x2="625" y2="224" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="0.55" stop-color="#F8FAFC" stop-opacity="0.94"/>
+      <stop offset="1" stop-color="#F0FDFA" stop-opacity="0.92"/>
+    </linearGradient>
+    <filter id="soft" x="-15%" y="-25%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#60A5FA" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title{font:800 25px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B;letter-spacing:0}
+      .sub{font:650 12px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B;letter-spacing:0}
+      .label{font:800 16px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A;letter-spacing:0}
+      .meta{font:650 11px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B;letter-spacing:0}
+      .tiny{font:800 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB;letter-spacing:0}
+      .lane{font:800 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B;letter-spacing:0}
+      .card{fill:rgba(255,255,255,.86);stroke:#DBEAFE;stroke-width:1.1;filter:url(#soft)}
+      .core{fill:url(#coreFill);stroke:#A78BFA;stroke-width:1.6;filter:url(#soft);animation:pulse 3.8s ease-in-out infinite;transform-origin:center}
+      .wire{stroke:url(#edge);stroke-width:2.2;stroke-linecap:round;stroke-dasharray:12 13;animation:flow 5s linear infinite;opacity:.74}
+      .bus{stroke:#CBD5E1;stroke-width:1.1;stroke-dasharray:5 9;opacity:.82;animation:grid 7s linear infinite}
+      .node{animation:float 4.2s ease-in-out infinite;transform-origin:center}
+      .n2{animation-delay:.2s}.n3{animation-delay:.4s}.n4{animation-delay:.6s}.n5{animation-delay:.8s}.n6{animation-delay:1s}
+      .dot{animation:blink 1.9s ease-in-out infinite}
+      @keyframes flow{to{stroke-dashoffset:-75}}
+      @keyframes grid{to{stroke-dashoffset:-56}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.012)}}
+      @keyframes blink{0%,100%{opacity:.38}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="978" height="358" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
+  <path class="bus" d="M42 88 H938M42 164 H938M42 240 H938M42 316 H938"/>
+  <path class="bus" d="M118 56 V324M282 56 V324M490 56 V324M698 56 V324M862 56 V324"/>
+
+  <text x="40" y="44" class="title">Project Matrix V3</text>
+  <text x="40" y="67" class="sub">firmware trunk / kernel primitive / debug tooling / build system / skill base / wearable runtime</text>
+  <text x="828" y="46" class="lane">ENGINEERING TOPOLOGY</text>
+  <rect x="820" y="56" width="112" height="6" rx="3" fill="#DBEAFE"/>
+  <rect x="820" y="56" width="78" height="6" rx="3" fill="url(#edge)">
+    <animate attributeName="width" values="50;112;50" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <path class="wire" d="M490 165 C416 114 346 104 270 112"/>
+  <path class="wire" d="M490 165 C564 114 634 104 710 112"/>
+  <path class="wire" d="M490 165 C412 204 350 220 270 232"/>
+  <path class="wire" d="M490 165 C568 204 630 220 710 232"/>
+  <path class="wire" d="M490 206 C500 250 560 286 710 292"/>
+  <path class="wire" d="M490 206 C480 250 420 286 270 292"/>
+
+  <g>
+    <rect class="core" x="355" y="108" width="270" height="116" rx="22"/>
+    <circle class="dot" cx="384" cy="138" r="7" fill="#A78BFA"/>
+    <text x="490" y="144" text-anchor="middle" class="label">GS_ETERNALCHIP</text>
+    <text x="490" y="168" text-anchor="middle" class="meta">embedded project collection as the main integration trunk</text>
+    <g transform="translate(392 187)">
+      <rect width="62" height="22" rx="11" fill="#EFF6FF" stroke="#60A5FA"/>
+      <text x="31" y="15" text-anchor="middle" class="tiny">BOOT</text>
+      <rect x="72" width="48" height="22" rx="11" fill="#F5F3FF" stroke="#A78BFA"/>
+      <text x="96" y="15" text-anchor="middle" class="tiny">OTA</text>
+      <rect x="130" width="80" height="22" rx="11" fill="#F0FDFA" stroke="#2DD4BF"/>
+      <text x="170" y="15" text-anchor="middle" class="tiny">BRANCH LAB</text>
+    </g>
+  </g>
+
+  <g class="node n2">
+    <rect class="card" x="70" y="84" width="250" height="82" rx="17"/>
+    <circle cx="100" cy="115" r="7" fill="#60A5FA"/>
+    <text x="122" y="121" class="label">GS_Thread</text>
+    <text x="100" y="145" class="meta">scheduler / IPC / object model</text>
+    <text x="268" y="112" text-anchor="end" class="tiny">KERNEL</text>
+  </g>
+
+  <g class="node n3">
+    <rect class="card" x="660" y="84" width="250" height="82" rx="17"/>
+    <circle cx="690" cy="115" r="7" fill="#A78BFA"/>
+    <text x="712" y="121" class="label">GS_Tool</text>
+    <text x="690" y="145" class="meta">EmbedDebug / field diagnosis / traces</text>
+    <text x="858" y="112" text-anchor="end" class="tiny">TOOLS</text>
+  </g>
+
+  <g class="node n4">
+    <rect class="card" x="70" y="204" width="250" height="82" rx="17"/>
+    <circle cx="100" cy="235" r="7" fill="#22D3EE"/>
+    <text x="122" y="241" class="label">GCC_Cmake_ARM</text>
+    <text x="100" y="265" class="meta">ARM GCC / CMake / reproducible build</text>
+    <text x="268" y="232" text-anchor="end" class="tiny">BUILD</text>
+  </g>
+
+  <g class="node n5">
+    <rect class="card" x="660" y="204" width="250" height="82" rx="17"/>
+    <circle cx="690" cy="235" r="7" fill="#2DD4BF"/>
+    <text x="712" y="241" class="label">GS_Skills</text>
+    <text x="690" y="265" class="meta">MCU rules / workflows / review memory</text>
+    <text x="858" y="232" text-anchor="end" class="tiny">KNOWLEDGE</text>
+  </g>
+
+  <g class="node n6">
+    <rect class="card" x="365" y="266" width="250" height="58" rx="17"/>
+    <circle cx="395" cy="295" r="7" fill="#14B8A6"/>
+    <text x="417" y="300" class="label">GS_watch</text>
+    <text x="530" y="300" class="meta">wearable boot / app / debug branches</text>
+    <text x="586" y="288" text-anchor="end" class="tiny">PRODUCT RUNTIME</text>
+  </g>
+</svg>
