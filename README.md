@@ -100,6 +100,10 @@
 
 ## 项目矩阵
 
+<p align="center">
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/project-matrix.svg" alt="project matrix" />
+</p>
+
 <table align="center">
   <tr>
     <td width="50%">
@@ -119,6 +123,16 @@
     <td width="50%">
       <a href="https://github.com/ParacosmYy/GS_Skills"><b>GS_Skills</b></a><br>
       <sub>MCU 工程能力库，沉淀规范、流程和经验。</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <a href="https://github.com/ParacosmYy/GCC_Cmake_ARM"><b>GCC_Cmake_ARM</b></a><br>
+      <sub>ARM GCC + CMake 模板，面向可复现构建和本地 CI。</sub>
+    </td>
+    <td width="50%">
+      <a href="https://github.com/ParacosmYy/GS_watch"><b>GS_watch</b></a><br>
+      <sub>智能手表 Bootloader / APP / 调试分支工程。</sub>
     </td>
   </tr>
 </table>
