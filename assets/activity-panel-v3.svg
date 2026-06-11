@@ -1,15 +1,58 @@
-<svg width="980" height="220" viewBox="0 0 980 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Activity panel</title><desc id="desc">Local frame for GitHub activity visuals.</desc>
-  <defs><linearGradient id="bg" x1="0" y1="0" x2="980" y2="220"><stop stop-color="#EFF6FF"/><stop offset="0.42" stop-color="#F8FAFC"/><stop offset="0.72" stop-color="#F5F3FF"/><stop offset="1" stop-color="#ECFDF5"/></linearGradient><linearGradient id="trace" x1="52" y1="0" x2="928" y2="0"><stop stop-color="#60A5FA"/><stop offset="0.46" stop-color="#A78BFA"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient><style>.title{font:900 25px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B}.sub{font:650 12px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}.name{font:900 14px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A}.meta{font:650 10.5px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}.chip{font:900 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB}.slot{fill:rgba(255,255,255,.86);stroke:#DBEAFE;stroke-width:1.1;filter:drop-shadow(0 10px 18px rgba(96,165,250,.09))}.trace{stroke:url(#trace);stroke-width:3;stroke-linecap:round;stroke-dasharray:34 620;animation:move 5s linear infinite}.thin{stroke:url(#trace);stroke-width:1.5;stroke-linecap:round;stroke-dasharray:8 12;animation:dash 5s linear infinite;opacity:.58}.float{animation:float 4s ease-in-out infinite}.blink{animation:blink 1.8s ease-in-out infinite}@keyframes move{to{stroke-dashoffset:-654}}@keyframes dash{to{stroke-dashoffset:-60}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}@keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}</style></defs>
-  <rect x="1" y="1" width="978" height="218" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
-  <text x="40" y="44" class="title">Dynamic Trace</text><text x="40" y="67" class="sub">统一远程统计图的浅色仪表盘框架。</text>
-  <g transform="translate(770 30)"><rect width="134" height="28" rx="14" fill="#EFF6FF" stroke="#60A5FA"/><circle class="blink" cx="18" cy="14" r="5" fill="#2DD4BF"/><text x="76" y="18" text-anchor="middle" class="chip">TRACE ONLINE</text></g>
-  <path class="trace" d="M58 136 C160 92 232 176 334 132 S514 92 620 134 S804 176 922 112"/>
-  <path class="thin" d="M128 96 H852M128 176 H852"/>
-  <g class="float"><rect class="slot" x="58" y="104" width="152" height="68" rx="16"/><circle cx="84" cy="129" r="7" fill="#60A5FA"/><text x="104" y="134" class="name">Metrics</text><text x="84" y="156" class="meta">local metrics</text></g>
-  <g class="float"><rect class="slot" x="246" y="104" width="152" height="68" rx="16"/><circle cx="272" cy="129" r="7" fill="#A78BFA"/><text x="292" y="134" class="name">Contribution</text><text x="272" y="156" class="meta">snake grid</text></g>
-  <g class="float"><rect class="slot" x="434" y="96" width="152" height="84" rx="16"/><circle cx="460" cy="123" r="7" fill="#22D3EE"/><text x="480" y="128" class="name">Activity</text><text x="460" y="151" class="meta">graph signal</text><path d="M460 164 L482 154 L504 160 L526 138 L550 148" stroke="#22D3EE" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>
-  <g class="float"><rect class="slot" x="622" y="104" width="152" height="68" rx="16"/><circle cx="648" cy="129" r="7" fill="#2DD4BF"/><text x="668" y="134" class="name">Stats</text><text x="648" y="156" class="meta">profile counters</text></g>
-  <g class="float"><rect class="slot" x="810" y="104" width="112" height="68" rx="16"/><circle cx="836" cy="129" r="7" fill="#14B8A6"/><text x="856" y="134" class="name">Streak</text><text x="836" y="156" class="meta">continuity</text></g>
-  <text x="490" y="203" text-anchor="middle" class="sub">远程统计只保留必要模块，视觉节奏由本地面板统一。</text>
+<svg width="980" height="240" viewBox="0 0 980 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic Trace</title>
+  <desc id="desc">A sparse activity panel with three large modules.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="240">
+      <stop stop-color="#EFF6FF"/><stop offset="0.42" stop-color="#F8FAFC"/><stop offset="0.72" stop-color="#F5F3FF"/><stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="trace" x1="64" y1="0" x2="916" y2="0">
+      <stop stop-color="#60A5FA"/><stop offset="0.48" stop-color="#A78BFA"/><stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <style>
+      .title{font:900 25px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#1E293B}
+      .sub{font:650 12px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}
+      .name{font:900 16px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#0F172A}
+      .meta{font:650 11px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#64748B}
+      .chip{font:900 10px 'Segoe UI','Microsoft YaHei',sans-serif;fill:#2563EB}
+      .slot{fill:rgba(255,255,255,.86);stroke:#DBEAFE;stroke-width:1.1;filter:drop-shadow(0 10px 18px rgba(96,165,250,.09))}
+      .trace{stroke:url(#trace);stroke-width:3.4;stroke-linecap:round;stroke-dasharray:42 620;animation:move 5.2s linear infinite;filter:drop-shadow(0 0 8px rgba(96,165,250,.28))}
+      .thin{stroke:#CBD5E1;stroke-width:1;stroke-dasharray:6 10;animation:dash 7s linear infinite;opacity:.54}
+      .float{animation:float 4s ease-in-out infinite}
+      .blink{animation:blink 1.8s ease-in-out infinite}
+      @keyframes move{to{stroke-dashoffset:-662}}
+      @keyframes dash{to{stroke-dashoffset:-64}}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+      @keyframes blink{0%,100%{opacity:.35}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="978" height="238" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
+  <text x="40" y="44" class="title">Dynamic Trace</text>
+  <text x="40" y="67" class="sub">主页动态区只保留 3 个大模块：本地面板、贡献轨迹、统计状态，避免远程图堆在一起。</text>
+  <g transform="translate(770 30)">
+    <rect width="134" height="28" rx="14" fill="#EFF6FF" stroke="#60A5FA"/>
+    <circle class="blink" cx="18" cy="14" r="5" fill="#2DD4BF"/>
+    <text x="76" y="18" text-anchor="middle" class="chip">TRACE ONLINE</text>
+  </g>
+
+  <path class="thin" d="M76 112 H904M76 192 H904"/>
+  <path class="trace" d="M86 168 C190 114 304 196 408 150 S594 108 696 154 S826 190 906 126"/>
+
+  <g class="float">
+    <rect class="slot" x="64" y="104" width="250" height="88" rx="18"/>
+    <circle cx="96" cy="138" r="8" fill="#60A5FA"/>
+    <text x="124" y="143" class="name">Local Frame</text>
+    <text x="96" y="168" class="meta">统一浅色动态仪表盘，不再重复堆模块。</text>
+  </g>
+  <g class="float" style="animation-delay:.25s">
+    <rect class="slot" x="365" y="104" width="250" height="88" rx="18"/>
+    <circle cx="397" cy="138" r="8" fill="#A78BFA"/>
+    <text x="425" y="143" class="name">Contribution Snake</text>
+    <text x="397" y="168" class="meta">贡献轨迹独立展示，避免和统计图重叠。</text>
+  </g>
+  <g class="float" style="animation-delay:.5s">
+    <rect class="slot" x="666" y="104" width="250" height="88" rx="18"/>
+    <circle cx="698" cy="138" r="8" fill="#2DD4BF"/>
+    <text x="726" y="143" class="name">Profile Stats</text>
+    <text x="698" y="168" class="meta">统计卡片放到下方，动态面板只负责引导。</text>
+  </g>
 </svg>
