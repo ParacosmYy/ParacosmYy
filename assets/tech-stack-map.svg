@@ -1,0 +1,70 @@
+<svg width="980" height="420" viewBox="0 0 980 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Tech stack map</title>
+  <desc id="desc">Animated embedded technology stack map.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="980" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E0F7FF"/>
+      <stop offset="0.38" stop-color="#F5F3FF"/>
+      <stop offset="0.7" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <style>
+      .title { font:800 26px 'Segoe UI','Microsoft YaHei',sans-serif; fill:#1E293B; }
+      .sub { font:600 12px 'Segoe UI','Microsoft YaHei',sans-serif; fill:#64748B; }
+      .core { font:900 20px 'Segoe UI','Microsoft YaHei',sans-serif; fill:#0F172A; }
+      .name { font:800 14px 'Segoe UI','Microsoft YaHei',sans-serif; fill:#0F172A; }
+      .meta { font:600 10.5px 'Segoe UI','Microsoft YaHei',sans-serif; fill:#64748B; }
+      .card { fill:rgba(255,255,255,.84); stroke:#DBEAFE; stroke-width:1.1; filter:drop-shadow(0 12px 20px rgba(96,165,250,.10)); }
+      .core-card { fill:rgba(248,250,252,.95); stroke:#A78BFA; stroke-width:1.7; filter:drop-shadow(0 0 18px rgba(167,139,250,.24)); animation:breathe 2.8s ease-in-out infinite; transform-origin:center; }
+      .edge { stroke:url(#flow); stroke-width:2.1; stroke-linecap:round; stroke-dasharray:10 14; animation:dash 4s linear infinite; opacity:.68; }
+      .ring { stroke:#DBEAFE; stroke-width:1.2; stroke-dasharray:8 10; animation:spin 22s linear infinite; transform-origin:490px 222px; }
+      .ring.slow { stroke:#EDE9FE; animation-duration:30s; animation-direction:reverse; }
+      .node { animation:float 3.4s ease-in-out infinite; transform-origin:center; }
+      .node:nth-of-type(2) { animation-delay:.15s; }
+      .node:nth-of-type(3) { animation-delay:.3s; }
+      .node:nth-of-type(4) { animation-delay:.45s; }
+      .node:nth-of-type(5) { animation-delay:.6s; }
+      .node:nth-of-type(6) { animation-delay:.75s; }
+      .node:nth-of-type(7) { animation-delay:.9s; }
+      .node:nth-of-type(8) { animation-delay:1.05s; }
+      @keyframes dash { to { stroke-dashoffset:-48; } }
+      @keyframes spin { to { transform:rotate(360deg); } }
+      @keyframes float { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-5px); } }
+      @keyframes breathe { 0%,100% { transform:scale(1); } 50% { transform:scale(1.018); } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="978" height="418" rx="28" fill="url(#bg)" stroke="#E0F2FE"/>
+  <text x="40" y="46" class="title">Tech Stack Map</text>
+  <text x="40" y="70" class="sub">从 MCU 生态到平台抽象、运动控制、工业通信、机器人连接和启动升级。</text>
+
+  <circle class="ring" cx="490" cy="222" r="130" fill="none"/>
+  <circle class="ring slow" cx="490" cy="222" r="90" fill="none"/>
+  <path class="edge" d="M490 222 L190 122"/>
+  <path class="edge" d="M490 222 L490 104"/>
+  <path class="edge" d="M490 222 L790 122"/>
+  <path class="edge" d="M490 222 L190 222"/>
+  <path class="edge" d="M490 222 L790 222"/>
+  <path class="edge" d="M490 222 L260 330"/>
+  <path class="edge" d="M490 222 L490 334"/>
+  <path class="edge" d="M490 222 L720 330"/>
+
+  <g class="core-card">
+    <rect x="376" y="178" width="228" height="88" rx="24"/>
+    <text x="490" y="214" text-anchor="middle" class="core">GS-Paracosm</text>
+    <text x="490" y="239" text-anchor="middle" class="sub">embedded firmware runtime</text>
+  </g>
+
+  <g class="node"><rect class="card" x="58" y="92" width="264" height="70" rx="18"/><text x="84" y="121" class="name">MCU 生态</text><text x="84" y="144" class="meta">STM32 / GD32 / CH32 / AT32 / PY32 / RA / APM32</text></g>
+  <g class="node"><rect class="card" x="360" y="74" width="260" height="70" rx="18"/><text x="386" y="103" class="name">平台抽象</text><text x="386" y="126" class="meta">HAL / LL / CMSIS / BSP / Driver / OSAL</text></g>
+  <g class="node"><rect class="card" x="658" y="92" width="264" height="70" rx="18"/><text x="684" y="121" class="name">工业通信</text><text x="684" y="144" class="meta">EtherCAT / CAN-FD / RS485 / Modbus-RTU</text></g>
+  <g class="node"><rect class="card" x="58" y="192" width="264" height="70" rx="18"/><text x="84" y="221" class="name">运动控制</text><text x="84" y="244" class="meta">FOC / BLDC / SVPWM / PID / Current Loop</text></g>
+  <g class="node"><rect class="card" x="658" y="192" width="264" height="70" rx="18"/><text x="684" y="221" class="name">伺服方向</text><text x="684" y="244" class="meta">CiA402 / CoE / Multi-Axis Sync / Homing</text></g>
+  <g class="node"><rect class="card" x="130" y="300" width="260" height="70" rx="18"/><text x="156" y="329" class="name">连接与机器人</text><text x="156" y="352" class="meta">BLE Low Power / ROS / ROS2 / Robot Bridge</text></g>
+  <g class="node"><rect class="card" x="410" y="304" width="160" height="66" rx="18"/><text x="436" y="332" class="name">RTOS</text><text x="436" y="354" class="meta">FreeRTOS / RT-Thread / IPC</text></g>
+  <g class="node"><rect class="card" x="590" y="300" width="260" height="70" rx="18"/><text x="616" y="329" class="name">启动升级</text><text x="616" y="352" class="meta">Bootloader / IAP / OTA / Flash / Watchdog</text></g>
+</svg>
