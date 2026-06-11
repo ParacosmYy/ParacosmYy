@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=24&duration=2200&pause=650&color=2563EB&center=true&vCenter=true&width=920&lines=浅色动态控制台启动中;今天也在和+Bug+对线;STM32+%2F+GD32+%2F+CH32+%2F+AT32+%2F+PY32+雷达扫描中;EtherCAT+在线，CiA402+排队学习中;FOC+%2F+ROS+%2F+BLE+进入下一阶段;先看现场，再写结论" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/profile-signal.svg" alt="profile signal" />
 </p>
 
 <p align="center">
@@ -64,27 +64,8 @@
 ## 技术栈
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,cmake,bash,linux,git,github,vscode,docker&theme=light" />
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/tech-stack-map.svg" alt="tech stack map" />
 </p>
-
-<table align="center">
-  <tr>
-    <td align="center"><b>MCU 生态</b><br><sub>STM32 / GD32 / CH32 / AT32 / PY32 / Renesas RA / APM32</sub></td>
-    <td align="center"><b>平台抽象</b><br><sub>HAL / LL / CMSIS / BSP / Driver / OSAL</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><b>工业通信</b><br><sub>EtherCAT / CAN-FD / RS485 / Modbus-RTU</sub></td>
-    <td align="center"><b>运动控制</b><br><sub>FOC / BLDC / SVPWM / PID / Current Loop</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><b>伺服方向</b><br><sub>CiA402 / CoE / Multi-Axis Sync / Homing</sub></td>
-    <td align="center"><b>连接与机器人</b><br><sub>BLE Low Power / ROS / ROS2 / Robot Bridge</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><b>RTOS</b><br><sub>FreeRTOS / RT-Thread / 调度 / IPC / FromISR</sub></td>
-    <td align="center"><b>启动升级</b><br><sub>Bootloader / IAP / OTA / Flash Layout / Watchdog</sub></td>
-  </tr>
-</table>
 
 ---
 
@@ -167,11 +148,7 @@
 ## 代码习惯
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=ZCOOL+KuaiLe&size=20&duration=2500&pause=700&color=7C3AED&center=true&vCenter=true&width=860&lines=代码能跑，也要能查问题;跨芯片先抽象接口，再适配外设;运动控制先闭环，再谈性能;工业总线先状态机，再谈同步;README+写清楚，未来少受罪" />
-</p>
-
-<p align="center">
-  <sub><b>少一点玄学，多一点现场；少一点堆砌，多一点能维护的工程。</b></sub>
+  <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/code-principles.svg" alt="code principles" />
 </p>
 
 <p align="center">
