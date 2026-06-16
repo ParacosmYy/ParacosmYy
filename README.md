@@ -27,7 +27,7 @@
 <p align="center">
   <strong>🔧 裸机 / RTOS / 驱动</strong> &nbsp;·&nbsp;
   <strong>⚙️ ARM GCC + CMake + CI</strong> &nbsp;·&nbsp;
-  <strong>🧠 51 → rt-thread → FreeRTOS+LVGL</strong> &nbsp;·&nbsp;
+  <strong>🧠 51 → rt-thread → 加密 OTA (AES+ECDSA)</strong> &nbsp;·&nbsp;
   <strong>📐 数学建模 TeX</strong>
 </p>
 
@@ -55,7 +55,7 @@
 |:--|:--|
 | 🔍 | RT-Thread 内核源码深入 |
 | 🛠️ | GCC + CMake + just 工具链 |
-| ⌚ | FreeRTOS + LVGL 智能手表 |
+| 🔐 | 加密 OTA · AES + ECDSA + 双 Bank 防回滚 |
 | 💻 | GS_Tool 嵌入式调试工具 |
 
 <sub>synced with recent 7d repo activity · GS_Thread · GCC_Cmake_ARM · GS_watch · GS_Tool</sub>
@@ -99,7 +99,7 @@
   <tr>
     <td width="50%">
       <a href="https://github.com/ParacosmYy/GS_ETERNALCHIP"><b>GS_ETERNALCHIP</b></a><br>
-      <sub>嵌入式项目合集，Bootloader / OTA / 分支实验主仓。</sub>
+      <sub>嵌入式工程合集主仓 · 含加密 OTA 分支（AES + ECDSA + 双 Bank）+ 内核深耕 + 多分支实验。</sub>
     </td>
     <td width="50%">
       <a href="https://github.com/ParacosmYy/GS_Thread"><b>GS_Thread</b></a><br>
@@ -123,7 +123,7 @@
     </td>
     <td width="50%">
       <a href="https://github.com/ParacosmYy/GS_watch"><b>GS_watch</b></a><br>
-      <sub>智能手表 Bootloader / APP / 调试分支工程。</sub>
+      <sub>STM32F411 IAP Bootloader 实践 · Ymodem + Flash 分区（UI 参考 OV_Watch）。</sub>
     </td>
   </tr>
 </table>
