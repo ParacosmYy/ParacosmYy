@@ -159,8 +159,8 @@
 
 <!-- ===== Contact Badges: replace placeholders before publishing ===== -->
 <p align="center">
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/EMAIL-mail%40paracosm-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:1264206065@qq.com">
+    <img src="https://img.shields.io/badge/EMAIL-1264206065%40qq.com-2563EB?style=for-the-badge&logo=tencentqq&logoColor=white" alt="Email" />
   </a>&nbsp;
   <a href="https://space.bilibili.com/your-bilibili-id">
     <img src="https://img.shields.io/badge/Bilibili-Paracosm-A78BFA?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" />
