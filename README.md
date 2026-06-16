@@ -19,6 +19,19 @@
   <img src="https://img.shields.io/badge/STATUS-RUNTIME%20ONLINE-2DD4BF?style=for-the-badge&labelColor=F0FDFA" />
 </p>
 
+<!-- ===== Elevator Pitch: pure-text fallback for scanners ===== -->
+<p align="center">
+  <em>嵌入式工程师 —— 把"想学习"写成 commit。</em>
+</p>
+
+<p align="center">
+  <strong>🔧 裸机 / RTOS / 驱动</strong> &nbsp;·&nbsp;
+  <strong>⚙️ ARM GCC + CMake + CI</strong> &nbsp;·&nbsp;
+  <strong>🧠 51 → rt-thread → FreeRTOS+LVGL</strong> &nbsp;·&nbsp;
+  <strong>📐 数学建模 TeX</strong>
+</p>
+
+
 ---
 
 ## 运行窗口
@@ -34,6 +47,19 @@
 <p align="center">
   <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/current-coordinate.svg" alt="current coordinate" />
 </p>
+
+<!-- ===== Currently Learning: synced with 7d repo activity ===== -->
+### 🧠 Currently Learning
+
+| | |
+|:--|:--|
+| 🔍 | RT-Thread 内核源码深入 |
+| 🛠️ | GCC + CMake + just 工具链 |
+| ⌚ | FreeRTOS + LVGL 智能手表 |
+| 💻 | GS_Tool 嵌入式调试工具 |
+
+<sub>synced with recent 7d repo activity · GS_Thread · GCC_Cmake_ARM · GS_watch · GS_Tool</sub>
+
 
 ---
 
@@ -129,6 +155,19 @@
 
 <p align="center">
   <img width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/main/assets/code-principles-v3.svg" alt="code principles" />
+</p>
+
+<!-- ===== Contact Badges: replace placeholders before publishing ===== -->
+<p align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/EMAIL-mail%40paracosm-2563EB?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>&nbsp;
+  <a href="https://space.bilibili.com/your-bilibili-id">
+    <img src="https://img.shields.io/badge/Bilibili-Paracosm-A78BFA?style=for-the-badge&logo=bilibili&logoColor=white" alt="Bilibili" />
+  </a>&nbsp;
+  <a href="https://www.zhihu.com/people/your-zhihu-id">
+    <img src="https://img.shields.io/badge/Zhihu-Paracosm-2DD4BF?style=for-the-badge&logo=zhihu&logoColor=white" alt="Zhihu" />
+  </a>
 </p>
 
 <p align="center">
