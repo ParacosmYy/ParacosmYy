@@ -48,6 +48,6 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake.svg" />
-    <img loading="lazy" width="92%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" alt="贪吃蛇吃掉 GitHub commit 贡献图" />
+    <img loading="lazy" width="96%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" alt="贪吃蛇吃掉 GitHub commit 的贡献动画" />
   </picture>
 </p>
