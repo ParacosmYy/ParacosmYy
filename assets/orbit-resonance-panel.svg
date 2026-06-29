@@ -1,0 +1,116 @@
+<svg width="1100" height="430" viewBox="0 0 1100 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Paracosm orbit resonance panel</title>
+  <desc id="desc">An animated orbit panel with planets circling an embedded chip core.</desc>
+  <defs>
+    <radialGradient id="space" cx="50%" cy="42%" r="78%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="22%" stop-color="#FFF4FB"/>
+      <stop offset="54%" stop-color="#DFF8FF"/>
+      <stop offset="100%" stop-color="#F8FBFF"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="40%" stop-color="#BDF7FF"/>
+      <stop offset="75%" stop-color="#FF9FD3"/>
+      <stop offset="100%" stop-color="#7F7DFF"/>
+    </radialGradient>
+    <linearGradient id="orbitA" x1="180" y1="120" x2="920" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58C9F1"/>
+      <stop offset="0.35" stop-color="#FF78B7"/>
+      <stop offset="0.7" stop-color="#FFD66B"/>
+      <stop offset="1" stop-color="#66DFAE"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="soft" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+  </defs>
+
+  <rect width="1100" height="430" rx="34" fill="url(#space)"/>
+  <path d="M38 326C160 237 312 374 475 271C653 158 781 82 1056 145V430H38V326Z" fill="#E9F7FF" opacity=".72"/>
+  <path d="M0 81C169 21 310 71 493 183C697 307 868 353 1100 246" stroke="url(#orbitA)" stroke-opacity=".16" stroke-width="58" stroke-linecap="round"/>
+  <path d="M80 360C250 258 414 399 580 260C730 134 880 70 1034 92" stroke="#FF78B7" stroke-opacity=".12" stroke-width="34" stroke-linecap="round"/>
+
+  <g opacity=".55">
+    <circle cx="86" cy="82" r="3" fill="#58C9F1">
+      <animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="168" cy="154" r="4" fill="#FF78B7">
+      <animate attributeName="opacity" values=".35;1;.35" dur="3.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="274" cy="74" r="3" fill="#FFD66B">
+      <animate attributeName="opacity" values=".25;.95;.25" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="906" cy="78" r="4" fill="#66DFAE">
+      <animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="172" r="3" fill="#A997FF">
+      <animate attributeName="opacity" values=".25;1;.25" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M936 334l8 21 22 8-22 8-8 22-8-22-21-8 21-8 8-21Z" fill="#FFD66B" opacity=".72">
+      <animateTransform attributeName="transform" type="scale" values="1;1.12;1" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M128 236l7 18 19 7-19 7-7 19-7-19-18-7 18-7 7-18Z" fill="#FF78B7" opacity=".62">
+      <animateTransform attributeName="transform" type="scale" values="1;1.16;1" dur="2.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(550 215)">
+    <ellipse rx="362" ry="112" stroke="url(#orbitA)" stroke-width="3" stroke-opacity=".78"/>
+    <ellipse rx="286" ry="178" stroke="#FF78B7" stroke-width="2.4" stroke-opacity=".52" transform="rotate(-18)"/>
+    <ellipse rx="230" ry="92" stroke="#FFD66B" stroke-width="2.2" stroke-opacity=".52" transform="rotate(24)"/>
+    <ellipse rx="402" ry="154" stroke="#66DFAE" stroke-width="1.8" stroke-opacity=".36" transform="rotate(10)"/>
+
+    <g>
+      <circle cx="362" cy="0" r="12" fill="#58C9F1" filter="url(#glow)"/>
+      <circle cx="362" cy="0" r="4" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="14s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="-286" cy="0" r="10" fill="#FF78B7" filter="url(#glow)"/>
+      <circle cx="-286" cy="0" r="3.5" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="rotate" from="80 0 0" to="440 0 0" dur="18s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="230" cy="0" r="9" fill="#FFD66B" filter="url(#glow)"/>
+      <circle cx="230" cy="0" r="3" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="rotate" from="210 0 0" to="-150 0 0" dur="11s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <circle cx="-402" cy="0" r="8" fill="#66DFAE" filter="url(#glow)"/>
+      <circle cx="-402" cy="0" r="3" fill="#FFFFFF"/>
+      <animateTransform attributeName="transform" type="rotate" from="320 0 0" to="-40 0 0" dur="22s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="550" cy="215" r="86" fill="url(#core)"/>
+    <circle cx="550" cy="215" r="61" fill="#FFFFFF" opacity=".84"/>
+    <rect x="514" y="181" width="72" height="72" rx="16" fill="#111A3B"/>
+    <rect x="528" y="195" width="44" height="44" rx="8" fill="#58C9F1"/>
+    <path d="M499 215h-36M637 215h-36M550 164v-38M550 304v-38M512 177l-25-25M588 177l25-25M512 253l-25 25M588 253l25 25" stroke="#111A3B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M528 195h44v44h-44z" stroke="#FFFFFF" stroke-width="3" opacity=".9"/>
+    <animate attributeName="opacity" values=".82;1;.82" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+
+  <g opacity=".82">
+    <rect x="74" y="54" width="228" height="60" rx="18" fill="#FFFFFF" stroke="#B9EDFF"/>
+    <circle cx="106" cy="84" r="13" fill="#58C9F1"/>
+    <path d="M136 76h118M136 94h86" stroke="#5C6785" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <animateTransform attributeName="transform" type="translate" values="0 -3;0 6;0 -3" dur="5s" repeatCount="indefinite"/>
+  </g>
+  <g opacity=".82">
+    <rect x="798" y="306" width="232" height="60" rx="18" fill="#FFFFFF" stroke="#FFD6EA"/>
+    <circle cx="830" cy="336" r="13" fill="#FF78B7"/>
+    <path d="M860 328h122M860 346h78" stroke="#5C6785" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+    <animateTransform attributeName="transform" type="translate" values="0 5;0 -5;0 5" dur="5.8s" repeatCount="indefinite"/>
+  </g>
+
+  <text x="550" y="402" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" fill="#34385E">Orbiting around firmware, anime energy, and small boards that actually run.</text>
+</svg>

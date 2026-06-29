@@ -33,6 +33,10 @@
   <a href="mailto:1264206065@qq.com"><img loading="lazy" src="https://img.shields.io/badge/QQ%E9%82%AE%E7%AE%B1-1264206065%40qq.com-34385E?style=for-the-badge&logo=tencentqq&logoColor=white" alt="QQ 邮箱 1264206065@qq.com" /></a>
 </p>
 
+<p align="center">
+  <img loading="lazy" width="92%" src="./assets/orbit-resonance-panel.svg" alt="行星围绕的嵌入式二次元共鸣面板" />
+</p>
+
 ---
 
 ## 角色共鸣
@@ -70,3 +74,10 @@
 | 修炼场 | MCU / RTOS / Bootloader |
 | 装备 | C / Python / Debug Tools |
 | 当前目标 | 变强，然后做点有意思的东西 |
+
+---
+
+<p align="center">
+  <img loading="lazy" width="48%" src="./assets/embedded-anime-lab.gif" alt="AI 生成的嵌入式二次元实验台动图" />
+  <img loading="lazy" width="48%" src="./assets/embedded-anime-orbit.gif" alt="AI 生成的嵌入式二次元轨道控制台动图" />
+</p>
