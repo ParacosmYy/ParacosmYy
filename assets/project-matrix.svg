@@ -1,6 +1,6 @@
 <svg width="980" height="300" viewBox="0 0 980 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Project matrix</title>
-  <desc id="desc">Animated project matrix for embedded repositories.</desc>
+  <title id="title">Firmware evidence map</title>
+  <desc id="desc">Animated project map for smart car firmware, secure OTA, RTOS kernel, debug tooling, and ARM GCC CMake build templates.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="980" y2="300" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#E0F7FF"/>
@@ -34,8 +34,8 @@
   </defs>
 
   <rect x="1" y="1" width="978" height="298" rx="26" fill="url(#bg)" stroke="#E0F2FE"/>
-  <text x="40" y="44" class="title">Project Matrix</text>
-  <text x="40" y="67" class="sub">embedded collection / RTOS kernel / debug tool / engineering skills</text>
+  <text x="40" y="44" class="title">Firmware Evidence Map</text>
+  <text x="40" y="67" class="sub">smart car firmware / secure OTA / RTOS kernel / debug tool / build template</text>
 
   <path class="edge" d="M490 150 L232 118"/>
   <path class="edge" d="M490 150 L748 118"/>
@@ -44,21 +44,21 @@
 
   <g class="core">
     <rect x="372" y="105" width="236" height="92" rx="22"/>
-    <text x="490" y="140" text-anchor="middle" class="name">GS_ETERNALCHIP</text>
-    <text x="490" y="162" text-anchor="middle" class="meta">embedded project collection</text>
-    <text x="490" y="184" text-anchor="middle" class="tag">BOOTLOADER · OTA · BRANCH LAB</text>
+    <text x="490" y="140" text-anchor="middle" class="name">GS_Smart_car</text>
+    <text x="490" y="162" text-anchor="middle" class="meta">AURIX TC264D smart car firmware</text>
+    <text x="490" y="184" text-anchor="middle" class="tag">VISION · SENSOR · PID · TARGET PORT</text>
   </g>
 
   <g class="node">
     <rect class="card" x="80" y="82" width="260" height="74" rx="18"/>
-    <text x="108" y="112" class="name">GS_Thread</text>
-    <text x="108" y="134" class="meta">RT-Thread style kernel clone</text>
+    <text x="108" y="112" class="name">GS_ETERNALCHIP</text>
+    <text x="108" y="134" class="meta">secure OTA and boot state machine</text>
   </g>
 
   <g class="node">
     <rect class="card" x="640" y="82" width="260" height="74" rx="18"/>
-    <text x="668" y="112" class="name">GS_Tool</text>
-    <text x="668" y="134" class="meta">EmbedDebug field toolbox</text>
+    <text x="668" y="112" class="name">GS_Thread</text>
+    <text x="668" y="134" class="meta">scheduler, IPC and Cortex-M port</text>
   </g>
 
   <g class="node">
@@ -69,7 +69,7 @@
 
   <g class="node">
     <rect class="card" x="640" y="188" width="260" height="74" rx="18"/>
-    <text x="668" y="218" class="name">GS_Skills</text>
-    <text x="668" y="240" class="meta">MCU engineering method library</text>
+    <text x="668" y="218" class="name">GS_Tool</text>
+    <text x="668" y="240" class="meta">PyQt debug tooling, CI and package</text>
   </g>
 </svg>
