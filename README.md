@@ -6,8 +6,8 @@
 -->
 
 <p align="center">
-  <a href="https://tenor.com/view/ultimate-gohan-gohan-gohan-definitivo-gohan-mistico-gohan-dbz-gif-8965538484441003079">
-    <img loading="lazy" width="23%" src="https://media.tenor.com/fGv9wAkzNEcAAAAd/ultimate-gohan-gohan.gif" alt="神秘悟饭动图" />
+  <a href="https://tenor.com/view/gohan-gohan-mystic-dragon-ball-z-dragon-ball-gohan-vs-majin-buu-gif-8321518898734460696">
+    <img loading="lazy" width="23%" src="https://media.tenor.com/adM_6eQgyacAAAAd/gohan-son-gohan.gif" alt="神秘悟饭动图" />
   </a>
   <a href="https://tenor.com/view/goku-super-saiyan-super-saiyan2-dragon-ball-rage-gif-10838456749521997954">
     <img loading="lazy" width="23%" src="https://media.tenor.com/62BOOahDCWUAAAAC/goku-super-saiyan-super-saiyan2.gif" alt="超级赛亚人2孙悟空动图" />
@@ -53,6 +53,21 @@
   <img loading="lazy" src="https://img.shields.io/badge/RTOS-FreeRTOS%20%2F%20RT--Thread-FFD66B?style=flat-square&labelColor=FFFDF1" alt="RTOS" />
   <img loading="lazy" src="https://img.shields.io/badge/Tooling-Python%20%2F%20PyQt6%20%2F%20uv-66DFAE?style=flat-square&labelColor=F6FFF9" alt="Tooling" />
   <img loading="lazy" src="https://img.shields.io/badge/Build-ARM%20GCC%20%2F%20CMake%20%2F%20Ninja-A997FF?style=flat-square&labelColor=F7F5FF" alt="Build" />
+</p>
+
+<p align="center">
+  <a href="https://tenor.com/view/gohan-gohan-mystic-dragon-ball-z-dragon-ball-gohan-vs-majin-buu-gif-8321518898734460696">
+    <img loading="lazy" width="20%" src="https://media.tenor.com/adM_6eQgyacAAAAd/gohan-son-gohan.gif" alt="神秘悟饭动图" />
+  </a>
+  <a href="https://tenor.com/view/goku-super-saiyan-super-saiyan2-dragon-ball-rage-gif-10838456749521997954">
+    <img loading="lazy" width="20%" src="https://media.tenor.com/62BOOahDCWUAAAAC/goku-super-saiyan-super-saiyan2.gif" alt="超级赛亚人2孙悟空动图" />
+  </a>
+  <a href="https://tenor.com/view/gojo-gojo-satoru-gojo-satoru-infinity-jujutsu-kaisen-gif-2161524667779431517">
+    <img loading="lazy" width="20%" src="https://media.tenor.com/sd5LOyEU4vUAAAAd/gojo-gojo-satoru.gif" alt="五条悟无下限术式动图" />
+  </a>
+  <a href="https://tenor.com/view/yoriichi-tsugikuni-yoriichi-tsugikuni-aura-lock-in-gif-14589157817687629731">
+    <img loading="lazy" width="20%" src="https://media.tenor.com/yncZvQ9iX6MAAAAd/yoriichi-tsugikuni.gif" alt="继国缘一动图" />
+  </a>
 </p>
 
 <p align="center">
