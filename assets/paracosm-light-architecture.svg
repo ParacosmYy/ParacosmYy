@@ -1,0 +1,122 @@
+<svg width="1100" height="460" viewBox="0 0 1100 460" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">浅色二次元嵌入式架构图</title>
+  <desc id="desc">以浅色二次元风格展示 MCU、RTOS、OTA、调试工具与构建系统的项目架构边界。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1100" y2="460" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF9FD"/>
+      <stop offset="0.34" stop-color="#F5FCFF"/>
+      <stop offset="0.68" stop-color="#FFFDF1"/>
+      <stop offset="1" stop-color="#F6FFF9"/>
+    </linearGradient>
+    <linearGradient id="line" x1="105" y1="68" x2="995" y2="398" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF78B7"/>
+      <stop offset="0.27" stop-color="#58C9F1"/>
+      <stop offset="0.55" stop-color="#FFD66B"/>
+      <stop offset="0.78" stop-color="#66DFAE"/>
+      <stop offset="1" stop-color="#A997FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#B3B9E6" flood-opacity=".22"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .card { fill: #FFFFFF; filter: url(#shadow); }
+      .title { font: 900 34px "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif; fill: #35375D; }
+      .sub { font: 500 15px "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif; fill: #6D7298; }
+      .label { font: 800 18px "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif; fill: #34385E; }
+      .note { font: 500 12px "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif; fill: #72779D; }
+      .tiny { font: 700 12px "Microsoft YaHei", "Noto Sans CJK SC", "Segoe UI", sans-serif; fill: #50557D; }
+      .float-a { animation: floatA 4.8s ease-in-out infinite alternate; }
+      .float-b { animation: floatB 5.2s ease-in-out infinite alternate; }
+      .dash { stroke-dasharray: 8 13; animation: dash 9s linear infinite; }
+      .spark { transform-box: fill-box; transform-origin: center; animation: twinkle 2.3s ease-in-out infinite alternate; }
+      .spark:nth-of-type(2n) { animation-delay: .55s; }
+      .spark:nth-of-type(3n) { animation-delay: 1.15s; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite alternate; }
+      @keyframes floatA { from { transform: translateY(-4px); } to { transform: translateY(6px); } }
+      @keyframes floatB { from { transform: translateY(6px); } to { transform: translateY(-5px); } }
+      @keyframes dash { to { stroke-dashoffset: -220; } }
+      @keyframes twinkle { from { opacity: .35; transform: scale(.82); } to { opacity: 1; transform: scale(1.15); } }
+      @keyframes pulse { from { opacity: .65; transform: scale(.985); } to { opacity: 1; transform: scale(1.02); } }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="460" rx="34" fill="url(#paper)"/>
+  <circle cx="130" cy="92" r="86" fill="#FFE3F0" opacity=".72"/>
+  <circle cx="970" cy="106" r="90" fill="#DBF6FF" opacity=".74"/>
+  <circle cx="244" cy="398" r="112" fill="#FFF2C9" opacity=".55"/>
+  <circle cx="867" cy="386" r="118" fill="#DDF9EC" opacity=".58"/>
+
+  <g opacity=".78">
+    <circle class="spark" cx="70" cy="86" r="4" fill="#FF78B7"/>
+    <circle class="spark" cx="155" cy="330" r="5" fill="#58C9F1"/>
+    <circle class="spark" cx="291" cy="72" r="4" fill="#FFD66B"/>
+    <circle class="spark" cx="948" cy="75" r="5" fill="#66DFAE"/>
+    <circle class="spark" cx="1024" cy="316" r="4" fill="#A997FF"/>
+    <path class="spark" d="M1010 188l7 18 19 7-19 7-7 19-7-19-18-7 18-7 7-18Z" fill="#58C9F1"/>
+    <path class="spark" d="M220 124l6 16 17 6-17 6-6 17-6-17-16-6 16-6 6-16Z" fill="#FF78B7"/>
+    <path class="spark" d="M904 404l6 15 16 6-16 6-6 16-6-16-15-6 15-6 6-15Z" fill="#FFD66B"/>
+  </g>
+
+  <text x="64" y="66" class="title">浅色二次元嵌入式架构图</text>
+  <text x="66" y="96" class="sub">从能跑，到边界清楚、可验证、可迁移、可交付</text>
+
+  <path class="dash" d="M160 158C300 88 418 120 550 232C684 345 820 372 960 294" stroke="url(#line)" stroke-width="4" stroke-linecap="round" opacity=".72"/>
+  <path class="dash" d="M154 334C294 392 410 334 550 232C696 126 804 96 958 150" stroke="url(#line)" stroke-width="4" stroke-linecap="round" opacity=".58"/>
+
+  <g class="pulse" filter="url(#glow)">
+    <rect x="438" y="146" width="224" height="172" rx="30" fill="#FFFFFF" stroke="url(#line)" stroke-width="4"/>
+    <circle cx="550" cy="202" r="34" fill="#F5F8FF" stroke="#A997FF" stroke-width="2"/>
+    <path d="M528 197h44v12h-44v-12Zm9-18h26v11h-26v-11Zm-18 43h62v10h-62v-10Z" fill="#58C9F1"/>
+    <text x="550" y="262" text-anchor="middle" class="label">GS-Paracosm</text>
+    <text x="550" y="287" text-anchor="middle" class="note">项目中心 / 工程边界</text>
+  </g>
+
+  <g class="float-a">
+    <rect class="card" x="84" y="140" width="250" height="82" rx="22" stroke="#FF78B7" stroke-width="3"/>
+    <text x="116" y="172" class="label">应用层</text>
+    <text x="116" y="198" class="note">控制、视觉、业务状态</text>
+    <path d="M292 158l7 15 16 3-12 11 3 16-14-8-14 8 3-16-12-11 16-3 7-15Z" fill="#FF78B7"/>
+  </g>
+
+  <g class="float-b">
+    <rect class="card" x="766" y="130" width="250" height="82" rx="22" stroke="#58C9F1" stroke-width="3"/>
+    <text x="798" y="162" class="label">服务层</text>
+    <text x="798" y="188" class="note">调度、协议、升级流程</text>
+    <path d="M974 148l7 15 16 3-12 11 3 16-14-8-14 8 3-16-12-11 16-3 7-15Z" fill="#58C9F1"/>
+  </g>
+
+  <g class="float-b">
+    <rect class="card" x="98" y="276" width="264" height="82" rx="22" stroke="#FFD66B" stroke-width="3"/>
+    <text x="130" y="308" class="label">HAL 契约</text>
+    <text x="130" y="334" class="note">接口稳定，芯片细节不上浮</text>
+    <circle cx="320" cy="318" r="18" fill="#FFF5CF" stroke="#FFD66B" stroke-width="3"/>
+    <path d="M320 301l5 12h13l-10 8 4 13-12-7-12 7 4-13-10-8h13l5-12Z" fill="#FFD66B"/>
+  </g>
+
+  <g class="float-a">
+    <rect class="card" x="742" y="286" width="280" height="82" rx="22" stroke="#66DFAE" stroke-width="3"/>
+    <text x="774" y="318" class="label">Target / Vendor</text>
+    <text x="774" y="344" class="note">板级资源、SDK、移植代码收敛</text>
+    <circle cx="982" cy="328" r="18" fill="#E8FFF5" stroke="#66DFAE" stroke-width="3"/>
+    <path d="M982 311l5 12h13l-10 8 4 13-12-7-12 7 4-13-10-8h13l5-12Z" fill="#66DFAE"/>
+  </g>
+
+  <g class="float-a">
+    <rect x="396" y="40" width="310" height="62" rx="22" fill="#FFFFFF" stroke="#A997FF" stroke-width="3" filter="url(#shadow)"/>
+    <text x="424" y="66" class="tiny">当前轨道</text>
+    <text x="424" y="89" class="note">MCU / RTOS / OTA / 调试上位机 / 可复现构建</text>
+  </g>
+
+  <g class="float-b">
+    <rect x="386" y="362" width="328" height="58" rx="22" fill="#FFFFFF" stroke="#B8C4FF" stroke-width="2" filter="url(#shadow)"/>
+    <text x="550" y="386" text-anchor="middle" class="tiny">下一步</text>
+    <text x="550" y="408" text-anchor="middle" class="note">把验证、迁移、交付路径继续做清楚</text>
+  </g>
+</svg>
