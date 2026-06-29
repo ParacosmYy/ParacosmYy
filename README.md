@@ -39,45 +39,15 @@
 
 ---
 
-## 角色共鸣
-
-| 角色 | 状态 | 共鸣 |
-| --- | --- | --- |
-| 孙悟空 | 爆发修炼 | 热血先行，先把系统打起来，再一轮轮变强。 |
-| 孙悟饭 | 潜力觉醒 | 长时间打底后，把边界、问题和成长路径看清楚。 |
-| 五条悟 | 领域展开 | 自信来自边界感，用接口和调试视野隔开不确定性。 |
-| 继国缘一 | 极致专注 | 安静但有压迫感，少招但稳定，基本功压住细节。 |
-
----
-
-## 修炼记录
-
-每个仓库都是一次练习：能跑只是起点，能复现、能迁移、能交付才算留下痕迹。
-
-| 记录 | 修炼场 | 留下的痕迹 |
-| --- | --- | --- |
-| [GS_Smart_car](https://github.com/ParacosmYy/GS_Smart_car/tree/tc264-four-wheel-servo-camera-car) | 速度与控制练习场 | 把视觉、传感、舵机和目标边界收进同一辆车里 |
-| [GS_ETERNALCHIP](https://github.com/ParacosmYy/GS_ETERNALCHIP/tree/OTA_Encrypted_Upgrade) | 芯片封印术 | 练启动、升级、校验和断电恢复这条链路 |
-| [GS_Thread](https://github.com/ParacosmYy/GS_Thread) | 调度机制修炼 | 复刻调度、通信和 Cortex-M 上下文切换关键路径 |
-| [GS_Tool](https://github.com/ParacosmYy/GS_Tool) | 调试辅助装备 | 把协议、日志、回放和打包流程做成顺手工具 |
-| [GS_watch](https://github.com/ParacosmYy/GS_watch) | 便携终端实验 | 练小屏交互、硬件状态和随身设备的完成度 |
-| [GCC_Cmake_ARM](https://github.com/ParacosmYy/GCC_Cmake_ARM) | 构建阵法 | 把 ARM 工程收成一套能复现的构建入口 |
-
----
-
-## 状态面板
-
-| 属性 | 当前状态 |
-| --- | --- |
-| 热血值 | 持续充能中 |
-| 专注力 | 领域展开 |
-| 修炼场 | MCU / RTOS / Bootloader |
-| 装备 | C / Python / Debug Tools |
-| 当前目标 | 变强，然后做点有意思的东西 |
-
----
-
 <p align="center">
   <img loading="lazy" width="48%" src="./assets/embedded-anime-lab.gif" alt="AI 生成的嵌入式二次元实验台动图" />
   <img loading="lazy" width="48%" src="./assets/embedded-anime-orbit.gif" alt="AI 生成的嵌入式二次元轨道控制台动图" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake.svg" />
+    <img loading="lazy" width="92%" src="https://raw.githubusercontent.com/ParacosmYy/ParacosmYy/output/github-contribution-grid-snake-ocean.svg" alt="贪吃蛇吃掉 GitHub commit 贡献图" />
+  </picture>
 </p>
